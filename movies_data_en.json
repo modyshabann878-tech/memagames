@@ -1,0 +1,6897 @@
+{
+ "version": 2,
+ "challenges": [
+  {
+   "id": "hollywood",
+   "type": "quiz",
+   "name": "Hollywood Movies Challenge",
+   "description": "Actors, directors and characters from the most famous international films",
+   "howto": "🎬 Hollywood Movies Challenge: questions about actors, directors and characters from the most famous international films. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "hollywood_01",
+     "difficulty": "Easy",
+     "question": "Who directed the film Titanic (1997)?",
+     "options": [
+      "Ridley Scott",
+      "Steven Spielberg",
+      "James Cameron",
+      "Christopher Nolan"
+     ],
+     "correct_answer": "James Cameron"
+    },
+    {
+     "id": "hollywood_02",
+     "difficulty": "Easy",
+     "question": "Which actor played Jack Sparrow in the Pirates of the Caribbean series?",
+     "options": [
+      "Brad Pitt",
+      "Orlando Bloom",
+      "Tom Cruise",
+      "Johnny Depp"
+     ],
+     "correct_answer": "Johnny Depp"
+    },
+    {
+     "id": "hollywood_03",
+     "difficulty": "Easy",
+     "question": "Who played the Joker in The Dark Knight (2008)?",
+     "options": [
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jack Nicholson",
+      "Jared Leto"
+     ],
+     "correct_answer": "Heath Ledger"
+    },
+    {
+     "id": "hollywood_04",
+     "difficulty": "Medium",
+     "question": "Who directed The Dark Knight trilogy?",
+     "options": [
+      "Michael Bay",
+      "Tim Burton",
+      "Christopher Nolan",
+      "Zack Snyder"
+     ],
+     "correct_answer": "Christopher Nolan"
+    },
+    {
+     "id": "hollywood_05",
+     "difficulty": "Easy",
+     "question": "What is the name of the young lion hero of The Lion King?",
+     "options": [
+      "Scar",
+      "Simba",
+      "Mufasa",
+      "Nala"
+     ],
+     "correct_answer": "Simba"
+    },
+    {
+     "id": "hollywood_06",
+     "difficulty": "Medium",
+     "question": "Which company produced Toy Story (1995), the first fully computer-animated feature film?",
+     "options": [
+      "Blue Sky",
+      "Studio Ghibli",
+      "Pixar",
+      "DreamWorks"
+     ],
+     "correct_answer": "Pixar"
+    },
+    {
+     "id": "hollywood_07",
+     "difficulty": "Medium",
+     "question": "What is the name of the wizarding school Harry Potter attends?",
+     "options": [
+      "Durmstrang",
+      "Azkaban",
+      "Beauxbatons",
+      "Hogwarts"
+     ],
+     "correct_answer": "Hogwarts"
+    },
+    {
+     "id": "hollywood_08",
+     "difficulty": "Medium",
+     "question": "Which Steven Spielberg film is about a giant shark attacking a beach?",
+     "options": [
+      "Open Water",
+      "Jaws",
+      "Deep Blue Sea",
+      "The Meg"
+     ],
+     "correct_answer": "Jaws"
+    },
+    {
+     "id": "hollywood_09",
+     "difficulty": "Medium",
+     "question": "Who directed The Godfather (1972)?",
+     "options": [
+      "Martin Scorsese",
+      "Brian De Palma",
+      "Francis Ford Coppola",
+      "Stanley Kubrick"
+     ],
+     "correct_answer": "Francis Ford Coppola"
+    },
+    {
+     "id": "hollywood_10",
+     "difficulty": "Hard",
+     "question": "Who played Vito Corleone in The Godfather?",
+     "options": [
+      "Al Pacino",
+      "Jack Nicholson",
+      "Robert De Niro",
+      "Marlon Brando"
+     ],
+     "correct_answer": "Marlon Brando"
+    },
+    {
+     "id": "hollywood_11",
+     "difficulty": "Easy",
+     "question": "Who is the star of Forrest Gump?",
+     "options": [
+      "Matt Damon",
+      "Tom Hanks",
+      "Brad Pitt",
+      "Tom Cruise"
+     ],
+     "correct_answer": "Tom Hanks"
+    },
+    {
+     "id": "hollywood_12",
+     "difficulty": "Easy",
+     "question": "Who played Iron Man in the Marvel films?",
+     "options": [
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Robert Downey Jr."
+     ],
+     "correct_answer": "Robert Downey Jr."
+    },
+    {
+     "id": "hollywood_13",
+     "difficulty": "Medium",
+     "question": "What is the name of the planet where Avatar (2009) takes place?",
+     "options": [
+      "Krypton",
+      "Tatooine",
+      "Pandora",
+      "Naboo"
+     ],
+     "correct_answer": "Pandora"
+    },
+    {
+     "id": "hollywood_14",
+     "difficulty": "Medium",
+     "question": "Who played Black Panther in the Marvel films?",
+     "options": [
+      "Michael B. Jordan",
+      "Anthony Mackie",
+      "Chadwick Boseman",
+      "Daniel Kaluuya"
+     ],
+     "correct_answer": "Chadwick Boseman"
+    },
+    {
+     "id": "hollywood_15",
+     "difficulty": "Easy",
+     "question": "Who played Neo in The Matrix?",
+     "options": [
+      "Will Smith",
+      "Johnny Depp",
+      "Brad Pitt",
+      "Keanu Reeves"
+     ],
+     "correct_answer": "Keanu Reeves"
+    },
+    {
+     "id": "hollywood_16",
+     "difficulty": "Medium",
+     "question": "Which actor won the Best Actor Oscar for his role in Joker (2019)?",
+     "options": [
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jared Leto",
+      "Leonardo DiCaprio"
+     ],
+     "correct_answer": "Joaquin Phoenix"
+    },
+    {
+     "id": "hollywood_17",
+     "difficulty": "Medium",
+     "question": "Which Christopher Nolan film takes place inside dreams?",
+     "options": [
+      "Inception",
+      "Memento",
+      "Interstellar",
+      "Tenet"
+     ],
+     "correct_answer": "Inception"
+    },
+    {
+     "id": "hollywood_18",
+     "difficulty": "Easy",
+     "question": "Who played Jack Dawson in Titanic?",
+     "options": [
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Johnny Depp"
+     ],
+     "correct_answer": "Leonardo DiCaprio"
+    },
+    {
+     "id": "hollywood_19",
+     "difficulty": "Easy",
+     "question": "Who played Rose in Titanic?",
+     "options": [
+      "Keira Knightley",
+      "Kate Winslet",
+      "Nicole Kidman",
+      "Naomi Watts"
+     ],
+     "correct_answer": "Kate Winslet"
+    },
+    {
+     "id": "hollywood_20",
+     "difficulty": "Easy",
+     "question": "In what year did the real Titanic sink?",
+     "options": [
+      "1898",
+      "1905",
+      "1920",
+      "1912"
+     ],
+     "correct_answer": "1912"
+    },
+    {
+     "id": "hollywood_21",
+     "difficulty": "Medium",
+     "question": "Who played the boy Kevin in Home Alone?",
+     "options": [
+      "Macaulay Culkin",
+      "Haley Joel Osment",
+      "Daniel Radcliffe",
+      "Max Charles"
+     ],
+     "correct_answer": "Macaulay Culkin"
+    },
+    {
+     "id": "hollywood_22",
+     "difficulty": "Hard",
+     "question": "Who voiced the Donkey in Shrek?",
+     "options": [
+      "Mike Myers",
+      "Eddie Murphy",
+      "Will Smith",
+      "Jim Carrey"
+     ],
+     "correct_answer": "Eddie Murphy"
+    },
+    {
+     "id": "hollywood_23",
+     "difficulty": "Medium",
+     "question": "Who played Spider-Man in director Sam Raimi's trilogy?",
+     "options": [
+      "Ryan Reynolds",
+      "Andrew Garfield",
+      "Tom Holland",
+      "Tobey Maguire"
+     ],
+     "correct_answer": "Tobey Maguire"
+    },
+    {
+     "id": "hollywood_24",
+     "difficulty": "Easy",
+     "question": "Who played Captain America in the Marvel films?",
+     "options": [
+      "Chris Pratt",
+      "Chris Evans",
+      "Sebastian Stan",
+      "Chris Hemsworth"
+     ],
+     "correct_answer": "Chris Evans"
+    },
+    {
+     "id": "hollywood_25",
+     "difficulty": "Easy",
+     "question": "Who played Thor in the Marvel films?",
+     "options": [
+      "Tom Hiddleston",
+      "Chris Hemsworth",
+      "Chris Evans",
+      "Jeremy Renner"
+     ],
+     "correct_answer": "Chris Hemsworth"
+    },
+    {
+     "id": "hollywood_26",
+     "difficulty": "Medium",
+     "question": "Who played Black Widow in the Marvel films?",
+     "options": [
+      "Brie Larson",
+      "Elizabeth Olsen",
+      "Gal Gadot",
+      "Scarlett Johansson"
+     ],
+     "correct_answer": "Scarlett Johansson"
+    },
+    {
+     "id": "hollywood_27",
+     "difficulty": "Medium",
+     "question": "Who played Wonder Woman in the 2017 film?",
+     "options": [
+      "Gal Gadot",
+      "Scarlett Johansson",
+      "Emma Stone",
+      "Margot Robbie"
+     ],
+     "correct_answer": "Gal Gadot"
+    },
+    {
+     "id": "hollywood_28",
+     "difficulty": "Medium",
+     "question": "Who played Batman in The Dark Knight trilogy?",
+     "options": [
+      "Christian Bale",
+      "Ben Affleck",
+      "Robert Pattinson",
+      "George Clooney"
+     ],
+     "correct_answer": "Christian Bale"
+    },
+    {
+     "id": "hollywood_29",
+     "difficulty": "Medium",
+     "question": "Who played Batman in The Batman (2022)?",
+     "options": [
+      "Ben Affleck",
+      "Christian Bale",
+      "Michael Keaton",
+      "Robert Pattinson"
+     ],
+     "correct_answer": "Robert Pattinson"
+    },
+    {
+     "id": "hollywood_30",
+     "difficulty": "Medium",
+     "question": "Who played Wolverine in the X-Men films?",
+     "options": [
+      "Ian McKellen",
+      "Hugh Jackman",
+      "Patrick Stewart",
+      "Ryan Reynolds"
+     ],
+     "correct_answer": "Hugh Jackman"
+    },
+    {
+     "id": "hollywood_31",
+     "difficulty": "Easy",
+     "question": "Who directed Jurassic Park (1993)?",
+     "options": [
+      "Ridley Scott",
+      "James Cameron",
+      "George Lucas",
+      "Steven Spielberg"
+     ],
+     "correct_answer": "Steven Spielberg"
+    },
+    {
+     "id": "hollywood_32",
+     "difficulty": "Medium",
+     "question": "Who created the Star Wars franchise?",
+     "options": [
+      "George Lucas",
+      "James Cameron",
+      "Steven Spielberg",
+      "J. J. Abrams"
+     ],
+     "correct_answer": "George Lucas"
+    },
+    {
+     "id": "hollywood_33",
+     "difficulty": "Easy",
+     "question": "Who is Luke Skywalker's father in the Star Wars series?",
+     "options": [
+      "Han Solo",
+      "Emperor Palpatine",
+      "Darth Vader",
+      "Obi-Wan Kenobi"
+     ],
+     "correct_answer": "Darth Vader"
+    },
+    {
+     "id": "hollywood_34",
+     "difficulty": "Medium",
+     "question": "Who directed The Lord of the Rings trilogy?",
+     "options": [
+      "Christopher Nolan",
+      "David Fincher",
+      "Peter Jackson",
+      "George Lucas"
+     ],
+     "correct_answer": "Peter Jackson"
+    },
+    {
+     "id": "hollywood_35",
+     "difficulty": "Hard",
+     "question": "Who played the wizard Gandalf in The Lord of the Rings?",
+     "options": [
+      "Richard Harris",
+      "Christopher Lee",
+      "Ian McKellen",
+      "Max von Sydow"
+     ],
+     "correct_answer": "Ian McKellen"
+    },
+    {
+     "id": "hollywood_36",
+     "difficulty": "Easy",
+     "question": "Who played Harry Potter in the film series?",
+     "options": [
+      "Robert Pattinson",
+      "Eddie Redmayne",
+      "Daniel Radcliffe",
+      "Tom Felton"
+     ],
+     "correct_answer": "Daniel Radcliffe"
+    },
+    {
+     "id": "hollywood_37",
+     "difficulty": "Easy",
+     "question": "Who played Hermione Granger in the Harry Potter series?",
+     "options": [
+      "Emma Watson",
+      "Keira Knightley",
+      "Emma Stone",
+      "Emily Blunt"
+     ],
+     "correct_answer": "Emma Watson"
+    },
+    {
+     "id": "hollywood_38",
+     "difficulty": "Easy",
+     "question": "What are the names of the two sisters in the animated film Frozen?",
+     "options": [
+      "Alina and Elsa",
+      "Remy and Anna",
+      "Ariel and Jasmine",
+      "Elsa and Anna"
+     ],
+     "correct_answer": "Elsa and Anna"
+    },
+    {
+     "id": "hollywood_39",
+     "difficulty": "Easy",
+     "question": "What is the name of the forgetful blue fish in Finding Nemo?",
+     "options": [
+      "Dory",
+      "Marlin",
+      "Nemo",
+      "Gill"
+     ],
+     "correct_answer": "Dory"
+    },
+    {
+     "id": "hollywood_40",
+     "difficulty": "Hard",
+     "question": "Who directed Joker (2019)?",
+     "options": [
+      "Todd Phillips",
+      "Christopher Nolan",
+      "David Fincher",
+      "Martin Scorsese"
+     ],
+     "correct_answer": "Todd Phillips"
+    },
+    {
+     "id": "hollywood_41",
+     "difficulty": "Medium",
+     "question": "Who is the star of Gladiator (2000)?",
+     "options": [
+      "Russell Crowe",
+      "Brad Pitt",
+      "Mel Gibson",
+      "Tom Hanks"
+     ],
+     "correct_answer": "Russell Crowe"
+    },
+    {
+     "id": "hollywood_42",
+     "difficulty": "Medium",
+     "question": "Who played Robert Oppenheimer in Oppenheimer?",
+     "options": [
+      "Emily Blunt",
+      "Matt Damon",
+      "Cillian Murphy",
+      "Robert Downey Jr."
+     ],
+     "correct_answer": "Cillian Murphy"
+    },
+    {
+     "id": "hollywood_43",
+     "difficulty": "Medium",
+     "question": "Who directed Barbie (2023)?",
+     "options": [
+      "Anna Lily",
+      "Kathryn Bigelow",
+      "Greta Gerwig",
+      "Sofia Coppola"
+     ],
+     "correct_answer": "Greta Gerwig"
+    },
+    {
+     "id": "hollywood_44",
+     "difficulty": "Medium",
+     "question": "Who played Barbie in Barbie (2023)?",
+     "options": [
+      "Emma Watson",
+      "Ana de Armas",
+      "Margot Robbie",
+      "Emma Stone"
+     ],
+     "correct_answer": "Margot Robbie"
+    },
+    {
+     "id": "hollywood_45",
+     "difficulty": "Easy",
+     "question": "Who is the star of Top Gun: Maverick?",
+     "options": [
+      "Tom Cruise",
+      "Tom Hanks",
+      "Ryan Gosling",
+      "Brad Pitt"
+     ],
+     "correct_answer": "Tom Cruise"
+    },
+    {
+     "id": "hollywood_46",
+     "difficulty": "Medium",
+     "question": "Which late actor played Brian O'Conner in the Fast & Furious series?",
+     "options": [
+      "Dwayne Johnson",
+      "Vin Diesel",
+      "Jason Statham",
+      "Paul Walker"
+     ],
+     "correct_answer": "Paul Walker"
+    },
+    {
+     "id": "hollywood_47",
+     "difficulty": "Easy",
+     "question": "Which British actor played Mr. Bean?",
+     "options": [
+      "Rowan Atkinson",
+      "Hugh Grant",
+      "Steve Martin",
+      "Jim Carrey"
+     ],
+     "correct_answer": "Rowan Atkinson"
+    },
+    {
+     "id": "hollywood_48",
+     "difficulty": "Medium",
+     "question": "Who played \"James Bond\" in Casino Royale (2006)?",
+     "options": [
+      "Pierce Brosnan",
+      "Daniel Craig",
+      "Roger Moore",
+      "Sean Connery"
+     ],
+     "correct_answer": "Daniel Craig"
+    },
+    {
+     "id": "hollywood_49",
+     "difficulty": "Easy",
+     "question": "Who directed Avatar (2009)?",
+     "options": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "James Cameron",
+      "Steven Spielberg"
+     ],
+     "correct_answer": "James Cameron"
+    },
+    {
+     "id": "hollywood_50",
+     "difficulty": "Medium",
+     "question": "What is the name of the killer doll starring in the Child's Play horror series?",
+     "options": [
+      "Bob",
+      "Michael",
+      "Chucky",
+      "Annabelle"
+     ],
+     "correct_answer": "Chucky"
+    }
+   ]
+  },
+  {
+   "id": "arabic_cinema",
+   "type": "quiz",
+   "name": "Arabic Cinema Challenge",
+   "description": "Films and stars of Egyptian and Arab cinema",
+   "howto": "🎬 Arabic Cinema Challenge: questions about films and stars of Egyptian and Arab cinema. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "arabic_cinema_01",
+     "difficulty": "Easy",
+     "question": "Who is the star of the film \"El Limby\" (2002)?",
+     "options": [
+      "Alaa Wali El-Din",
+      "Mohamed Saad",
+      "Mohamed Henedy",
+      "Ahmed Helmy"
+     ],
+     "correct_answer": "Mohamed Saad"
+    },
+    {
+     "id": "arabic_cinema_02",
+     "difficulty": "Easy",
+     "question": "Who is the star of the film \"Terrorism and Kebab\" (1992)?",
+     "options": [
+      "Adel Imam",
+      "Ahmed Zaki",
+      "Nour El-Sherif",
+      "Mahmoud Abdel Aziz"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_03",
+     "difficulty": "Medium",
+     "question": "Which singer starred in the film \"Ismailia Rayeh Gayy\" (1997)?",
+     "options": [
+      "Mohamed Fouad",
+      "Amr Diab",
+      "Tamer Hosny",
+      "Mohamed Mounir"
+     ],
+     "correct_answer": "Mohamed Fouad"
+    },
+    {
+     "id": "arabic_cinema_04",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Island\" (2007) who played Mansour El-Hefny?",
+     "options": [
+      "Ahmed Mekky",
+      "Ahmed Ezz",
+      "Karim Abdel Aziz",
+      "Ahmed El-Sakka"
+     ],
+     "correct_answer": "Ahmed El-Sakka"
+    },
+    {
+     "id": "arabic_cinema_05",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Blue Elephant\" (2014) who played Dr. Yehia?",
+     "options": [
+      "Ahmed El-Sakka",
+      "Ahmed Ezz",
+      "Asser Yassin",
+      "Karim Abdel Aziz"
+     ],
+     "correct_answer": "Karim Abdel Aziz"
+    },
+    {
+     "id": "arabic_cinema_06",
+     "difficulty": "Hard",
+     "question": "Who played Sheikh Hosny in the film \"Kit Kat\" (1991)?",
+     "options": [
+      "Nour El-Sherif",
+      "Mahmoud Abdel Aziz",
+      "Ahmed Zaki",
+      "Adel Imam"
+     ],
+     "correct_answer": "Mahmoud Abdel Aziz"
+    },
+    {
+     "id": "arabic_cinema_07",
+     "difficulty": "Medium",
+     "question": "Who wrote the novel that the film \"The Yacoubian Building\" is based on?",
+     "options": [
+      "Yusuf Idris",
+      "Ihsan Abdel Quddous",
+      "Naguib Mahfouz",
+      "Alaa Al Aswany"
+     ],
+     "correct_answer": "Alaa Al Aswany"
+    },
+    {
+     "id": "arabic_cinema_08",
+     "difficulty": "Hard",
+     "question": "Who directed the film \"Saladin the Victorious\" (1963)?",
+     "options": [
+      "Salah Abu Seif",
+      "Shadi Abdel Salam",
+      "Hussein Kamal",
+      "Youssef Chahine"
+     ],
+     "correct_answer": "Youssef Chahine"
+    },
+    {
+     "id": "arabic_cinema_09",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Hammam in Amsterdam\" (1999)?",
+     "options": [
+      "Ahmed Helmy",
+      "Akram Hosny",
+      "Mohamed Saad",
+      "Mohamed Henedy"
+     ],
+     "correct_answer": "Mohamed Henedy"
+    },
+    {
+     "id": "arabic_cinema_10",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Principal\" (2000)?",
+     "options": [
+      "Mohamed Saad",
+      "Mohamed Henedy",
+      "Ahmed Helmy",
+      "Alaa Wali El-Din"
+     ],
+     "correct_answer": "Alaa Wali El-Din"
+    },
+    {
+     "id": "arabic_cinema_11",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"An Upper Egyptian at the American University\" (1998)?",
+     "options": [
+      "Mohamed Henedy",
+      "Ahmed El-Sakka",
+      "Alaa Wali El-Din",
+      "Mohamed Saad"
+     ],
+     "correct_answer": "Mohamed Henedy"
+    },
+    {
+     "id": "arabic_cinema_12",
+     "difficulty": "Medium",
+     "question": "Who played Zaki Pasha El-Dessouki in the film \"The Yacoubian Building\"?",
+     "options": [
+      "Adel Imam",
+      "Nour El-Sherif",
+      "Mahmoud Hemida",
+      "Ahmed Zaki"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_13",
+     "difficulty": "Medium",
+     "question": "Who directed the film \"The Land\" (1970)?",
+     "options": [
+      "Salah Abu Seif",
+      "Shadi Abdel Salam",
+      "Youssef Chahine",
+      "Kamal El-Sheikh"
+     ],
+     "correct_answer": "Youssef Chahine"
+    },
+    {
+     "id": "arabic_cinema_14",
+     "difficulty": "Hard",
+     "question": "Who played Atris in the film \"Something of Fear\" (1969)?",
+     "options": [
+      "Mahmoud Morsy",
+      "Ahmed Mazhar",
+      "Mahmoud El-Meliguy",
+      "Farid Shawqi"
+     ],
+     "correct_answer": "Mahmoud Morsy"
+    },
+    {
+     "id": "arabic_cinema_15",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"My Father Is Up the Tree\" (1969)?",
+     "options": [
+      "Rushdy Abaza",
+      "Abdel Halim Hafez",
+      "Farid al-Atrash",
+      "Ahmed Ramzy"
+     ],
+     "correct_answer": "Abdel Halim Hafez"
+    },
+    {
+     "id": "arabic_cinema_16",
+     "difficulty": "Medium",
+     "question": "Who wrote the novel that the film \"Chitchat on the Nile\" is based on?",
+     "options": [
+      "Yusuf Idris",
+      "Ihsan Abdel Quddous",
+      "Naguib Mahfouz",
+      "Alaa Al Aswany"
+     ],
+     "correct_answer": "Naguib Mahfouz"
+    },
+    {
+     "id": "arabic_cinema_17",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Ibrahim El-Abyad\" (2009)?",
+     "options": [
+      "Mohamed Ramadan",
+      "Ahmed El-Sakka",
+      "Ahmed Ezz",
+      "Karim Abdel Aziz"
+     ],
+     "correct_answer": "Ahmed El-Sakka"
+    },
+    {
+     "id": "arabic_cinema_18",
+     "difficulty": "Hard",
+     "question": "Who directed the film \"The Mummy\" (1969), considered one of the most important Egyptian films?",
+     "options": [
+      "Salah Abu Seif",
+      "Youssef Chahine",
+      "Hussein Kamal",
+      "Shadi Abdel Salam"
+     ],
+     "correct_answer": "Shadi Abdel Salam"
+    },
+    {
+     "id": "arabic_cinema_19",
+     "difficulty": "Medium",
+     "question": "Who was nicknamed \"the Lady of the Arab Screen\"?",
+     "options": [
+      "Magda",
+      "Faten Hamama",
+      "Shadia",
+      "Soad Hosny"
+     ],
+     "correct_answer": "Faten Hamama"
+    },
+    {
+     "id": "arabic_cinema_20",
+     "difficulty": "Medium",
+     "question": "Who was nicknamed \"the Cinderella of the Arab Screen\"?",
+     "options": [
+      "Shadia",
+      "Soad Hosny",
+      "Mervat Amin",
+      "Layla Murad"
+     ],
+     "correct_answer": "Soad Hosny"
+    },
+    {
+     "id": "arabic_cinema_21",
+     "difficulty": "Easy",
+     "question": "By what nickname is the actor Adel Imam known?",
+     "options": [
+      "The Zaeem (the Leader)",
+      "The Ustaz (the Professor)",
+      "The King",
+      "The Pasha"
+     ],
+     "correct_answer": "The Zaeem (the Leader)"
+    },
+    {
+     "id": "arabic_cinema_22",
+     "difficulty": "Hard",
+     "question": "In which international film did Omar Sharif appear as Sherif Ali in 1962?",
+     "options": [
+      "The Second Life",
+      "Lawrence of Arabia",
+      "The Road to Jerusalem",
+      "Doctor Zhivago"
+     ],
+     "correct_answer": "Lawrence of Arabia"
+    },
+    {
+     "id": "arabic_cinema_23",
+     "difficulty": "Hard",
+     "question": "What was the first Egyptian sound film (1932)?",
+     "options": [
+      "Al-Azima",
+      "Awlad El-Zawat",
+      "The White Rose",
+      "Leila"
+     ],
+     "correct_answer": "Awlad El-Zawat"
+    },
+    {
+     "id": "arabic_cinema_24",
+     "difficulty": "Hard",
+     "question": "Who directed the film \"Destiny\" (1997), about the philosopher Averroes (Ibn Rushd)?",
+     "options": [
+      "Daoud Abdel Sayed",
+      "Khairy Beshara",
+      "Youssef Chahine",
+      "Mohamed Khan"
+     ],
+     "correct_answer": "Youssef Chahine"
+    },
+    {
+     "id": "arabic_cinema_25",
+     "difficulty": "Medium",
+     "question": "Who wrote the screenplay of the film \"Terrorism and Kebab\"?",
+     "options": [
+      "Osama Anwar Okasha",
+      "Youssef El-Sebai",
+      "Wahid Hamed",
+      "Lenin El-Ramly"
+     ],
+     "correct_answer": "Wahid Hamed"
+    },
+    {
+     "id": "arabic_cinema_26",
+     "difficulty": "Easy",
+     "question": "Who is the star of the film \"Honey Black\" (2010)?",
+     "options": [
+      "Mohamed Henedy",
+      "Ahmed Helmy",
+      "Ahmed El-Sakka",
+      "Ahmed Mekky"
+     ],
+     "correct_answer": "Ahmed Helmy"
+    },
+    {
+     "id": "arabic_cinema_27",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Tarek's Predicament\" (2006)?",
+     "options": [
+      "Karim Abdel Aziz",
+      "Mohamed Henedy",
+      "Mohamed Saad",
+      "Ahmed Helmy"
+     ],
+     "correct_answer": "Ahmed Helmy"
+    },
+    {
+     "id": "arabic_cinema_28",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Sorry for the Inconvenience\" (2008)?",
+     "options": [
+      "Ahmed Ezz",
+      "Mohamed Saad",
+      "Ahmed Helmy",
+      "Ahmed Mekky"
+     ],
+     "correct_answer": "Ahmed Helmy"
+    },
+    {
+     "id": "arabic_cinema_29",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"You Made Me a Criminal\" (2006)?",
+     "options": [
+      "Ahmed Helmy",
+      "Mohamed Henedy",
+      "Karim Abdel Aziz",
+      "Ahmed El-Sakka"
+     ],
+     "correct_answer": "Ahmed Helmy"
+    },
+    {
+     "id": "arabic_cinema_30",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"El-Wad Sayed El-Shaghal\" (1985)?",
+     "options": [
+      "Ahmed Zaki",
+      "Nour El-Sherif",
+      "Adel Imam",
+      "Mahmoud Abdel Aziz"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_31",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Playing with the Big Boys\" (1991)?",
+     "options": [
+      "Mahmoud Abdel Aziz",
+      "Ahmed Zaki",
+      "Nour El-Sherif",
+      "Adel Imam"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_32",
+     "difficulty": "Medium",
+     "question": "Which two stars starred in the film \"Hassan and Marcus\" (2008)?",
+     "options": [
+      "Adel Imam and Mahmoud Yassin",
+      "Adel Imam and Omar Sharif",
+      "Nour El-Sherif and Yehia El-Fakharany",
+      "Ahmed Zaki and Omar Sharif"
+     ],
+     "correct_answer": "Adel Imam and Omar Sharif"
+    },
+    {
+     "id": "arabic_cinema_33",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Lawyer\" (1984)?",
+     "options": [
+      "Ahmed Zaki",
+      "Adel Imam",
+      "Mahmoud Abdel Aziz",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_34",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Terrorist\" (1994)?",
+     "options": [
+      "Adel Imam",
+      "Ahmed Zaki",
+      "Mahmoud Abdel Aziz",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_35",
+     "difficulty": "Hard",
+     "question": "Who starred in the film \"Birds of Darkness\" (1995) alongside Riad El-Khouly and Omar Sharif?",
+     "options": [
+      "Ahmed Zaki",
+      "Nour El-Sherif",
+      "Mahmoud Abdel Aziz",
+      "Adel Imam"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_cinema_36",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Titto\" (2004)?",
+     "options": [
+      "Adel Imam",
+      "Ahmed Zaki",
+      "Mahmoud Abdel Aziz",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Ahmed Zaki"
+    },
+    {
+     "id": "arabic_cinema_37",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Innocent\" (1986) who played the soldier Ahmed Sabaa El-Leil?",
+     "options": [
+      "Mahmoud Abdel Aziz",
+      "Adel Imam",
+      "Ahmed Zaki",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Ahmed Zaki"
+    },
+    {
+     "id": "arabic_cinema_38",
+     "difficulty": "Medium",
+     "question": "Who played President Anwar Sadat in the film \"Days of Sadat\" (2001)?",
+     "options": [
+      "Nour El-Sherif",
+      "Adel Imam",
+      "Ahmed Zaki",
+      "Yehia El-Fakharany"
+     ],
+     "correct_answer": "Ahmed Zaki"
+    },
+    {
+     "id": "arabic_cinema_39",
+     "difficulty": "Medium",
+     "question": "Who played President Gamal Abdel Nasser in the film \"Nasser 56\" (1996)?",
+     "options": [
+      "Mahmoud Abdel Aziz",
+      "Ahmed Zaki",
+      "Adel Imam",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Ahmed Zaki"
+    },
+    {
+     "id": "arabic_cinema_40",
+     "difficulty": "Medium",
+     "question": "Who played the singer Abdel Halim Hafez in the film \"Halim\" (2006)?",
+     "options": [
+      "Ahmed El-Sakka",
+      "Yehia El-Fakharany",
+      "Ahmed Zaki",
+      "Adel Imam"
+     ],
+     "correct_answer": "Ahmed Zaki"
+    },
+    {
+     "id": "arabic_cinema_41",
+     "difficulty": "Medium",
+     "question": "By what nickname is the actor Ahmed Zaki known?",
+     "options": [
+      "The Magician",
+      "The Zaeem (the Leader)",
+      "The King",
+      "The Black Tiger"
+     ],
+     "correct_answer": "The Black Tiger"
+    },
+    {
+     "id": "arabic_cinema_42",
+     "difficulty": "Medium",
+     "question": "By what nickname is the actor Mahmoud Abdel Aziz known?",
+     "options": [
+      "The Magician",
+      "The King",
+      "The Black Tiger",
+      "The Zaeem (the Leader)"
+     ],
+     "correct_answer": "The Magician"
+    },
+    {
+     "id": "arabic_cinema_43",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"Welad Rizk\" (2015)?",
+     "options": [
+      "Ahmed El-Sakka",
+      "Asser Yassin",
+      "Ahmed Ezz",
+      "Karim Abdel Aziz"
+     ],
+     "correct_answer": "Ahmed Ezz"
+    },
+    {
+     "id": "arabic_cinema_44",
+     "difficulty": "Medium",
+     "question": "Who wrote the novel \"The Blue Elephant\" that the film is based on?",
+     "options": [
+      "Alaa Al Aswany",
+      "Naguib Mahfouz",
+      "Youssef Zeidan",
+      "Ahmed Mourad"
+     ],
+     "correct_answer": "Ahmed Mourad"
+    },
+    {
+     "id": "arabic_cinema_45",
+     "difficulty": "Medium",
+     "question": "Who is the star of the film \"The Bus Driver\" (1982)?",
+     "options": [
+      "Ahmed Zaki",
+      "Nour El-Sherif",
+      "Mahmoud Abdel Aziz",
+      "Adel Imam"
+     ],
+     "correct_answer": "Nour El-Sherif"
+    },
+    {
+     "id": "arabic_cinema_46",
+     "difficulty": "Medium",
+     "question": "Who is the female lead of the film \"Take Care of Zouzou\" (1972)?",
+     "options": [
+      "Magda",
+      "Shadia",
+      "Soad Hosny",
+      "Faten Hamama"
+     ],
+     "correct_answer": "Soad Hosny"
+    },
+    {
+     "id": "arabic_cinema_47",
+     "difficulty": "Medium",
+     "question": "In which international film did Omar Sharif play the Russian doctor and poet?",
+     "options": [
+      "Funny Girl",
+      "Doctor Zhivago",
+      "The Godfather",
+      "Lawrence of Arabia"
+     ],
+     "correct_answer": "Doctor Zhivago"
+    },
+    {
+     "id": "arabic_cinema_48",
+     "difficulty": "Medium",
+     "question": "Who was the first Arab actor nominated for an Academy Award, for his role in \"Lawrence of Arabia\"?",
+     "options": [
+      "Omar Sharif",
+      "Mahmoud El-Meliguy",
+      "Anthony Quinn",
+      "Ahmed Zaki"
+     ],
+     "correct_answer": "Omar Sharif"
+    },
+    {
+     "id": "arabic_cinema_49",
+     "difficulty": "Hard",
+     "question": "Who directed the film \"Clash\" (2016)?",
+     "options": [
+      "Khaled Youssef",
+      "Yousry Nasrallah",
+      "Mohamed Diab",
+      "Marwan Hamed"
+     ],
+     "correct_answer": "Mohamed Diab"
+    },
+    {
+     "id": "arabic_cinema_50",
+     "difficulty": "Medium",
+     "question": "Who is the female lead of the film \"I Want a Solution\" (1975)?",
+     "options": [
+      "Faten Hamama",
+      "Soad Hosny",
+      "Shadia",
+      "Magda"
+     ],
+     "correct_answer": "Faten Hamama"
+    },
+    {
+     "id": "arabic_cinema_51",
+     "difficulty": "Hard",
+     "question": "Who is the female lead of the film \"The Call of the Curlew\" (1959)?",
+     "options": [
+      "Hind Rostom",
+      "Faten Hamama",
+      "Shadia",
+      "Soad Hosny"
+     ],
+     "correct_answer": "Faten Hamama"
+    },
+    {
+     "id": "arabic_cinema_52",
+     "difficulty": "Hard",
+     "question": "Who was the female lead of the film \"Ghazl El-Banat\" (1949) opposite Naguib El-Rihani?",
+     "options": [
+      "Shadia",
+      "Faten Hamama",
+      "Umm Kulthum",
+      "Layla Murad"
+     ],
+     "correct_answer": "Layla Murad"
+    },
+    {
+     "id": "arabic_cinema_53",
+     "difficulty": "Medium",
+     "question": "Who directed the film \"Cairo Station\" (1958)?",
+     "options": [
+      "Salah Abu Seif",
+      "Shadi Abdel Salam",
+      "Hussein Kamal",
+      "Youssef Chahine"
+     ],
+     "correct_answer": "Youssef Chahine"
+    }
+   ]
+  },
+  {
+   "id": "awards_history",
+   "type": "quiz",
+   "name": "Oscars and Film History Challenge",
+   "description": "Awards, numbers and facts from the history of cinema",
+   "howto": "🏆 Oscars and Film History Challenge: questions about awards, numbers and facts from the history of cinema. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "awards_history_01",
+     "difficulty": "Hard",
+     "question": "How many Academy Awards did Titanic (1997) win?",
+     "options": [
+      "9 awards",
+      "11 awards",
+      "12 awards",
+      "10 awards"
+     ],
+     "correct_answer": "11 awards"
+    },
+    {
+     "id": "awards_history_02",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2020 ceremony, becoming the first non-English-language film to do so?",
+     "options": [
+      "1917",
+      "Joker",
+      "Roma",
+      "Parasite"
+     ],
+     "correct_answer": "Parasite"
+    },
+    {
+     "id": "awards_history_03",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the March 2024 ceremony?",
+     "options": [
+      "Killers of the Flower Moon",
+      "Barbie",
+      "Oppenheimer",
+      "Poor Things"
+     ],
+     "correct_answer": "Oppenheimer"
+    },
+    {
+     "id": "awards_history_04",
+     "difficulty": "Hard",
+     "question": "Which actress has won the most Academy Awards for acting (4 awards)?",
+     "options": [
+      "Katharine Hepburn",
+      "Meryl Streep",
+      "Ingrid Bergman",
+      "Elizabeth Taylor"
+     ],
+     "correct_answer": "Katharine Hepburn"
+    },
+    {
+     "id": "awards_history_05",
+     "difficulty": "Hard",
+     "question": "What was the first feature-length sound film in the history of cinema (1927)?",
+     "options": [
+      "Metropolis",
+      "Casablanca",
+      "The Jazz Singer",
+      "Citizen Kane"
+     ],
+     "correct_answer": "The Jazz Singer"
+    },
+    {
+     "id": "awards_history_06",
+     "difficulty": "Medium",
+     "question": "What was the first full-length animated feature produced by Disney (1937)?",
+     "options": [
+      "The Lion King",
+      "Pinocchio",
+      "Cinderella",
+      "Snow White and the Seven Dwarfs"
+     ],
+     "correct_answer": "Snow White and the Seven Dwarfs"
+    },
+    {
+     "id": "awards_history_07",
+     "difficulty": "Easy",
+     "question": "In which country is the Cannes Film Festival held?",
+     "options": [
+      "Germany",
+      "France",
+      "Spain",
+      "Italy"
+     ],
+     "correct_answer": "France"
+    },
+    {
+     "id": "awards_history_08",
+     "difficulty": "Hard",
+     "question": "Who directed Parasite?",
+     "options": [
+      "Kim Ki-duk",
+      "Bong Joon-ho",
+      "Park Chan-wook",
+      "Hirokazu Kore-eda"
+     ],
+     "correct_answer": "Bong Joon-ho"
+    },
+    {
+     "id": "awards_history_09",
+     "difficulty": "Hard",
+     "question": "Which film was the first in history to gross over one billion dollars?",
+     "options": [
+      "Titanic",
+      "Avatar",
+      "Jurassic Park",
+      "Star Wars"
+     ],
+     "correct_answer": "Titanic"
+    },
+    {
+     "id": "awards_history_10",
+     "difficulty": "Easy",
+     "question": "In which US state is Hollywood located?",
+     "options": [
+      "New York",
+      "Florida",
+      "Nevada",
+      "California"
+     ],
+     "correct_answer": "California"
+    },
+    {
+     "id": "awards_history_11",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture for 1994, beating Pulp Fiction?",
+     "options": [
+      "The Shawshank Redemption",
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral"
+     ],
+     "correct_answer": "Forrest Gump"
+    },
+    {
+     "id": "awards_history_12",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture for the year 2000?",
+     "options": [
+      "Chocolat",
+      "Traffic",
+      "Gladiator",
+      "Crouching Tiger, Hidden Dragon"
+     ],
+     "correct_answer": "Gladiator"
+    },
+    {
+     "id": "awards_history_13",
+     "difficulty": "Hard",
+     "question": "Which film was mistakenly announced as the Best Picture winner at the 2017 ceremony before the error was corrected?",
+     "options": [
+      "Manchester by the Sea",
+      "Moonlight",
+      "La La Land",
+      "Arrival"
+     ],
+     "correct_answer": "La La Land"
+    },
+    {
+     "id": "awards_history_14",
+     "difficulty": "Hard",
+     "question": "Which film won Best Picture at the 2022 ceremony?",
+     "options": [
+      "The Power of the Dog",
+      "CODA",
+      "Dune",
+      "Belfast"
+     ],
+     "correct_answer": "CODA"
+    },
+    {
+     "id": "awards_history_15",
+     "difficulty": "Hard",
+     "question": "Which film won Best Picture at the March 2023 ceremony?",
+     "options": [
+      "The Banshees of Inisherin",
+      "Avatar: The Way of Water",
+      "Everything Everywhere All at Once",
+      "Top Gun: Maverick"
+     ],
+     "correct_answer": "Everything Everywhere All at Once"
+    },
+    {
+     "id": "awards_history_16",
+     "difficulty": "Hard",
+     "question": "Who was the first woman to win the Academy Award for Best Director?",
+     "options": [
+      "Greta Gerwig",
+      "Jane Campion",
+      "Sofia Coppola",
+      "Kathryn Bigelow"
+     ],
+     "correct_answer": "Kathryn Bigelow"
+    },
+    {
+     "id": "awards_history_17",
+     "difficulty": "Medium",
+     "question": "For which film did Leonardo DiCaprio win his first Academy Award?",
+     "options": [
+      "The Revenant",
+      "Inception",
+      "Titanic",
+      "The Wolf of Wall Street"
+     ],
+     "correct_answer": "The Revenant"
+    },
+    {
+     "id": "awards_history_18",
+     "difficulty": "Hard",
+     "question": "In what year did Mickey Mouse first appear, in the short film Steamboat Willie?",
+     "options": [
+      "1919",
+      "1945",
+      "1928",
+      "1937"
+     ],
+     "correct_answer": "1928"
+    },
+    {
+     "id": "awards_history_19",
+     "difficulty": "Medium",
+     "question": "Which film festival awards the Palme d'Or?",
+     "options": [
+      "Berlin Film Festival",
+      "Venice Film Festival",
+      "Cairo Film Festival",
+      "Cannes Film Festival"
+     ],
+     "correct_answer": "Cannes Film Festival"
+    },
+    {
+     "id": "awards_history_20",
+     "difficulty": "Hard",
+     "question": "Which film festival awards the Golden Lion?",
+     "options": [
+      "Berlin Film Festival",
+      "Venice Film Festival",
+      "Toronto Film Festival",
+      "Cannes Film Festival"
+     ],
+     "correct_answer": "Venice Film Festival"
+    },
+    {
+     "id": "awards_history_21",
+     "difficulty": "Medium",
+     "question": "What is the name of the famous Japanese studio founded by Hayao Miyazaki?",
+     "options": [
+      "Toei Studio",
+      "Madhouse Studio",
+      "Studio Ghibli",
+      "Pixar Studio"
+     ],
+     "correct_answer": "Studio Ghibli"
+    },
+    {
+     "id": "awards_history_22",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2004 ceremony (winning 11 awards)?",
+     "options": [
+      "Lost in Translation",
+      "The Lord of the Rings: The Return of the King",
+      "Master and Commander",
+      "Mystic River"
+     ],
+     "correct_answer": "The Lord of the Rings: The Return of the King"
+    },
+    {
+     "id": "awards_history_23",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2009 ceremony?",
+     "options": [
+      "Frost/Nixon",
+      "Milk",
+      "The Dark Knight",
+      "Slumdog Millionaire"
+     ],
+     "correct_answer": "Slumdog Millionaire"
+    },
+    {
+     "id": "awards_history_24",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2010 ceremony?",
+     "options": [
+      "Avatar",
+      "Inglourious Basterds",
+      "Up in the Air",
+      "The Hurt Locker"
+     ],
+     "correct_answer": "The Hurt Locker"
+    },
+    {
+     "id": "awards_history_25",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2011 ceremony?",
+     "options": [
+      "Inception",
+      "Black Swan",
+      "The King's Speech",
+      "The Social Network"
+     ],
+     "correct_answer": "The King's Speech"
+    },
+    {
+     "id": "awards_history_26",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2012 ceremony (a silent black-and-white film)?",
+     "options": [
+      "The Help",
+      "Hugo",
+      "Midnight in Paris",
+      "The Artist"
+     ],
+     "correct_answer": "The Artist"
+    },
+    {
+     "id": "awards_history_27",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2013 ceremony?",
+     "options": [
+      "Life of Pi",
+      "Lincoln",
+      "Django Unchained",
+      "Argo"
+     ],
+     "correct_answer": "Argo"
+    },
+    {
+     "id": "awards_history_28",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2014 ceremony?",
+     "options": [
+      "Gravity",
+      "12 Years a Slave",
+      "Her",
+      "American Hustle"
+     ],
+     "correct_answer": "12 Years a Slave"
+    },
+    {
+     "id": "awards_history_29",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2015 ceremony?",
+     "options": [
+      "Birdman",
+      "The Grand Budapest Hotel",
+      "Boyhood",
+      "Whiplash"
+     ],
+     "correct_answer": "Birdman"
+    },
+    {
+     "id": "awards_history_30",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2016 ceremony?",
+     "options": [
+      "Spotlight",
+      "Mad Max: Fury Road",
+      "The Martian",
+      "The Revenant"
+     ],
+     "correct_answer": "Spotlight"
+    },
+    {
+     "id": "awards_history_31",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2017 ceremony?",
+     "options": [
+      "Arrival",
+      "Moonlight",
+      "Manchester by the Sea",
+      "La La Land"
+     ],
+     "correct_answer": "Moonlight"
+    },
+    {
+     "id": "awards_history_32",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2018 ceremony?",
+     "options": [
+      "Get Out",
+      "Dunkirk",
+      "The Shape of Water",
+      "Lady Bird"
+     ],
+     "correct_answer": "The Shape of Water"
+    },
+    {
+     "id": "awards_history_33",
+     "difficulty": "Medium",
+     "question": "Which film won Best Picture at the 2019 ceremony?",
+     "options": [
+      "Black Panther",
+      "Green Book",
+      "Roma",
+      "Bohemian Rhapsody"
+     ],
+     "correct_answer": "Green Book"
+    },
+    {
+     "id": "awards_history_34",
+     "difficulty": "Medium",
+     "question": "Who has won the most Academy Awards in history?",
+     "options": [
+      "Alfred Hitchcock",
+      "Walt Disney",
+      "John Williams",
+      "Steven Spielberg"
+     ],
+     "correct_answer": "Walt Disney"
+    },
+    {
+     "id": "awards_history_35",
+     "difficulty": "Hard",
+     "question": "Who is the only actor to have won three Academy Awards for Best Actor?",
+     "options": [
+      "Daniel Day-Lewis",
+      "Tom Hanks",
+      "Marlon Brando",
+      "Jack Nicholson"
+     ],
+     "correct_answer": "Daniel Day-Lewis"
+    },
+    {
+     "id": "awards_history_36",
+     "difficulty": "Hard",
+     "question": "Which silent film won the first Academy Award for Best Picture (1929)?",
+     "options": [
+      "Metropolis",
+      "Sunrise",
+      "The Jazz Singer",
+      "Wings"
+     ],
+     "correct_answer": "Wings"
+    },
+    {
+     "id": "awards_history_37",
+     "difficulty": "Medium",
+     "question": "Who was the first Black actor to win the Academy Award for Best Actor (in 1964)?",
+     "options": [
+      "Morgan Freeman",
+      "Sidney Poitier",
+      "Will Smith",
+      "Denzel Washington"
+     ],
+     "correct_answer": "Sidney Poitier"
+    },
+    {
+     "id": "awards_history_38",
+     "difficulty": "Medium",
+     "question": "Who was the first Black actress to win the Academy Award for Best Actress (in 2002)?",
+     "options": [
+      "Viola Davis",
+      "Lupita Nyong'o",
+      "Halle Berry",
+      "Octavia Spencer"
+     ],
+     "correct_answer": "Halle Berry"
+    },
+    {
+     "id": "awards_history_39",
+     "difficulty": "Medium",
+     "question": "Which actor won an Oscar posthumously for playing the Joker in The Dark Knight?",
+     "options": [
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jack Nicholson",
+      "Jared Leto"
+     ],
+     "correct_answer": "Heath Ledger"
+    },
+    {
+     "id": "awards_history_40",
+     "difficulty": "Easy",
+     "question": "Who won the Academy Award for Best Actor for Oppenheimer?",
+     "options": [
+      "Bradley Cooper",
+      "Paul Giamatti",
+      "Cillian Murphy",
+      "Robert Downey Jr."
+     ],
+     "correct_answer": "Cillian Murphy"
+    },
+    {
+     "id": "awards_history_41",
+     "difficulty": "Medium",
+     "question": "Who won the Academy Award for Best Actress for Poor Things?",
+     "options": [
+      "Emma Stone",
+      "Sandra Hüller",
+      "Lily Gladstone",
+      "Carey Mulligan"
+     ],
+     "correct_answer": "Emma Stone"
+    },
+    {
+     "id": "awards_history_42",
+     "difficulty": "Easy",
+     "question": "Who won the Academy Award for Best Director for Oppenheimer?",
+     "options": [
+      "Christopher Nolan",
+      "Yorgos Lanthimos",
+      "Justine Triet",
+      "Martin Scorsese"
+     ],
+     "correct_answer": "Christopher Nolan"
+    },
+    {
+     "id": "awards_history_43",
+     "difficulty": "Hard",
+     "question": "Who won the Academy Award for Best Director for The Revenant?",
+     "options": [
+      "Ridley Scott",
+      "Alfonso Cuarón",
+      "Damien Chazelle",
+      "Alejandro González Iñárritu"
+     ],
+     "correct_answer": "Alejandro González Iñárritu"
+    },
+    {
+     "id": "awards_history_44",
+     "difficulty": "Medium",
+     "question": "In which country are the BAFTA film awards held?",
+     "options": [
+      "France",
+      "Canada",
+      "Australia",
+      "United Kingdom"
+     ],
+     "correct_answer": "United Kingdom"
+    },
+    {
+     "id": "awards_history_45",
+     "difficulty": "Easy",
+     "question": "In which city is the Cairo International Film Festival held?",
+     "options": [
+      "Alexandria",
+      "Cairo",
+      "El Gouna",
+      "Sharm El Sheikh"
+     ],
+     "correct_answer": "Cairo"
+    },
+    {
+     "id": "awards_history_46",
+     "difficulty": "Medium",
+     "question": "In which country are the Carthage Film Days (JCC) held?",
+     "options": [
+      "Tunisia",
+      "Algeria",
+      "Morocco",
+      "Egypt"
+     ],
+     "correct_answer": "Tunisia"
+    },
+    {
+     "id": "awards_history_47",
+     "difficulty": "Medium",
+     "question": "In which city is the Golden Bear film award presented?",
+     "options": [
+      "Cannes",
+      "Venice",
+      "Locarno",
+      "Berlin"
+     ],
+     "correct_answer": "Berlin"
+    },
+    {
+     "id": "awards_history_48",
+     "difficulty": "Hard",
+     "question": "Which animated film was the first of its kind to be nominated for the Best Picture Oscar (1991)?",
+     "options": [
+      "Aladdin",
+      "The Lion King",
+      "The Little Mermaid",
+      "Beauty and the Beast"
+     ],
+     "correct_answer": "Beauty and the Beast"
+    },
+    {
+     "id": "awards_history_49",
+     "difficulty": "Medium",
+     "question": "Who directed the famous space film \"2001: A Space Odyssey\" (1968)?",
+     "options": [
+      "Ridley Scott",
+      "George Lucas",
+      "Stanley Kubrick",
+      "Steven Spielberg"
+     ],
+     "correct_answer": "Stanley Kubrick"
+    },
+    {
+     "id": "awards_history_50",
+     "difficulty": "Medium",
+     "question": "Who directed the classic horror film Psycho (1960)?",
+     "options": [
+      "Brian De Palma",
+      "Stanley Kubrick",
+      "Alfred Hitchcock",
+      "William Friedkin"
+     ],
+     "correct_answer": "Alfred Hitchcock"
+    },
+    {
+     "id": "awards_history_51",
+     "difficulty": "Medium",
+     "question": "Who directed Pulp Fiction (1994)?",
+     "options": [
+      "Guy Ritchie",
+      "Quentin Tarantino",
+      "Martin Scorsese",
+      "David Fincher"
+     ],
+     "correct_answer": "Quentin Tarantino"
+    },
+    {
+     "id": "awards_history_52",
+     "difficulty": "Medium",
+     "question": "Who directed Schindler's List (1993)?",
+     "options": [
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Ridley Scott"
+     ],
+     "correct_answer": "Steven Spielberg"
+    },
+    {
+     "id": "awards_history_53",
+     "difficulty": "Medium",
+     "question": "Which two French brothers held the first commercial film screening in 1895?",
+     "options": [
+      "The Coen Brothers",
+      "The Wright Brothers",
+      "The Warner Brothers",
+      "The Lumière Brothers"
+     ],
+     "correct_answer": "The Lumière Brothers"
+    },
+    {
+     "id": "awards_history_54",
+     "difficulty": "Hard",
+     "question": "Who directed Citizen Kane (1941), considered one of the greatest films in history?",
+     "options": [
+      "John Ford",
+      "Orson Welles",
+      "Charlie Chaplin",
+      "Alfred Hitchcock"
+     ],
+     "correct_answer": "Orson Welles"
+    },
+    {
+     "id": "awards_history_55",
+     "difficulty": "Medium",
+     "question": "Which film was the first to gross over two billion dollars worldwide?",
+     "options": [
+      "Titanic",
+      "Star Wars: The Force Awakens",
+      "Avatar",
+      "Avengers: Endgame"
+     ],
+     "correct_answer": "Avatar"
+    }
+   ]
+  },
+  {
+   "id": "arabic_series",
+   "type": "quiz",
+   "name": "Arabic TV Series Challenge",
+   "description": "Stars and productions from Egyptian and Arab drama",
+   "howto": "📺 Arabic TV Series Challenge: questions about stars and productions from Egyptian and Arab drama. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "arabic_series_01",
+     "difficulty": "Medium",
+     "question": "Who is the star of the famous Egyptian series \"Raafat El-Haggan\"?",
+     "options": [
+      "Ahmed Zaki",
+      "Mahmoud Abdel Aziz",
+      "Yehia El-Fakharany",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Mahmoud Abdel Aziz"
+    },
+    {
+     "id": "arabic_series_02",
+     "difficulty": "Easy",
+     "question": "Which Arab country is the series \"Bab El-Hara\" from?",
+     "options": [
+      "Syria",
+      "Jordan",
+      "Egypt",
+      "Lebanon"
+     ],
+     "correct_answer": "Syria"
+    },
+    {
+     "id": "arabic_series_03",
+     "difficulty": "Easy",
+     "question": "Who is the star of the series \"El Kebeer Awi\" (The Big Boss)?",
+     "options": [
+      "Hany Ramzy",
+      "Magued El-Kedwany",
+      "Ahmed Mekky",
+      "Ahmed Helmy"
+     ],
+     "correct_answer": "Ahmed Mekky"
+    },
+    {
+     "id": "arabic_series_04",
+     "difficulty": "Easy",
+     "question": "Who is the star of the series \"Yawmiyat Wanis\" (Wanis's Diary)?",
+     "options": [
+      "Mohamed Sobhi",
+      "Samir Ghanem",
+      "Yehia El-Fakharany",
+      "Nour El-Sherif"
+     ],
+     "correct_answer": "Mohamed Sobhi"
+    },
+    {
+     "id": "arabic_series_05",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"La Aeesh Fi Gilbab Abi\" (I Won't Live in My Father's Shadow)?",
+     "options": [
+      "Yehia El-Fakharany",
+      "Nour El-Sherif",
+      "Mahmoud Abdel Aziz",
+      "Adel Imam"
+     ],
+     "correct_answer": "Nour El-Sherif"
+    },
+    {
+     "id": "arabic_series_06",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Al Hayba\"?",
+     "options": [
+      "Qusai Khouli",
+      "Bassel Khayat",
+      "Abed Fahd",
+      "Taim Hassan"
+     ],
+     "correct_answer": "Taim Hassan"
+    },
+    {
+     "id": "arabic_series_07",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Gafar El-Omda\" (2019)?",
+     "options": [
+      "Ahmed El-Sakka",
+      "Ahmed Ezz",
+      "Karim Abdel Aziz",
+      "Mohamed Ramadan"
+     ],
+     "correct_answer": "Mohamed Ramadan"
+    },
+    {
+     "id": "arabic_series_08",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Al Ostoura\" (The Legend, 2016)?",
+     "options": [
+      "Ahmed Ezz",
+      "Mohamed Ramadan",
+      "Yasser Galal",
+      "Amir Karara"
+     ],
+     "correct_answer": "Mohamed Ramadan"
+    },
+    {
+     "id": "arabic_series_09",
+     "difficulty": "Medium",
+     "question": "Who is the female lead of the series \"Taht El-Wesaya\" (Under Guardianship, 2015)?",
+     "options": [
+      "Hend Sabry",
+      "Menna Shalaby",
+      "Yasmin Abdel Aziz",
+      "Mona Zaki"
+     ],
+     "correct_answer": "Mona Zaki"
+    },
+    {
+     "id": "arabic_series_10",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"El Dally\" (2013)?",
+     "options": [
+      "Nour El-Sherif",
+      "Ahmed El-Sakka",
+      "Yehia El-Fakharany",
+      "Adel Imam"
+     ],
+     "correct_answer": "Adel Imam"
+    },
+    {
+     "id": "arabic_series_11",
+     "difficulty": "Hard",
+     "question": "Who is the star of the series \"El Hag Metwally\" (2001)?",
+     "options": [
+      "Ahmed Zaki",
+      "Mahmoud Abdel Aziz",
+      "Nour El-Sherif",
+      "Adel Imam"
+     ],
+     "correct_answer": "Nour El-Sherif"
+    },
+    {
+     "id": "arabic_series_12",
+     "difficulty": "Medium",
+     "question": "Which Turkish series, dubbed into Arabic, became famous in 2008 with the character \"Muhannad\"?",
+     "options": [
+      "Forbidden Love",
+      "Valley of the Wolves",
+      "Magnificent Century",
+      "Noor"
+     ],
+     "correct_answer": "Noor"
+    },
+    {
+     "id": "arabic_series_13",
+     "difficulty": "Medium",
+     "question": "Who are the stars of the famous Gulf comedy series \"Tash Ma Tash\"?",
+     "options": [
+      "Ghanem Al-Sulaiti and Habib Ghuloum",
+      "Abdulhussain Abdulredha and Saad Alfarj",
+      "Dawood Hussain and Mohammed Al-Mansour",
+      "Nasser Al-Qasabi and Abdullah Al-Sadhan"
+     ],
+     "correct_answer": "Nasser Al-Qasabi and Abdullah Al-Sadhan"
+    },
+    {
+     "id": "arabic_series_14",
+     "difficulty": "Medium",
+     "question": "Who played Suleiman Ghanem in the series \"Layali El-Helmeya\" (Nights of El-Helmeya)?",
+     "options": [
+      "Yehia El-Fakharany",
+      "Mahmoud Abdel Aziz",
+      "Nour El-Sherif",
+      "Salah El-Saadany"
+     ],
+     "correct_answer": "Nour El-Sherif"
+    },
+    {
+     "id": "arabic_series_15",
+     "difficulty": "Medium",
+     "question": "Which Syrian actor played King Farouk in the series \"King Farouk\" (2007)?",
+     "options": [
+      "Qusai Khouli",
+      "Bassel Khayat",
+      "Jamal Suleiman",
+      "Taim Hassan"
+     ],
+     "correct_answer": "Taim Hassan"
+    },
+    {
+     "id": "arabic_series_16",
+     "difficulty": "Hard",
+     "question": "Who is the female lead of the series \"Asmahan\" (2008)?",
+     "options": [
+      "Sawsan Arshid",
+      "Mona Zaki",
+      "Sulafa Memar",
+      "Nelly Karim"
+     ],
+     "correct_answer": "Sulafa Memar"
+    },
+    {
+     "id": "arabic_series_17",
+     "difficulty": "Medium",
+     "question": "Which actor played \"Al-Zeer Salem\" in the famous Syrian series?",
+     "options": [
+      "Abed Fahd",
+      "Jamal Suleiman",
+      "Taim Hassan",
+      "Duraid Lahham"
+     ],
+     "correct_answer": "Jamal Suleiman"
+    },
+    {
+     "id": "arabic_series_18",
+     "difficulty": "Hard",
+     "question": "Who directed the series \"Al-Taghreeba Al-Filastiniyya\" (The Palestinian Exodus, 2004)?",
+     "options": [
+      "Bassam Al-Mulla",
+      "Hani Khalifa",
+      "Najdat Anzour",
+      "Hatem Ali"
+     ],
+     "correct_answer": "Hatem Ali"
+    },
+    {
+     "id": "arabic_series_19",
+     "difficulty": "Medium",
+     "question": "Who is the female lead of the series \"Zat\" (2013)?",
+     "options": [
+      "Yousra",
+      "Mona Zaki",
+      "Menna Shalaby",
+      "Nelly Karim"
+     ],
+     "correct_answer": "Nelly Karim"
+    },
+    {
+     "id": "arabic_series_20",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Saraya Abdeen\" (Abdeen Palace, 2014)?",
+     "options": [
+      "Nour El-Sherif",
+      "Adel Imam",
+      "Mahmoud Abdel Aziz",
+      "Yehia El-Fakharany"
+     ],
+     "correct_answer": "Yehia El-Fakharany"
+    },
+    {
+     "id": "arabic_series_21",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Al-Ikhtiyar\" (The Choice, 2020)?",
+     "options": [
+      "Amir Karara",
+      "Ahmed Ezz",
+      "Karim Abdel Aziz",
+      "Mohamed Ramadan"
+     ],
+     "correct_answer": "Amir Karara"
+    },
+    {
+     "id": "arabic_series_22",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Kalabsh\" (Handcuffs, 2017)?",
+     "options": [
+      "Amir Karara",
+      "Mohamed Ramadan",
+      "Ahmed El-Sakka",
+      "Ahmed Ezz"
+     ],
+     "correct_answer": "Amir Karara"
+    },
+    {
+     "id": "arabic_series_23",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Moussa\" (2021)?",
+     "options": [
+      "Mohamed Ramadan",
+      "Amir Karara",
+      "Karim Abdel Aziz",
+      "Ahmed Ezz"
+     ],
+     "correct_answer": "Mohamed Ramadan"
+    },
+    {
+     "id": "arabic_series_24",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Nesr El-Saeed\" (The Eagle of Upper Egypt, 2018)?",
+     "options": [
+      "Amir Karara",
+      "Ahmed El-Sakka",
+      "Ahmed Ezz",
+      "Mohamed Ramadan"
+     ],
+     "correct_answer": "Mohamed Ramadan"
+    },
+    {
+     "id": "arabic_series_25",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"El Prince\" (The Prince, 2020)?",
+     "options": [
+      "Ahmed Ezz",
+      "Amir Karara",
+      "Yasser Galal",
+      "Mohamed Ramadan"
+     ],
+     "correct_answer": "Mohamed Ramadan"
+    },
+    {
+     "id": "arabic_series_26",
+     "difficulty": "Medium",
+     "question": "Who is the star of the Saudi comedy series \"Selfie\"?",
+     "options": [
+      "Rashed Al-Shamrani",
+      "Abdullah Al-Sadhan",
+      "Nasser Al-Qasabi",
+      "Fayez Al-Malki"
+     ],
+     "correct_answer": "Nasser Al-Qasabi"
+    },
+    {
+     "id": "arabic_series_27",
+     "difficulty": "Medium",
+     "question": "Which Syrian artist is famous for the character \"Ghawar El-Toushe\" in the series \"Sah El-Nawm\"?",
+     "options": [
+      "Duraid Hassan",
+      "Yasser Al-Azmeh",
+      "Nihad Qali",
+      "Duraid Lahham"
+     ],
+     "correct_answer": "Duraid Lahham"
+    },
+    {
+     "id": "arabic_series_28",
+     "difficulty": "Medium",
+     "question": "Who is the star of the famous Syrian series \"Maraya\" (Mirrors)?",
+     "options": [
+      "Yasser Al-Azmeh",
+      "Duraid Lahham",
+      "Ayman Zeidan",
+      "Bassam Kousa"
+     ],
+     "correct_answer": "Yasser Al-Azmeh"
+    },
+    {
+     "id": "arabic_series_29",
+     "difficulty": "Medium",
+     "question": "Who played the title role in the series \"Umm Kulthum\" (1999)?",
+     "options": [
+      "Mona Zaki",
+      "Sabreen",
+      "Nelly Karim",
+      "Yousra"
+     ],
+     "correct_answer": "Sabreen"
+    },
+    {
+     "id": "arabic_series_30",
+     "difficulty": "Easy",
+     "question": "Which sultan is the series \"Magnificent Century\" (Harim Al-Sultan) about?",
+     "options": [
+      "Abdul Hamid II",
+      "Suleiman the Magnificent",
+      "Murad IV",
+      "Mehmed the Conqueror"
+     ],
+     "correct_answer": "Suleiman the Magnificent"
+    },
+    {
+     "id": "arabic_series_31",
+     "difficulty": "Medium",
+     "question": "What is the name of the main character in the Turkish series \"Valley of the Wolves\"?",
+     "options": [
+      "Murad Alamdar",
+      "Yahya",
+      "Karim",
+      "Muhannad"
+     ],
+     "correct_answer": "Murad Alamdar"
+    },
+    {
+     "id": "arabic_series_32",
+     "difficulty": "Medium",
+     "question": "Who is the female lead of the series \"Damir Abla Hekmat\" (Miss Hekmat's Conscience, 1991)?",
+     "options": [
+      "Soad Hosny",
+      "Yousra",
+      "Laila Elwi",
+      "Faten Hamama"
+     ],
+     "correct_answer": "Faten Hamama"
+    },
+    {
+     "id": "arabic_series_33",
+     "difficulty": "Hard",
+     "question": "What is the real name of the Egyptian spy whose story is told in the series \"Raafat El-Haggan\"?",
+     "options": [
+      "Ashraf Marwan",
+      "Gomaa El-Shawan",
+      "Amr Tantawi",
+      "Refaat El-Gammal"
+     ],
+     "correct_answer": "Refaat El-Gammal"
+    },
+    {
+     "id": "arabic_series_34",
+     "difficulty": "Medium",
+     "question": "Which artist is famous for the character \"Fatouta\" in the Ramadan fawazeer?",
+     "options": [
+      "George Sidhom",
+      "Mohamed Sobhi",
+      "Samir Ghanem",
+      "Ahmed Zaki"
+     ],
+     "correct_answer": "Samir Ghanem"
+    },
+    {
+     "id": "arabic_series_35",
+     "difficulty": "Hard",
+     "question": "Who is the female lead of the series \"Haret El-Yahud\" (The Jewish Quarter, 2020)?",
+     "options": [
+      "Yasmin Abdel Aziz",
+      "Mona Zaki",
+      "Nelly Karim",
+      "Menna Shalaby"
+     ],
+     "correct_answer": "Menna Shalaby"
+    },
+    {
+     "id": "arabic_series_36",
+     "difficulty": "Medium",
+     "question": "Who is the star of the series \"Ma Wara' El-Tabiaa\" (Paranormal, 2020)?",
+     "options": [
+      "Ahmed Mekky",
+      "Ahmed Amin",
+      "Ahmed Dawood",
+      "Karim Fahmy"
+     ],
+     "correct_answer": "Ahmed Amin"
+    },
+    {
+     "id": "arabic_series_37",
+     "difficulty": "Medium",
+     "question": "Who is the female lead of the series \"Fatin Amal Harbi\" (2022)?",
+     "options": [
+      "Hend Sabry",
+      "Mona Zaki",
+      "Nelly Karim",
+      "Menna Shalaby"
+     ],
+     "correct_answer": "Nelly Karim"
+    },
+    {
+     "id": "arabic_series_38",
+     "difficulty": "Hard",
+     "question": "Who is the female lead of the series \"Taht El-Seytara\" (Under Control, 2015), about the issue of addiction?",
+     "options": [
+      "Yousra",
+      "Ghada Abdel Razek",
+      "Mona Zaki",
+      "Nelly Karim"
+     ],
+     "correct_answer": "Mona Zaki"
+    }
+   ]
+  },
+  {
+   "id": "foreign_series",
+   "type": "quiz",
+   "name": "Foreign TV Series Challenge",
+   "description": "Characters and events from the world's most famous TV series",
+   "howto": "📺 Foreign TV Series Challenge: questions about characters and events from the world's most famous TV series. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "foreign_series_01",
+     "difficulty": "Easy",
+     "question": "In the series Friends, what is the name of the café where the friends meet?",
+     "options": [
+      "MacLaren's",
+      "Central Perk",
+      "Mulligan's",
+      "The Punch"
+     ],
+     "correct_answer": "Central Perk"
+    },
+    {
+     "id": "foreign_series_02",
+     "difficulty": "Easy",
+     "question": "In Stranger Things, what is the name of the girl with supernatural powers?",
+     "options": [
+      "Eleven",
+      "Joyce",
+      "Max",
+      "Nancy"
+     ],
+     "correct_answer": "Eleven"
+    },
+    {
+     "id": "foreign_series_03",
+     "difficulty": "Easy",
+     "question": "Which country is the famous series La Casa de Papel (Money Heist) from?",
+     "options": [
+      "Spain",
+      "France",
+      "Mexico",
+      "Italy"
+     ],
+     "correct_answer": "Spain"
+    },
+    {
+     "id": "foreign_series_04",
+     "difficulty": "Medium",
+     "question": "What mask do the robbers wear in La Casa de Papel?",
+     "options": [
+      "Joker mask",
+      "Salvador Dalí mask",
+      "Picasso mask",
+      "Guy Fawkes mask"
+     ],
+     "correct_answer": "Salvador Dalí mask"
+    },
+    {
+     "id": "foreign_series_05",
+     "difficulty": "Easy",
+     "question": "Which country is the famous series Squid Game from?",
+     "options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Thailand"
+     ],
+     "correct_answer": "South Korea"
+    },
+    {
+     "id": "foreign_series_06",
+     "difficulty": "Easy",
+     "question": "What is the first game in Squid Game?",
+     "options": [
+      "Musical chairs",
+      "Red Light, Green Light",
+      "Tug of war",
+      "Hide and seek"
+     ],
+     "correct_answer": "Red Light, Green Light"
+    },
+    {
+     "id": "foreign_series_07",
+     "difficulty": "Medium",
+     "question": "What is the name of the main character in Breaking Bad?",
+     "options": [
+      "Saul Goodman",
+      "Walter White",
+      "Hank Schrader",
+      "Jesse Pinkman"
+     ],
+     "correct_answer": "Walter White"
+    },
+    {
+     "id": "foreign_series_08",
+     "difficulty": "Medium",
+     "question": "Which actor played Walter White in Breaking Bad?",
+     "options": [
+      "Bryan Cranston",
+      "Peter Dinklage",
+      "Aaron Paul",
+      "Bob Odenkirk"
+     ],
+     "correct_answer": "Bryan Cranston"
+    },
+    {
+     "id": "foreign_series_09",
+     "difficulty": "Medium",
+     "question": "What is the name of the fictional continent where Game of Thrones takes place?",
+     "options": [
+      "Narnia",
+      "Essos",
+      "Middle-earth",
+      "Westeros"
+     ],
+     "correct_answer": "Westeros"
+    },
+    {
+     "id": "foreign_series_10",
+     "difficulty": "Medium",
+     "question": "Who wrote the series of novels that Game of Thrones is based on?",
+     "options": [
+      "J. R. R. Tolkien",
+      "George R. R. Martin",
+      "Stephen King",
+      "J. K. Rowling"
+     ],
+     "correct_answer": "George R. R. Martin"
+    },
+    {
+     "id": "foreign_series_11",
+     "difficulty": "Medium",
+     "question": "Which actor played Thomas Shelby in Peaky Blinders?",
+     "options": [
+      "Tom Hardy",
+      "Benedict Cumberbatch",
+      "Cillian Murphy",
+      "Idris Elba"
+     ],
+     "correct_answer": "Cillian Murphy"
+    },
+    {
+     "id": "foreign_series_12",
+     "difficulty": "Medium",
+     "question": "Which actress played Wednesday in the series Wednesday?",
+     "options": [
+      "Emma Watson",
+      "Jenna Ortega",
+      "Millie Bobby Brown",
+      "Zendaya"
+     ],
+     "correct_answer": "Jenna Ortega"
+    },
+    {
+     "id": "foreign_series_13",
+     "difficulty": "Medium",
+     "question": "Which real-life figure is Narcos about in its first two seasons?",
+     "options": [
+      "Fidel Castro",
+      "Manuel Noriega",
+      "Pablo Escobar",
+      "El Chapo"
+     ],
+     "correct_answer": "Pablo Escobar"
+    },
+    {
+     "id": "foreign_series_14",
+     "difficulty": "Easy",
+     "question": "In The Big Bang Theory, what is the name of the brilliant scientist with the quirky personality?",
+     "options": [
+      "Sheldon Cooper",
+      "Howard Wolowitz",
+      "Leonard Hofstadter",
+      "Raj Koothrappali"
+     ],
+     "correct_answer": "Sheldon Cooper"
+    },
+    {
+     "id": "foreign_series_15",
+     "difficulty": "Medium",
+     "question": "In Prison Break, what is the name of the hero who plans to break out of prison to save his brother?",
+     "options": [
+      "Michael Scofield",
+      "T-Bag",
+      "Sucre",
+      "Lincoln Burrows"
+     ],
+     "correct_answer": "Michael Scofield"
+    },
+    {
+     "id": "foreign_series_16",
+     "difficulty": "Medium",
+     "question": "Who created the famous detective Sherlock Holmes?",
+     "options": [
+      "J. K. Rowling",
+      "Agatha Christie",
+      "Edgar Allan Poe",
+      "Arthur Conan Doyle"
+     ],
+     "correct_answer": "Arthur Conan Doyle"
+    },
+    {
+     "id": "foreign_series_17",
+     "difficulty": "Medium",
+     "question": "In The Simpsons, what is the name of the town where the family lives?",
+     "options": [
+      "Riverdale",
+      "Gotham",
+      "Quahog",
+      "Springfield"
+     ],
+     "correct_answer": "Springfield"
+    },
+    {
+     "id": "foreign_series_18",
+     "difficulty": "Medium",
+     "question": "Which historical event is the series Chernobyl (2019) about?",
+     "options": [
+      "The Gulf War",
+      "The 1986 Chernobyl reactor disaster",
+      "The Cold War",
+      "The Fukushima disaster"
+     ],
+     "correct_answer": "The 1986 Chernobyl reactor disaster"
+    },
+    {
+     "id": "foreign_series_19",
+     "difficulty": "Medium",
+     "question": "Which queen is the series The Crown about?",
+     "options": [
+      "Queen Elizabeth II",
+      "Queen Elizabeth I",
+      "Queen Victoria",
+      "Queen Anne"
+     ],
+     "correct_answer": "Queen Elizabeth II"
+    },
+    {
+     "id": "foreign_series_20",
+     "difficulty": "Easy",
+     "question": "What kind of creatures attack humans in The Walking Dead?",
+     "options": [
+      "Vampires",
+      "Werewolves",
+      "Ghosts",
+      "Zombies"
+     ],
+     "correct_answer": "Zombies"
+    },
+    {
+     "id": "foreign_series_21",
+     "difficulty": "Medium",
+     "question": "House of the Dragon is a prequel to which famous series?",
+     "options": [
+      "The Last of Us",
+      "The Witcher",
+      "Vikings",
+      "Game of Thrones"
+     ],
+     "correct_answer": "Game of Thrones"
+    },
+    {
+     "id": "foreign_series_22",
+     "difficulty": "Hard",
+     "question": "Which country is the famous Netflix series Dark from?",
+     "options": [
+      "France",
+      "Spain",
+      "Germany",
+      "Sweden"
+     ],
+     "correct_answer": "Germany"
+    },
+    {
+     "id": "foreign_series_23",
+     "difficulty": "Medium",
+     "question": "Which actress played \"Rachel\" in Friends?",
+     "options": [
+      "Lisa Kudrow",
+      "Courteney Cox",
+      "Jennifer Aniston",
+      "Reese Witherspoon"
+     ],
+     "correct_answer": "Jennifer Aniston"
+    },
+    {
+     "id": "foreign_series_24",
+     "difficulty": "Medium",
+     "question": "Which actor played \"Joey\" in Friends?",
+     "options": [
+      "Matt LeBlanc",
+      "Matthew Broderick",
+      "David Schwimmer",
+      "Matthew Perry"
+     ],
+     "correct_answer": "Matt LeBlanc"
+    },
+    {
+     "id": "foreign_series_25",
+     "difficulty": "Medium",
+     "question": "What famous song does \"Phoebe\" sing in Friends?",
+     "options": [
+      "Hey Jude",
+      "Let It Be",
+      "Smelly Cat",
+      "Happy Birthday"
+     ],
+     "correct_answer": "Smelly Cat"
+    },
+    {
+     "id": "foreign_series_26",
+     "difficulty": "Easy",
+     "question": "What is the name of the throne everyone fights over in Game of Thrones?",
+     "options": [
+      "The Winter Throne",
+      "The Iron Throne",
+      "The King's Chair",
+      "The Lion Throne"
+     ],
+     "correct_answer": "The Iron Throne"
+    },
+    {
+     "id": "foreign_series_27",
+     "difficulty": "Medium",
+     "question": "Which actor played \"Tyrion Lannister\" in Game of Thrones?",
+     "options": [
+      "Liam Cunningham",
+      "Sean Bean",
+      "Kit Harington",
+      "Peter Dinklage"
+     ],
+     "correct_answer": "Peter Dinklage"
+    },
+    {
+     "id": "foreign_series_28",
+     "difficulty": "Hard",
+     "question": "What is the name of Jon Snow's giant white direwolf in Game of Thrones?",
+     "options": [
+      "Grey Wind",
+      "Summer",
+      "Nymeria",
+      "Ghost"
+     ],
+     "correct_answer": "Ghost"
+    },
+    {
+     "id": "foreign_series_29",
+     "difficulty": "Medium",
+     "question": "What is the name of the fictional American town where Stranger Things takes place?",
+     "options": [
+      "Riverdale",
+      "South Park",
+      "Hawkins",
+      "Springfield"
+     ],
+     "correct_answer": "Hawkins"
+    },
+    {
+     "id": "foreign_series_30",
+     "difficulty": "Easy",
+     "question": "What is the name of the dark parallel world in Stranger Things?",
+     "options": [
+      "The Void",
+      "The Other Side",
+      "The Shadow Realm",
+      "The Upside Down"
+     ],
+     "correct_answer": "The Upside Down"
+    },
+    {
+     "id": "foreign_series_31",
+     "difficulty": "Medium",
+     "question": "Which actress played \"Eleven\" in Stranger Things?",
+     "options": [
+      "Sadie Sink",
+      "Millie Bobby Brown",
+      "Michaela Coel",
+      "Jenna Ortega"
+     ],
+     "correct_answer": "Millie Bobby Brown"
+    },
+    {
+     "id": "foreign_series_32",
+     "difficulty": "Medium",
+     "question": "Which actor played \"Jesse Pinkman\" in Breaking Bad?",
+     "options": [
+      "Bob Odenkirk",
+      "Bryan Cranston",
+      "Aaron Paul",
+      "David Cross"
+     ],
+     "correct_answer": "Aaron Paul"
+    },
+    {
+     "id": "foreign_series_33",
+     "difficulty": "Medium",
+     "question": "What alias does \"Walter White\" use in the criminal underworld in Breaking Bad?",
+     "options": [
+      "The Professor",
+      "Heisenberg",
+      "The Chemist",
+      "Scarface"
+     ],
+     "correct_answer": "Heisenberg"
+    },
+    {
+     "id": "foreign_series_34",
+     "difficulty": "Easy",
+     "question": "What is the nickname of the mastermind of the heist gang in La Casa de Papel?",
+     "options": [
+      "The Doctor",
+      "The Engineer",
+      "The Maestro",
+      "The Professor"
+     ],
+     "correct_answer": "The Professor"
+    },
+    {
+     "id": "foreign_series_35",
+     "difficulty": "Easy",
+     "question": "What famous Italian song is associated with La Casa de Papel?",
+     "options": [
+      "Bella Ciao",
+      "O Sole Mio",
+      "Volare",
+      "Con te partirò"
+     ],
+     "correct_answer": "Bella Ciao"
+    },
+    {
+     "id": "foreign_series_36",
+     "difficulty": "Medium",
+     "question": "How many contestants are there at the start of Squid Game?",
+     "options": [
+      "256 players",
+      "456 players",
+      "1,000 players",
+      "100 players"
+     ],
+     "correct_answer": "456 players"
+    },
+    {
+     "id": "foreign_series_37",
+     "difficulty": "Easy",
+     "question": "What is the name of the father of the family in The Simpsons?",
+     "options": [
+      "Moe",
+      "Bart",
+      "Ned",
+      "Homer"
+     ],
+     "correct_answer": "Homer"
+    },
+    {
+     "id": "foreign_series_38",
+     "difficulty": "Medium",
+     "question": "What is the name of the street in London where the detective Sherlock Holmes lives?",
+     "options": [
+      "Fleet Street",
+      "Baker Street",
+      "Downing Street",
+      "Oxford Street"
+     ],
+     "correct_answer": "Baker Street"
+    },
+    {
+     "id": "foreign_series_39",
+     "difficulty": "Hard",
+     "question": "In which British city is Peaky Blinders set?",
+     "options": [
+      "Liverpool",
+      "Manchester",
+      "Birmingham",
+      "London"
+     ],
+     "correct_answer": "Birmingham"
+    },
+    {
+     "id": "foreign_series_40",
+     "difficulty": "Medium",
+     "question": "Which actor played \"Geralt\" in The Witcher?",
+     "options": [
+      "Chris Hemsworth",
+      "Kit Harington",
+      "Jason Momoa",
+      "Henry Cavill"
+     ],
+     "correct_answer": "Henry Cavill"
+    },
+    {
+     "id": "foreign_series_41",
+     "difficulty": "Easy",
+     "question": "What is the name of the small child with long ears in The Mandalorian?",
+     "options": [
+      "Din Djarin",
+      "Chewbacca",
+      "Yoda",
+      "Grogu"
+     ],
+     "correct_answer": "Grogu"
+    },
+    {
+     "id": "foreign_series_42",
+     "difficulty": "Hard",
+     "question": "Which French actor played \"Assane Diop\" in Lupin?",
+     "options": [
+      "Jean Dujardin",
+      "Tahar Rahim",
+      "Vincent Cassel",
+      "Omar Sy"
+     ],
+     "correct_answer": "Omar Sy"
+    },
+    {
+     "id": "foreign_series_43",
+     "difficulty": "Medium",
+     "question": "What is the name of \"Michael Scofield\"'s brother, whom he tries to save in Prison Break?",
+     "options": [
+      "Lincoln Burrows",
+      "Sucre",
+      "John Abruzzi",
+      "T-Bag"
+     ],
+     "correct_answer": "Lincoln Burrows"
+    },
+    {
+     "id": "foreign_series_44",
+     "difficulty": "Hard",
+     "question": "Which country is the famous series Black Mirror from?",
+     "options": [
+      "Germany",
+      "Canada",
+      "United States",
+      "United Kingdom"
+     ],
+     "correct_answer": "United Kingdom"
+    },
+    {
+     "id": "foreign_series_45",
+     "difficulty": "Medium",
+     "question": "What is the name of the hero of Vikings who goes from farmer to king?",
+     "options": [
+      "Ragnar Thorsen",
+      "Rederick",
+      "Bjorn",
+      "Ragnar Lothbrok"
+     ],
+     "correct_answer": "Ragnar Lothbrok"
+    },
+    {
+     "id": "foreign_series_46",
+     "difficulty": "Easy",
+     "question": "What is the family name of the main character in Wednesday?",
+     "options": [
+      "Smith",
+      "Addams",
+      "Simpson",
+      "Stark"
+     ],
+     "correct_answer": "Addams"
+    },
+    {
+     "id": "foreign_series_47",
+     "difficulty": "Medium",
+     "question": "Which actor played \"Joel\" in The Last of Us?",
+     "options": [
+      "Keanu Reeves",
+      "Chris Pratt",
+      "Pedro Pascal",
+      "Ben Affleck"
+     ],
+     "correct_answer": "Pedro Pascal"
+    },
+    {
+     "id": "foreign_series_48",
+     "difficulty": "Easy",
+     "question": "What is the profession of the main characters in Grey's Anatomy?",
+     "options": [
+      "Surgeons",
+      "Pilots",
+      "Detectives",
+      "Lawyers"
+     ],
+     "correct_answer": "Surgeons"
+    },
+    {
+     "id": "foreign_series_49",
+     "difficulty": "Hard",
+     "question": "What are the names of the two brothers in Supernatural?",
+     "options": [
+      "Matt and Andrew",
+      "Sam and Dean Winchester",
+      "John and Jimmy",
+      "Brian and Tim"
+     ],
+     "correct_answer": "Sam and Dean Winchester"
+    }
+   ]
+  },
+  {
+   "id": "animation",
+   "type": "quiz",
+   "name": "Cartoons and Animation Challenge",
+   "description": "Animated films and series, and anime",
+   "howto": "🎨 Cartoons and Animation Challenge: questions about animated films and series, and anime. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "animation_01",
+     "difficulty": "Easy",
+     "question": "Where does SpongeBob live?",
+     "options": [
+      "In space",
+      "In the forest",
+      "At the bottom of the sea (Bikini Bottom)",
+      "In the desert"
+     ],
+     "correct_answer": "At the bottom of the sea (Bikini Bottom)"
+    },
+    {
+     "id": "animation_02",
+     "difficulty": "Easy",
+     "question": "What kind of animal is Tom in the cartoon Tom and Jerry?",
+     "options": [
+      "Rabbit",
+      "Cat",
+      "Dog",
+      "Mouse"
+     ],
+     "correct_answer": "Cat"
+    },
+    {
+     "id": "animation_03",
+     "difficulty": "Hard",
+     "question": "Who created the cartoon Tom and Jerry?",
+     "options": [
+      "William Hanna and Joseph Barbera",
+      "Walt Disney and Ub Iwerks",
+      "Max Fleischer and Dave Fleischer",
+      "Tex Avery and Chuck Jones"
+     ],
+     "correct_answer": "William Hanna and Joseph Barbera"
+    },
+    {
+     "id": "animation_04",
+     "difficulty": "Medium",
+     "question": "Which country is the cartoon \"Masha and the Bear\" from?",
+     "options": [
+      "Canada",
+      "Germany",
+      "Japan",
+      "Russia"
+     ],
+     "correct_answer": "Russia"
+    },
+    {
+     "id": "animation_05",
+     "difficulty": "Easy",
+     "question": "Which country is the famous anime \"Naruto\" from?",
+     "options": [
+      "China",
+      "Japan",
+      "United States",
+      "South Korea"
+     ],
+     "correct_answer": "Japan"
+    },
+    {
+     "id": "animation_06",
+     "difficulty": "Easy",
+     "question": "What is the name of the hero of the famous anime \"Dragon Ball\"?",
+     "options": [
+      "Naruto",
+      "Ichigo",
+      "Goku",
+      "Luffy"
+     ],
+     "correct_answer": "Goku"
+    },
+    {
+     "id": "animation_07",
+     "difficulty": "Medium",
+     "question": "What is the name of the captain of the Straw Hat Pirates in the anime \"One Piece\"?",
+     "options": [
+      "Roronoa Zoro",
+      "Goku",
+      "Monkey D. Luffy",
+      "Naruto"
+     ],
+     "correct_answer": "Monkey D. Luffy"
+    },
+    {
+     "id": "animation_08",
+     "difficulty": "Easy",
+     "question": "What is the name of the famous yellow character in the cartoon \"Pokémon\"?",
+     "options": [
+      "Squirtle",
+      "Jigglypuff",
+      "Charizard",
+      "Pikachu"
+     ],
+     "correct_answer": "Pikachu"
+    },
+    {
+     "id": "animation_09",
+     "difficulty": "Easy",
+     "question": "What color are the Smurfs in the famous cartoon?",
+     "options": [
+      "Red",
+      "Green",
+      "Blue",
+      "Yellow"
+     ],
+     "correct_answer": "Blue"
+    },
+    {
+     "id": "animation_10",
+     "difficulty": "Easy",
+     "question": "Who created the character Mickey Mouse?",
+     "options": [
+      "Tex Avery",
+      "Walt Disney",
+      "Max Fleischer",
+      "Hayao Miyazaki"
+     ],
+     "correct_answer": "Walt Disney"
+    },
+    {
+     "id": "animation_11",
+     "difficulty": "Hard",
+     "question": "Who directed the anime film Spirited Away, which won the Academy Award for Best Animated Feature?",
+     "options": [
+      "Makoto Shinkai",
+      "Mitchell Oshima",
+      "Satoshi Kon",
+      "Hayao Miyazaki"
+     ],
+     "correct_answer": "Hayao Miyazaki"
+    },
+    {
+     "id": "animation_12",
+     "difficulty": "Medium",
+     "question": "Who voiced Woody in Toy Story in the original version?",
+     "options": [
+      "Tom Cruise",
+      "Tim Allen",
+      "Robin Williams",
+      "Tom Hanks"
+     ],
+     "correct_answer": "Tom Hanks"
+    },
+    {
+     "id": "animation_13",
+     "difficulty": "Easy",
+     "question": "What is the name of the most famous song in Frozen, sung by Elsa?",
+     "options": [
+      "Do You Want to Build a Snowman",
+      "Into the Unknown",
+      "Almost There",
+      "Let It Go"
+     ],
+     "correct_answer": "Let It Go"
+    },
+    {
+     "id": "animation_14",
+     "difficulty": "Easy",
+     "question": "In the film Inside Out, what is the name of the character who represents joy?",
+     "options": [
+      "Joy",
+      "Sadness",
+      "Fear",
+      "Anger"
+     ],
+     "correct_answer": "Joy"
+    },
+    {
+     "id": "animation_15",
+     "difficulty": "Medium",
+     "question": "In which country is the film Coco set?",
+     "options": [
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Spain"
+     ],
+     "correct_answer": "Mexico"
+    },
+    {
+     "id": "animation_16",
+     "difficulty": "Hard",
+     "question": "Which country is the famous anime \"Future Boy Conan\" (known in Arabic as \"Adnan and Lina\"), directed by Hayao Miyazaki, from?",
+     "options": [
+      "Japan",
+      "Germany",
+      "France",
+      "United States"
+     ],
+     "correct_answer": "Japan"
+    },
+    {
+     "id": "animation_17",
+     "difficulty": "Easy",
+     "question": "What is the name of SpongeBob's close friend (the starfish)?",
+     "options": [
+      "Patrick",
+      "Squidward",
+      "Mr. Krabs",
+      "Sandy"
+     ],
+     "correct_answer": "Patrick"
+    },
+    {
+     "id": "animation_18",
+     "difficulty": "Easy",
+     "question": "What is the name of the squid neighbor in the cartoon SpongeBob?",
+     "options": [
+      "Patrick",
+      "Gary",
+      "Plankton",
+      "Squidward"
+     ],
+     "correct_answer": "Squidward"
+    },
+    {
+     "id": "animation_19",
+     "difficulty": "Medium",
+     "question": "What is the name of the burger restaurant where SpongeBob works?",
+     "options": [
+      "Chum Bucket",
+      "Sandy's",
+      "Bikini Deli",
+      "Krusty Krab"
+     ],
+     "correct_answer": "Krusty Krab"
+    },
+    {
+     "id": "animation_20",
+     "difficulty": "Medium",
+     "question": "What is the name of the dog in the cartoon Tom and Jerry?",
+     "options": [
+      "Spike",
+      "Goofy",
+      "Scooby",
+      "Pluto"
+     ],
+     "correct_answer": "Spike"
+    },
+    {
+     "id": "animation_21",
+     "difficulty": "Medium",
+     "question": "What is the name of the main hero of the anime \"Pokémon\"?",
+     "options": [
+      "Gary",
+      "Red",
+      "Ash (Satoshi)",
+      "Brock"
+     ],
+     "correct_answer": "Ash (Satoshi)"
+    },
+    {
+     "id": "animation_22",
+     "difficulty": "Medium",
+     "question": "What is the name of the village Naruto belongs to?",
+     "options": [
+      "Iwa",
+      "Kiri",
+      "Suna",
+      "Konoha"
+     ],
+     "correct_answer": "Konoha"
+    },
+    {
+     "id": "animation_23",
+     "difficulty": "Hard",
+     "question": "What is the name of the nine-tailed fox imprisoned inside Naruto?",
+     "options": [
+      "Gaara",
+      "Shukaku",
+      "Itachi",
+      "Kyuubi"
+     ],
+     "correct_answer": "Kyuubi"
+    },
+    {
+     "id": "animation_24",
+     "difficulty": "Medium",
+     "question": "What is the name of the alien race Goku belongs to in \"Dragon Ball\"?",
+     "options": [
+      "Saiyan",
+      "Frieza's race",
+      "Namekian",
+      "Human"
+     ],
+     "correct_answer": "Saiyan"
+    },
+    {
+     "id": "animation_25",
+     "difficulty": "Medium",
+     "question": "What is the name of the hero of the anime \"Attack on Titan\"?",
+     "options": [
+      "Eren Yeager",
+      "Mikasa",
+      "Levi",
+      "Armin"
+     ],
+     "correct_answer": "Eren Yeager"
+    },
+    {
+     "id": "animation_26",
+     "difficulty": "Medium",
+     "question": "What is the name of the hero of the anime \"Death Note\"?",
+     "options": [
+      "L",
+      "Misa",
+      "Ryuk",
+      "Light Yagami"
+     ],
+     "correct_answer": "Light Yagami"
+    },
+    {
+     "id": "animation_27",
+     "difficulty": "Hard",
+     "question": "What is the real name of the hero of \"Detective Conan\" before he turned into a child?",
+     "options": [
+      "Kogoro",
+      "Heiji",
+      "Shinichi Kudo",
+      "Kid"
+     ],
+     "correct_answer": "Shinichi Kudo"
+    },
+    {
+     "id": "animation_28",
+     "difficulty": "Medium",
+     "question": "What is the name of the boy who owns the robotic cat in the anime \"Doraemon\"?",
+     "options": [
+      "Shizuka",
+      "Gian",
+      "Suneo",
+      "Nobita"
+     ],
+     "correct_answer": "Nobita"
+    },
+    {
+     "id": "animation_29",
+     "difficulty": "Easy",
+     "question": "What is the name of the little monkey who accompanies \"Aladdin\"?",
+     "options": [
+      "Iago",
+      "Genie",
+      "Raja",
+      "Abu"
+     ],
+     "correct_answer": "Abu"
+    },
+    {
+     "id": "animation_30",
+     "difficulty": "Easy",
+     "question": "What is the name of the genie in the film \"Aladdin\"?",
+     "options": [
+      "Sultan",
+      "Genie",
+      "Abu",
+      "Jafar"
+     ],
+     "correct_answer": "Genie"
+    },
+    {
+     "id": "animation_31",
+     "difficulty": "Easy",
+     "question": "What is the name of the princess in the film \"Beauty and the Beast\"?",
+     "options": [
+      "Cinderella",
+      "Rapunzel",
+      "Belle",
+      "Ariel"
+     ],
+     "correct_answer": "Belle"
+    },
+    {
+     "id": "animation_32",
+     "difficulty": "Easy",
+     "question": "What is the name of the little mermaid, the heroine of the famous Disney film?",
+     "options": [
+      "Ariel",
+      "Elsa",
+      "Moana",
+      "Belle"
+     ],
+     "correct_answer": "Ariel"
+    },
+    {
+     "id": "animation_33",
+     "difficulty": "Easy",
+     "question": "What is the name of the cheerful snowman in Frozen?",
+     "options": [
+      "Hans",
+      "Kristoff",
+      "Olaf",
+      "Sven"
+     ],
+     "correct_answer": "Olaf"
+    },
+    {
+     "id": "animation_34",
+     "difficulty": "Easy",
+     "question": "What is the name of the princess with the magical long hair?",
+     "options": [
+      "Mulan",
+      "Elsa",
+      "Moana",
+      "Rapunzel"
+     ],
+     "correct_answer": "Rapunzel"
+    },
+    {
+     "id": "animation_35",
+     "difficulty": "Easy",
+     "question": "What is the name of the villain in \"The Lion King\"?",
+     "options": [
+      "Scar",
+      "Timon",
+      "Pumbaa",
+      "Mufasa"
+     ],
+     "correct_answer": "Scar"
+    },
+    {
+     "id": "animation_36",
+     "difficulty": "Easy",
+     "question": "What is the name of the panda hero of Kung Fu Panda?",
+     "options": [
+      "Shifu",
+      "Tai Lung",
+      "Po",
+      "Pigo"
+     ],
+     "correct_answer": "Po"
+    },
+    {
+     "id": "animation_37",
+     "difficulty": "Easy",
+     "question": "What is the name of the green princess in Shrek?",
+     "options": [
+      "Cinderella",
+      "Rapunzel",
+      "Belle",
+      "Fiona"
+     ],
+     "correct_answer": "Fiona"
+    },
+    {
+     "id": "animation_38",
+     "difficulty": "Easy",
+     "question": "What is the name of the toy astronaut in Toy Story?",
+     "options": [
+      "Rex",
+      "Buzz Lightyear",
+      "Woody",
+      "Hamm"
+     ],
+     "correct_answer": "Buzz Lightyear"
+    },
+    {
+     "id": "animation_39",
+     "difficulty": "Easy",
+     "question": "What is the name of the car that is the hero of the film Cars?",
+     "options": [
+      "Lightning McQueen",
+      "Doc Hudson",
+      "Mater",
+      "Sally"
+     ],
+     "correct_answer": "Lightning McQueen"
+    },
+    {
+     "id": "animation_40",
+     "difficulty": "Medium",
+     "question": "What is the name of the big blue monster in Monsters, Inc.?",
+     "options": [
+      "Randall",
+      "Mike",
+      "Sulley",
+      "Boo"
+     ],
+     "correct_answer": "Sulley"
+    },
+    {
+     "id": "animation_41",
+     "difficulty": "Medium",
+     "question": "What is the name of the mouse who dreams of becoming a chef in Ratatouille?",
+     "options": [
+      "Stuart",
+      "Jerry",
+      "Mickey",
+      "Remy"
+     ],
+     "correct_answer": "Remy"
+    },
+    {
+     "id": "animation_42",
+     "difficulty": "Easy",
+     "question": "What is the name of the little robot hero of the famous Pixar film of the same name?",
+     "options": [
+      "EVE",
+      "Baymax",
+      "WALL-E",
+      "HAL"
+     ],
+     "correct_answer": "WALL-E"
+    },
+    {
+     "id": "animation_43",
+     "difficulty": "Medium",
+     "question": "What is the name of the police bunny heroine of Zootopia?",
+     "options": [
+      "Clawhauser",
+      "Nick Wilde",
+      "Bellwether",
+      "Judy Hopps"
+     ],
+     "correct_answer": "Judy Hopps"
+    },
+    {
+     "id": "animation_44",
+     "difficulty": "Medium",
+     "question": "What is the name of the black dragon in How to Train Your Dragon?",
+     "options": [
+      "Alpha",
+      "Toothless",
+      "Smaug",
+      "Drago"
+     ],
+     "correct_answer": "Toothless"
+    },
+    {
+     "id": "animation_45",
+     "difficulty": "Easy",
+     "question": "What are the little yellow creatures in Despicable Me called?",
+     "options": [
+      "Smurfs",
+      "Minions",
+      "Dwarfs",
+      "Trolls"
+     ],
+     "correct_answer": "Minions"
+    },
+    {
+     "id": "animation_46",
+     "difficulty": "Easy",
+     "question": "What is the name of the famous rabbit in the Looney Tunes cartoon?",
+     "options": [
+      "Bugs Bunny",
+      "Lola Bunny",
+      "Roger Rabbit",
+      "Peter Rabbit"
+     ],
+     "correct_answer": "Bugs Bunny"
+    },
+    {
+     "id": "animation_47",
+     "difficulty": "Medium",
+     "question": "What is the name of the famously short-tempered duck in the Looney Tunes cartoon?",
+     "options": [
+      "Scrooge",
+      "Huey",
+      "Donald",
+      "Daffy Duck"
+     ],
+     "correct_answer": "Daffy Duck"
+    },
+    {
+     "id": "animation_48",
+     "difficulty": "Easy",
+     "question": "What is the name of the famous dog who solves mysteries with his friends in a well-known cartoon?",
+     "options": [
+      "Snoopy",
+      "Pluto",
+      "Goofy",
+      "Scooby-Doo"
+     ],
+     "correct_answer": "Scooby-Doo"
+    },
+    {
+     "id": "animation_49",
+     "difficulty": "Easy",
+     "question": "What is the name of Mickey Mouse's girlfriend?",
+     "options": [
+      "Clarabelle",
+      "Rita",
+      "Minnie",
+      "Daisy"
+     ],
+     "correct_answer": "Minnie"
+    },
+    {
+     "id": "animation_50",
+     "difficulty": "Medium",
+     "question": "What is the name of the big, gentle Ghibli creature in the film \"My Neighbor Totoro\"?",
+     "options": [
+      "Totoro",
+      "Calcifer",
+      "No-Face (Kaonashi)",
+      "Haku"
+     ],
+     "correct_answer": "Totoro"
+    },
+    {
+     "id": "animation_51",
+     "difficulty": "Easy",
+     "question": "How many dwarfs are there in the film \"Snow White\"?",
+     "options": [
+      "7",
+      "6",
+      "9",
+      "5"
+     ],
+     "correct_answer": "7"
+    },
+    {
+     "id": "animation_52",
+     "difficulty": "Easy",
+     "question": "What is the name of the cowboy doll in Toy Story?",
+     "options": [
+      "Rex",
+      "Buzz",
+      "Jessie",
+      "Woody"
+     ],
+     "correct_answer": "Woody"
+    }
+   ]
+  },
+  {
+   "id": "charades_foreign",
+   "type": "charades",
+   "name": "Charades: Foreign Films",
+   "description": "Act out the film without words and your team guesses",
+   "howto": "🎭 Charades: one player takes the device and secretly sees the name of the film, then acts it out with gestures and no words for 60 seconds while the others guess. If they guess it, tap (Guessed) and choose who guessed: that player and the actor each get a point. You can skip a film if it's too hard. Each player acts twice.",
+   "titles": [
+    "Titanic",
+    "Avatar",
+    "Star Wars",
+    "Batman",
+    "Spider-Man",
+    "Harry Potter",
+    "Iron Man",
+    "The Lion King",
+    "Jurassic Park",
+    "King Kong",
+    "Home Alone",
+    "The Matrix",
+    "Forrest Gump",
+    "Rocky",
+    "Mr. Bean",
+    "Mission: Impossible",
+    "Fast & Furious",
+    "Transformers",
+    "Pirates of the Caribbean",
+    "The Lord of the Rings",
+    "Superman",
+    "Joker",
+    "Gladiator",
+    "Jaws",
+    "The Avengers",
+    "The Departed",
+    "Terminator",
+    "Inception",
+    "Interstellar",
+    "Indiana Jones",
+    "Back to the Future",
+    "E.T.",
+    "Top Gun",
+    "The Mummy",
+    "Planet of the Apes",
+    "Life of Pi",
+    "Cast Away",
+    "The Mask",
+    "Night at the Museum",
+    "Mr. & Mrs. Smith",
+    "The Karate Kid",
+    "Braveheart",
+    "Gone with the Wind",
+    "The Godfather",
+    "300",
+    "Thor",
+    "Captain America",
+    "Black Panther",
+    "Ant-Man",
+    "Doctor Strange",
+    "Wonder Woman",
+    "Aquaman",
+    "War of the Worlds",
+    "Independence Day",
+    "2012",
+    "The Hobbit",
+    "The Chronicles of Narnia",
+    "Ghostbusters",
+    "John Wick",
+    "Mad Max",
+    "Predator",
+    "Alien",
+    "RoboCop"
+   ]
+  },
+  {
+   "id": "charades_arabic",
+   "type": "charades",
+   "name": "Charades: Arabic Films",
+   "description": "Famous Arabic films to act out with gestures",
+   "howto": "🎭 Charades: one player takes the device and secretly sees the name of the film, then acts it out with gestures and no words for 60 seconds while the others guess. If they guess it, tap (Guessed) and choose who guessed: that player and the actor each get a point. You can skip a film if it's too hard. Each player acts twice.",
+   "titles": [
+    "El Limby",
+    "Terrorism and Kebab",
+    "Ismailia Rayeh Gayy",
+    "The Island",
+    "The Blue Elephant",
+    "The Yacoubian Building",
+    "Kit Kat",
+    "Hammam in Amsterdam",
+    "An Upper Egyptian at the American University",
+    "The Principal",
+    "Askar fil Maaskar (Soldiers in Camp)",
+    "Morgan Ahmed Morgan",
+    "Cousins (Welad El-Am)",
+    "Bouha",
+    "Edhak El-Sora Tetla' Helwa (Smile for the Camera)",
+    "Foul El-Sin El-Azim",
+    "Aboud on the Border",
+    "The President's Chef",
+    "Saladin the Victorious",
+    "The Land",
+    "The Embassy in the Building",
+    "His Excellency the Minister",
+    "Sleeping in Honey",
+    "El-Wad Mahrous Beta' El-Wazir (The Minister's Boy Mahrous)",
+    "The Escape",
+    "The Night Baghdad Fell",
+    "Ramadan Mabrouk Abu El-Alamein Hamouda",
+    "Prince of the Seas",
+    "Bobos",
+    "Ghabi Minnu Fih",
+    "A Cultural Film",
+    "Boleyya and His Big Head",
+    "The Dribbler (El-Harrif)",
+    "A Woman's Youth",
+    "The Second Wife",
+    "Take Care of Zouzou",
+    "Cairo Station",
+    "The Night of Counting the Years (Al-Mummia)",
+    "I Want a Solution",
+    "The Call of the Curlew",
+    "Ghazl El-Banat",
+    "Honey Black",
+    "Tarek's Predicament",
+    "Sorry for the Inconvenience",
+    "You Made Me a Criminal",
+    "El-Wad Sayed El-Shaghal",
+    "The Lawyer",
+    "The Terrorist",
+    "Birds of Darkness",
+    "Hassan and Marcus",
+    "Playing with the Big Boys",
+    "Titto",
+    "The Innocent",
+    "Diamond Dust",
+    "Welad Rizk",
+    "Ibrahim El-Abyad",
+    "Cabaret",
+    "Salam Ya Sahby",
+    "The Deal (El-Maslaha)",
+    "Detention Letter (Gawab E'tiqal)"
+   ]
+  },
+  {
+   "id": "charades_cartoon",
+   "type": "charades",
+   "name": "Charades: Cartoon Films",
+   "description": "Animated films to act out with gestures",
+   "howto": "🎭 Charades: one player takes the device and secretly sees the name of the film, then acts it out with gestures and no words for 60 seconds while the others guess. If they guess it, tap (Guessed) and choose who guessed: that player and the actor each get a point. You can skip a film if it's too hard. Each player acts twice.",
+   "titles": [
+    "The Lion King",
+    "Aladdin",
+    "Frozen",
+    "Toy Story",
+    "Finding Nemo",
+    "Shrek",
+    "Kung Fu Panda",
+    "Cars",
+    "Coco",
+    "Beauty and the Beast",
+    "The Little Mermaid",
+    "Tangled (Rapunzel)",
+    "Moana",
+    "Zootopia",
+    "Inside Out",
+    "Madagascar",
+    "Ice Age",
+    "Despicable Me",
+    "Snow White and the Seven Dwarfs",
+    "Up",
+    "Cinderella",
+    "Sleeping Beauty",
+    "Peter Pan",
+    "Dumbo",
+    "Pinocchio",
+    "Bambi",
+    "Lady and the Tramp",
+    "The Princess and the Frog",
+    "The Incredibles",
+    "WALL-E",
+    "Brave",
+    "Monsters, Inc.",
+    "Puss in Boots",
+    "How to Train Your Dragon",
+    "Scooby-Doo",
+    "Minions",
+    "Rio",
+    "Big Hero 6",
+    "Encanto",
+    "Luca",
+    "Raya and the Last Dragon",
+    "Lilo & Stitch",
+    "Spirited Away",
+    "My Neighbor Totoro",
+    "SpongeBob SquarePants",
+    "Tom and Jerry",
+    "Mickey Mouse",
+    "Donald Duck",
+    "The Smurfs",
+    "Happy Feet"
+   ]
+  },
+  {
+   "id": "global_blockbusters",
+   "type": "quiz",
+   "name": "Global Blockbusters Challenge",
+   "description": "Worldwide hit films from 1990 to 2024, from Marvel to Parasite",
+   "howto": "🎬 Global Blockbusters Challenge: questions about worldwide hit films from 1990 to 2024, from Marvel, Star Wars and Harry Potter to Korean, European and Bollywood hits. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "global_blockbusters_1",
+     "difficulty": "Easy",
+     "question": "Who directed Jurassic Park (1993)?",
+     "options": [
+      "Steven Spielberg",
+      "Ridley Scott",
+      "James Cameron",
+      "George Lucas"
+     ],
+     "correct_answer": "Steven Spielberg"
+    },
+    {
+     "id": "global_blockbusters_2",
+     "difficulty": "Easy",
+     "question": "What is the name of the alien moon where the story of Avatar (2009) takes place?",
+     "options": [
+      "Krypton",
+      "Naboo",
+      "Arrakis",
+      "Pandora"
+     ],
+     "correct_answer": "Pandora"
+    },
+    {
+     "id": "global_blockbusters_3",
+     "difficulty": "Easy",
+     "question": "Which school of magic does Harry Potter attend?",
+     "options": [
+      "Beauxbatons",
+      "Durmstrang",
+      "Hogwarts",
+      "Ilvermorny"
+     ],
+     "correct_answer": "Hogwarts"
+    },
+    {
+     "id": "global_blockbusters_4",
+     "difficulty": "Easy",
+     "question": "What is Iron Man's real name?",
+     "options": [
+      "Peter Parker",
+      "Tony Stark",
+      "Steve Rogers",
+      "Bruce Wayne"
+     ],
+     "correct_answer": "Tony Stark"
+    },
+    {
+     "id": "global_blockbusters_5",
+     "difficulty": "Easy",
+     "question": "Which 2019 South Korean film won the Academy Award for Best Picture?",
+     "options": [
+      "Oldboy",
+      "Parasite",
+      "Burning",
+      "Train to Busan"
+     ],
+     "correct_answer": "Parasite"
+    },
+    {
+     "id": "global_blockbusters_6",
+     "difficulty": "Easy",
+     "question": "Who played Jack Dawson in Titanic (1997)?",
+     "options": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Matt Damon",
+      "Tom Cruise"
+     ],
+     "correct_answer": "Leonardo DiCaprio"
+    },
+    {
+     "id": "global_blockbusters_7",
+     "difficulty": "Easy",
+     "question": "Which 2012 film brought together Iron Man, Thor, Hulk and Captain America?",
+     "options": [
+      "Guardians of the Galaxy",
+      "Justice League",
+      "X-Men",
+      "The Avengers"
+     ],
+     "correct_answer": "The Avengers"
+    },
+    {
+     "id": "global_blockbusters_8",
+     "difficulty": "Easy",
+     "question": "Who played the Joker in The Dark Knight (2008)?",
+     "options": [
+      "Jared Leto",
+      "Jack Nicholson",
+      "Heath Ledger",
+      "Joaquin Phoenix"
+     ],
+     "correct_answer": "Heath Ledger"
+    },
+    {
+     "id": "global_blockbusters_9",
+     "difficulty": "Easy",
+     "question": "Who is revealed to be Luke Skywalker's father in the original Star Wars saga?",
+     "options": [
+      "Han Solo",
+      "Obi-Wan Kenobi",
+      "Darth Vader",
+      "Yoda"
+     ],
+     "correct_answer": "Darth Vader"
+    },
+    {
+     "id": "global_blockbusters_10",
+     "difficulty": "Easy",
+     "question": "In The Matrix (1999), which color of pill does Neo choose to take?",
+     "options": [
+      "Yellow",
+      "Red",
+      "Green",
+      "Blue"
+     ],
+     "correct_answer": "Red"
+    },
+    {
+     "id": "global_blockbusters_11",
+     "difficulty": "Easy",
+     "question": "Which film franchise follows street racer Dominic Toretto and his crew?",
+     "options": [
+      "Fast & Furious",
+      "Mission: Impossible",
+      "The Bourne Series",
+      "The Transporter"
+     ],
+     "correct_answer": "Fast & Furious"
+    },
+    {
+     "id": "global_blockbusters_12",
+     "difficulty": "Easy",
+     "question": "Who stars as Pete 'Maverick' Mitchell in Top Gun: Maverick (2022)?",
+     "options": [
+      "Ryan Gosling",
+      "Matt Damon",
+      "Brad Pitt",
+      "Tom Cruise"
+     ],
+     "correct_answer": "Tom Cruise"
+    },
+    {
+     "id": "global_blockbusters_13",
+     "difficulty": "Easy",
+     "question": "Which two films famously opened on the same day in July 2023, creating the 'Barbenheimer' phenomenon?",
+     "options": [
+      "Barbie and Wonka",
+      "Barbie and The Flash",
+      "Oppenheimer and Dune: Part Two",
+      "Barbie and Oppenheimer"
+     ],
+     "correct_answer": "Barbie and Oppenheimer"
+    },
+    {
+     "id": "global_blockbusters_14",
+     "difficulty": "Easy",
+     "question": "Who directed Avatar (2009)?",
+     "options": [
+      "Zack Snyder",
+      "Peter Jackson",
+      "James Cameron",
+      "Steven Spielberg"
+     ],
+     "correct_answer": "James Cameron"
+    },
+    {
+     "id": "global_blockbusters_15",
+     "difficulty": "Easy",
+     "question": "Which actor plays Wolverine in the X-Men films?",
+     "options": [
+      "Christian Bale",
+      "Hugh Jackman",
+      "Chris Hemsworth",
+      "Ryan Reynolds"
+     ],
+     "correct_answer": "Hugh Jackman"
+    },
+    {
+     "id": "global_blockbusters_16",
+     "difficulty": "Easy",
+     "question": "What is the name of Peter Parker's aunt in the Spider-Man films?",
+     "options": [
+      "Aunt May",
+      "Aunt Sally",
+      "Aunt Marge",
+      "Aunt Petunia"
+     ],
+     "correct_answer": "Aunt May"
+    },
+    {
+     "id": "global_blockbusters_17",
+     "difficulty": "Easy",
+     "question": "What is the name of the fictional African nation ruled by T'Challa in Black Panther?",
+     "options": [
+      "Wakanda",
+      "Genovia",
+      "Zamunda",
+      "Sokovia"
+     ],
+     "correct_answer": "Wakanda"
+    },
+    {
+     "id": "global_blockbusters_18",
+     "difficulty": "Easy",
+     "question": "What is the name of Harry Potter's pet owl?",
+     "options": [
+      "Errol",
+      "Pigwidgeon",
+      "Crookshanks",
+      "Hedwig"
+     ],
+     "correct_answer": "Hedwig"
+    },
+    {
+     "id": "global_blockbusters_19",
+     "difficulty": "Easy",
+     "question": "Who played Kevin McCallister in Home Alone (1990)?",
+     "options": [
+      "Daniel Radcliffe",
+      "Jonathan Lipnicki",
+      "Macaulay Culkin",
+      "Haley Joel Osment"
+     ],
+     "correct_answer": "Macaulay Culkin"
+    },
+    {
+     "id": "global_blockbusters_20",
+     "difficulty": "Easy",
+     "question": "Who directed The Lord of the Rings film trilogy?",
+     "options": [
+      "Guillermo del Toro",
+      "Peter Jackson",
+      "Sam Raimi",
+      "Tim Burton"
+     ],
+     "correct_answer": "Peter Jackson"
+    },
+    {
+     "id": "global_blockbusters_21",
+     "difficulty": "Medium",
+     "question": "Who directed Parasite (2019)?",
+     "options": [
+      "Park Chan-wook",
+      "Bong Joon-ho",
+      "Kim Jee-woon",
+      "Lee Chang-dong"
+     ],
+     "correct_answer": "Bong Joon-ho"
+    },
+    {
+     "id": "global_blockbusters_22",
+     "difficulty": "Medium",
+     "question": "In Inception (2010), what small object does Cobb spin as his totem?",
+     "options": [
+      "A spinning top",
+      "A die",
+      "A coin",
+      "A chess piece"
+     ],
+     "correct_answer": "A spinning top"
+    },
+    {
+     "id": "global_blockbusters_23",
+     "difficulty": "Medium",
+     "question": "Who directed Pulp Fiction (1994)?",
+     "options": [
+      "Martin Scorsese",
+      "Guy Ritchie",
+      "David Fincher",
+      "Quentin Tarantino"
+     ],
+     "correct_answer": "Quentin Tarantino"
+    },
+    {
+     "id": "global_blockbusters_24",
+     "difficulty": "Medium",
+     "question": "Which actor played Albus Dumbledore in the first two Harry Potter films?",
+     "options": [
+      "Ian McKellen",
+      "Michael Gambon",
+      "Richard Harris",
+      "Jude Law"
+     ],
+     "correct_answer": "Richard Harris"
+    },
+    {
+     "id": "global_blockbusters_25",
+     "difficulty": "Medium",
+     "question": "Who composed the original score for Star Wars (1977)?",
+     "options": [
+      "Hans Zimmer",
+      "Ennio Morricone",
+      "John Williams",
+      "Howard Shore"
+     ],
+     "correct_answer": "John Williams"
+    },
+    {
+     "id": "global_blockbusters_26",
+     "difficulty": "Medium",
+     "question": "In which film does Thanos snap his fingers and wipe out half of all life in the universe?",
+     "options": [
+      "Captain America: Civil War",
+      "Avengers: Infinity War",
+      "Avengers: Age of Ultron",
+      "Avengers: Endgame"
+     ],
+     "correct_answer": "Avengers: Infinity War"
+    },
+    {
+     "id": "global_blockbusters_27",
+     "difficulty": "Medium",
+     "question": "Which actor plays astronaut Cooper in Interstellar (2014)?",
+     "options": [
+      "Matthew McConaughey",
+      "Ben Affleck",
+      "Christian Bale",
+      "Matt Damon"
+     ],
+     "correct_answer": "Matthew McConaughey"
+    },
+    {
+     "id": "global_blockbusters_28",
+     "difficulty": "Medium",
+     "question": "Who directed The Matrix (1999)?",
+     "options": [
+      "The Coen brothers",
+      "The Farrelly brothers",
+      "The Russo brothers",
+      "The Wachowskis"
+     ],
+     "correct_answer": "The Wachowskis"
+    },
+    {
+     "id": "global_blockbusters_29",
+     "difficulty": "Medium",
+     "question": "Who directed Avengers: Endgame (2019)?",
+     "options": [
+      "Taika Waititi",
+      "Jon Favreau",
+      "Joss Whedon",
+      "The Russo brothers"
+     ],
+     "correct_answer": "The Russo brothers"
+    },
+    {
+     "id": "global_blockbusters_30",
+     "difficulty": "Medium",
+     "question": "Who played Maximus in Gladiator (2000)?",
+     "options": [
+      "Mel Gibson",
+      "Joaquin Phoenix",
+      "Russell Crowe",
+      "Brad Pitt"
+     ],
+     "correct_answer": "Russell Crowe"
+    },
+    {
+     "id": "global_blockbusters_31",
+     "difficulty": "Medium",
+     "question": "Which 2016 Bollywood film starring Aamir Khan tells the story of wrestler Mahavir Singh Phogat training his daughters?",
+     "options": [
+      "Sultan",
+      "Dangal",
+      "Lagaan",
+      "PK"
+     ],
+     "correct_answer": "Dangal"
+    },
+    {
+     "id": "global_blockbusters_32",
+     "difficulty": "Medium",
+     "question": "In which 2009 Bollywood hit does the catchphrase 'All Izz Well' appear?",
+     "options": [
+      "3 Idiots",
+      "Lagaan",
+      "Taare Zameen Par",
+      "Dangal"
+     ],
+     "correct_answer": "3 Idiots"
+    },
+    {
+     "id": "global_blockbusters_33",
+     "difficulty": "Medium",
+     "question": "Who directed Pan's Labyrinth (2006)?",
+     "options": [
+      "Guillermo del Toro",
+      "Alfonso Cuarón",
+      "Pedro Almodóvar",
+      "Alejandro G. Iñárritu"
+     ],
+     "correct_answer": "Guillermo del Toro"
+    },
+    {
+     "id": "global_blockbusters_34",
+     "difficulty": "Medium",
+     "question": "Who directed the French film Amélie (2001)?",
+     "options": [
+      "François Ozon",
+      "Luc Besson",
+      "Michel Gondry",
+      "Jean-Pierre Jeunet"
+     ],
+     "correct_answer": "Jean-Pierre Jeunet"
+    },
+    {
+     "id": "global_blockbusters_35",
+     "difficulty": "Medium",
+     "question": "Who directed and starred in the Italian film Life Is Beautiful (1997)?",
+     "options": [
+      "Giuseppe Tornatore",
+      "Paolo Sorrentino",
+      "Roberto Benigni",
+      "Marcello Mastroianni"
+     ],
+     "correct_answer": "Roberto Benigni"
+    },
+    {
+     "id": "global_blockbusters_36",
+     "difficulty": "Medium",
+     "question": "Who played Arthur Fleck in Joker (2019)?",
+     "options": [
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Jared Leto"
+     ],
+     "correct_answer": "Joaquin Phoenix"
+    },
+    {
+     "id": "global_blockbusters_37",
+     "difficulty": "Medium",
+     "question": "Who directed Gravity (2013)?",
+     "options": [
+      "Christopher Nolan",
+      "Alfonso Cuarón",
+      "Guillermo del Toro",
+      "Alejandro G. Iñárritu"
+     ],
+     "correct_answer": "Alfonso Cuarón"
+    },
+    {
+     "id": "global_blockbusters_38",
+     "difficulty": "Medium",
+     "question": "Who directed Dune (2021)?",
+     "options": [
+      "Denis Villeneuve",
+      "Ridley Scott",
+      "Zack Snyder",
+      "Christopher Nolan"
+     ],
+     "correct_answer": "Denis Villeneuve"
+    },
+    {
+     "id": "global_blockbusters_39",
+     "difficulty": "Medium",
+     "question": "Who plays Paul Atreides in Dune (2021)?",
+     "options": [
+      "Tom Holland",
+      "Dev Patel",
+      "Zac Efron",
+      "Timothée Chalamet"
+     ],
+     "correct_answer": "Timothée Chalamet"
+    },
+    {
+     "id": "global_blockbusters_40",
+     "difficulty": "Medium",
+     "question": "Who plays J. Robert Oppenheimer in Oppenheimer (2023)?",
+     "options": [
+      "Michael Fassbender",
+      "Matt Damon",
+      "Cillian Murphy",
+      "Robert Downey Jr."
+     ],
+     "correct_answer": "Cillian Murphy"
+    },
+    {
+     "id": "global_blockbusters_41",
+     "difficulty": "Medium",
+     "question": "Which actor plays Gandalf in The Lord of the Rings films?",
+     "options": [
+      "Christopher Lee",
+      "Ian Holm",
+      "Ian McKellen",
+      "Patrick Stewart"
+     ],
+     "correct_answer": "Ian McKellen"
+    },
+    {
+     "id": "global_blockbusters_42",
+     "difficulty": "Medium",
+     "question": "Which 2016 South Korean zombie thriller takes place largely aboard a high-speed train?",
+     "options": [
+      "Burning",
+      "Train to Busan",
+      "The Wailing",
+      "The Host"
+     ],
+     "correct_answer": "Train to Busan"
+    },
+    {
+     "id": "global_blockbusters_43",
+     "difficulty": "Medium",
+     "question": "Which film won the Academy Award for Best Picture for 2023 releases (ceremony held in March 2024)?",
+     "options": [
+      "Oppenheimer",
+      "Poor Things",
+      "Killers of the Flower Moon",
+      "Barbie"
+     ],
+     "correct_answer": "Oppenheimer"
+    },
+    {
+     "id": "global_blockbusters_44",
+     "difficulty": "Medium",
+     "question": "Which actor plays Loki in the Marvel Cinematic Universe?",
+     "options": [
+      "Idris Elba",
+      "Chris Hemsworth",
+      "Anthony Hopkins",
+      "Tom Hiddleston"
+     ],
+     "correct_answer": "Tom Hiddleston"
+    },
+    {
+     "id": "global_blockbusters_45",
+     "difficulty": "Medium",
+     "question": "Which film began the Marvel Cinematic Universe in 2008?",
+     "options": [
+      "The Incredible Hulk",
+      "Thor",
+      "Captain America: The First Avenger",
+      "Iron Man"
+     ],
+     "correct_answer": "Iron Man"
+    },
+    {
+     "id": "global_blockbusters_46",
+     "difficulty": "Hard",
+     "question": "Who directed Oldboy (2003)?",
+     "options": [
+      "Bong Joon-ho",
+      "Na Hong-jin",
+      "Park Chan-wook",
+      "Kim Ki-duk"
+     ],
+     "correct_answer": "Park Chan-wook"
+    },
+    {
+     "id": "global_blockbusters_47",
+     "difficulty": "Hard",
+     "question": "Who directed Crouching Tiger, Hidden Dragon (2000)?",
+     "options": [
+      "John Woo",
+      "Ang Lee",
+      "Wong Kar-wai",
+      "Zhang Yimou"
+     ],
+     "correct_answer": "Ang Lee"
+    },
+    {
+     "id": "global_blockbusters_48",
+     "difficulty": "Hard",
+     "question": "Who directed Slumdog Millionaire (2008)?",
+     "options": [
+      "Danny Boyle",
+      "Ridley Scott",
+      "Mira Nair",
+      "Guy Ritchie"
+     ],
+     "correct_answer": "Danny Boyle"
+    },
+    {
+     "id": "global_blockbusters_49",
+     "difficulty": "Hard",
+     "question": "Who directed the Telugu-language epic RRR (2022)?",
+     "options": [
+      "S. S. Rajamouli",
+      "Shankar",
+      "Prashanth Neel",
+      "Atlee"
+     ],
+     "correct_answer": "S. S. Rajamouli"
+    },
+    {
+     "id": "global_blockbusters_50",
+     "difficulty": "Hard",
+     "question": "Who directed the Italian film The Great Beauty (2013)?",
+     "options": [
+      "Luca Guadagnino",
+      "Matteo Garrone",
+      "Nanni Moretti",
+      "Paolo Sorrentino"
+     ],
+     "correct_answer": "Paolo Sorrentino"
+    },
+    {
+     "id": "global_blockbusters_51",
+     "difficulty": "Hard",
+     "question": "Who directed the German film The Lives of Others (2006)?",
+     "options": [
+      "Tom Tykwer",
+      "Wolfgang Becker",
+      "Florian Henckel von Donnersmarck",
+      "Fatih Akin"
+     ],
+     "correct_answer": "Florian Henckel von Donnersmarck"
+    },
+    {
+     "id": "global_blockbusters_52",
+     "difficulty": "Hard",
+     "question": "Who directed Star Wars: The Last Jedi (2017)?",
+     "options": [
+      "Gareth Edwards",
+      "Rian Johnson",
+      "J. J. Abrams",
+      "Jon Favreau"
+     ],
+     "correct_answer": "Rian Johnson"
+    },
+    {
+     "id": "global_blockbusters_53",
+     "difficulty": "Hard",
+     "question": "Which duo directed Everything Everywhere All at Once (2022)?",
+     "options": [
+      "Lana and Lilly Wachowski",
+      "Daniel Kwan and Daniel Scheinert",
+      "Benny and Josh Safdie",
+      "Joe and Anthony Russo"
+     ],
+     "correct_answer": "Daniel Kwan and Daniel Scheinert"
+    },
+    {
+     "id": "global_blockbusters_54",
+     "difficulty": "Hard",
+     "question": "Who directed The Silence of the Lambs (1991)?",
+     "options": [
+      "Jonathan Demme",
+      "Oliver Stone",
+      "Brian De Palma",
+      "David Fincher"
+     ],
+     "correct_answer": "Jonathan Demme"
+    },
+    {
+     "id": "global_blockbusters_55",
+     "difficulty": "Hard",
+     "question": "Who directed The Shawshank Redemption (1994)?",
+     "options": [
+      "Rob Reiner",
+      "Robert Zemeckis",
+      "Ron Howard",
+      "Frank Darabont"
+     ],
+     "correct_answer": "Frank Darabont"
+    },
+    {
+     "id": "global_blockbusters_56",
+     "difficulty": "Hard",
+     "question": "Who plays Imperator Furiosa in Mad Max: Fury Road (2015)?",
+     "options": [
+      "Rosamund Pike",
+      "Emily Blunt",
+      "Charlize Theron",
+      "Cate Blanchett"
+     ],
+     "correct_answer": "Charlize Theron"
+    },
+    {
+     "id": "global_blockbusters_57",
+     "difficulty": "Hard",
+     "question": "Who directed Skyfall (2012)?",
+     "options": [
+      "Christopher Nolan",
+      "Martin Campbell",
+      "Sam Mendes",
+      "Marc Forster"
+     ],
+     "correct_answer": "Sam Mendes"
+    },
+    {
+     "id": "global_blockbusters_58",
+     "difficulty": "Hard",
+     "question": "Who directed Black Panther (2018)?",
+     "options": [
+      "Jordan Peele",
+      "Ryan Coogler",
+      "Jon Favreau",
+      "Taika Waititi"
+     ],
+     "correct_answer": "Ryan Coogler"
+    },
+    {
+     "id": "global_blockbusters_59",
+     "difficulty": "Hard",
+     "question": "Which actor won the Best Actor Oscar for The Revenant (2015)?",
+     "options": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Eddie Redmayne",
+      "Michael Fassbender"
+     ],
+     "correct_answer": "Leonardo DiCaprio"
+    },
+    {
+     "id": "global_blockbusters_60",
+     "difficulty": "Hard",
+     "question": "Which actress won the Best Actress Oscar for La La Land (2016)?",
+     "options": [
+      "Isabelle Huppert",
+      "Ruth Negga",
+      "Natalie Portman",
+      "Emma Stone"
+     ],
+     "correct_answer": "Emma Stone"
+    }
+   ]
+  },
+  {
+   "id": "classic_cinema",
+   "type": "quiz",
+   "name": "Classic Cinema Challenge",
+   "description": "Iconic classic films, stars and famous movie quotes",
+   "howto": "🎞️ Classic Cinema Challenge: questions about iconic classic films, their stars and directors, and famous quotes from movies. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "classic_cinema_1",
+     "difficulty": "Easy",
+     "question": "Which classic film features the line \"Frankly, my dear, I don't give a damn\"?",
+     "options": [
+      "Gone with the Wind",
+      "Citizen Kane",
+      "The Wizard of Oz",
+      "Casablanca"
+     ],
+     "correct_answer": "Gone with the Wind"
+    },
+    {
+     "id": "classic_cinema_2",
+     "difficulty": "Easy",
+     "question": "Which classic film features the line \"Here's looking at you, kid\"?",
+     "options": [
+      "The Maltese Falcon",
+      "Gone with the Wind",
+      "Rebecca",
+      "Casablanca"
+     ],
+     "correct_answer": "Casablanca"
+    },
+    {
+     "id": "classic_cinema_3",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"May the Force be with you\"?",
+     "options": [
+      "Star Trek",
+      "Superman",
+      "Star Wars",
+      "Close Encounters of the Third Kind"
+     ],
+     "correct_answer": "Star Wars"
+    },
+    {
+     "id": "classic_cinema_4",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"I'll be back\"?",
+     "options": [
+      "Rocky",
+      "The Terminator",
+      "Die Hard",
+      "Predator"
+     ],
+     "correct_answer": "The Terminator"
+    },
+    {
+     "id": "classic_cinema_5",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"You talkin' to me?\"",
+     "options": [
+      "Goodfellas",
+      "Taxi Driver",
+      "Raging Bull",
+      "The Godfather"
+     ],
+     "correct_answer": "Taxi Driver"
+    },
+    {
+     "id": "classic_cinema_6",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"There's no place like home\"?",
+     "options": [
+      "The Wizard of Oz",
+      "Peter Pan",
+      "Mary Poppins",
+      "Gone with the Wind"
+     ],
+     "correct_answer": "The Wizard of Oz"
+    },
+    {
+     "id": "classic_cinema_7",
+     "difficulty": "Easy",
+     "question": "Which film features a boy befriending an alien who says \"E.T. phone home\"?",
+     "options": [
+      "Star Wars",
+      "Close Encounters of the Third Kind",
+      "Back to the Future",
+      "E.T. the Extra-Terrestrial"
+     ],
+     "correct_answer": "E.T. the Extra-Terrestrial"
+    },
+    {
+     "id": "classic_cinema_8",
+     "difficulty": "Easy",
+     "question": "Which horror film features Jack Nicholson shouting \"Here's Johnny!\"?",
+     "options": [
+      "The Exorcist",
+      "Halloween",
+      "The Shining",
+      "Psycho"
+     ],
+     "correct_answer": "The Shining"
+    },
+    {
+     "id": "classic_cinema_9",
+     "difficulty": "Easy",
+     "question": "In which film does Leonardo DiCaprio shout \"I'm the king of the world!\"?",
+     "options": [
+      "The Aviator",
+      "Catch Me If You Can",
+      "Titanic",
+      "Gladiator"
+     ],
+     "correct_answer": "Titanic"
+    },
+    {
+     "id": "classic_cinema_10",
+     "difficulty": "Easy",
+     "question": "Which gangster film features the line \"Say hello to my little friend!\"?",
+     "options": [
+      "The Godfather",
+      "Scarface",
+      "Casino",
+      "Goodfellas"
+     ],
+     "correct_answer": "Scarface"
+    },
+    {
+     "id": "classic_cinema_11",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"You're gonna need a bigger boat\"?",
+     "options": [
+      "Jaws",
+      "Jurassic Park",
+      "The Abyss",
+      "Titanic"
+     ],
+     "correct_answer": "Jaws"
+    },
+    {
+     "id": "classic_cinema_12",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"Life is like a box of chocolates\"?",
+     "options": [
+      "Rain Man",
+      "Cast Away",
+      "Big",
+      "Forrest Gump"
+     ],
+     "correct_answer": "Forrest Gump"
+    },
+    {
+     "id": "classic_cinema_13",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"I see dead people\"?",
+     "options": [
+      "Poltergeist",
+      "The Others",
+      "Ghost",
+      "The Sixth Sense"
+     ],
+     "correct_answer": "The Sixth Sense"
+    },
+    {
+     "id": "classic_cinema_14",
+     "difficulty": "Easy",
+     "question": "Which film features the line \"Show me the money!\"?",
+     "options": [
+      "Top Gun",
+      "Wall Street",
+      "Jerry Maguire",
+      "Rain Man"
+     ],
+     "correct_answer": "Jerry Maguire"
+    },
+    {
+     "id": "classic_cinema_15",
+     "difficulty": "Easy",
+     "question": "Which Alfred Hitchcock film contains the famous shower scene?",
+     "options": [
+      "Vertigo",
+      "Psycho",
+      "The Birds",
+      "Rear Window"
+     ],
+     "correct_answer": "Psycho"
+    },
+    {
+     "id": "classic_cinema_16",
+     "difficulty": "Easy",
+     "question": "Which actress played Dorothy in The Wizard of Oz (1939)?",
+     "options": [
+      "Judy Garland",
+      "Vivien Leigh",
+      "Ginger Rogers",
+      "Shirley Temple"
+     ],
+     "correct_answer": "Judy Garland"
+    },
+    {
+     "id": "classic_cinema_17",
+     "difficulty": "Easy",
+     "question": "In which classic 1933 film does a giant ape climb the Empire State Building?",
+     "options": [
+      "King Kong",
+      "The Mummy",
+      "Godzilla",
+      "Frankenstein"
+     ],
+     "correct_answer": "King Kong"
+    },
+    {
+     "id": "classic_cinema_18",
+     "difficulty": "Easy",
+     "question": "Who played Vito Corleone in The Godfather (1972)?",
+     "options": [
+      "Al Pacino",
+      "James Caan",
+      "Robert De Niro",
+      "Marlon Brando"
+     ],
+     "correct_answer": "Marlon Brando"
+    },
+    {
+     "id": "classic_cinema_19",
+     "difficulty": "Easy",
+     "question": "In Citizen Kane (1941), what is the famous last word spoken by Charles Foster Kane?",
+     "options": [
+      "Sunset",
+      "Xanadu",
+      "Rosebud",
+      "Paradise"
+     ],
+     "correct_answer": "Rosebud"
+    },
+    {
+     "id": "classic_cinema_20",
+     "difficulty": "Easy",
+     "question": "Which silent film star was famous for playing 'The Tramp'?",
+     "options": [
+      "Stan Laurel",
+      "Charlie Chaplin",
+      "Buster Keaton",
+      "Harold Lloyd"
+     ],
+     "correct_answer": "Charlie Chaplin"
+    },
+    {
+     "id": "classic_cinema_21",
+     "difficulty": "Medium",
+     "question": "Who directed Citizen Kane (1941)?",
+     "options": [
+      "Billy Wilder",
+      "Orson Welles",
+      "Alfred Hitchcock",
+      "John Ford"
+     ],
+     "correct_answer": "Orson Welles"
+    },
+    {
+     "id": "classic_cinema_22",
+     "difficulty": "Medium",
+     "question": "Who directed The Godfather (1972)?",
+     "options": [
+      "Francis Ford Coppola",
+      "Brian De Palma",
+      "Martin Scorsese",
+      "Sidney Lumet"
+     ],
+     "correct_answer": "Francis Ford Coppola"
+    },
+    {
+     "id": "classic_cinema_23",
+     "difficulty": "Medium",
+     "question": "Which 1968 Stanley Kubrick film features the sentient computer HAL 9000?",
+     "options": [
+      "A Clockwork Orange",
+      "Solaris",
+      "Dr. Strangelove",
+      "2001: A Space Odyssey"
+     ],
+     "correct_answer": "2001: A Space Odyssey"
+    },
+    {
+     "id": "classic_cinema_24",
+     "difficulty": "Medium",
+     "question": "Which actor starred opposite Grace Kelly in Rear Window (1954)?",
+     "options": [
+      "Henry Fonda",
+      "Cary Grant",
+      "James Stewart",
+      "Gregory Peck"
+     ],
+     "correct_answer": "James Stewart"
+    },
+    {
+     "id": "classic_cinema_25",
+     "difficulty": "Medium",
+     "question": "Who played Rick Blaine in Casablanca (1942)?",
+     "options": [
+      "Clark Gable",
+      "James Cagney",
+      "Humphrey Bogart",
+      "Cary Grant"
+     ],
+     "correct_answer": "Humphrey Bogart"
+    },
+    {
+     "id": "classic_cinema_26",
+     "difficulty": "Medium",
+     "question": "In which film does Marilyn Monroe's white dress famously blow up over a subway grate?",
+     "options": [
+      "Gentlemen Prefer Blondes",
+      "The Seven Year Itch",
+      "Some Like It Hot",
+      "The Misfits"
+     ],
+     "correct_answer": "The Seven Year Itch"
+    },
+    {
+     "id": "classic_cinema_27",
+     "difficulty": "Medium",
+     "question": "Who played Holly Golightly in Breakfast at Tiffany's (1961)?",
+     "options": [
+      "Audrey Hepburn",
+      "Natalie Wood",
+      "Elizabeth Taylor",
+      "Grace Kelly"
+     ],
+     "correct_answer": "Audrey Hepburn"
+    },
+    {
+     "id": "classic_cinema_28",
+     "difficulty": "Medium",
+     "question": "Which actor sings and dances with an umbrella in the title scene of Singin' in the Rain (1952)?",
+     "options": [
+      "Donald O'Connor",
+      "Fred Astaire",
+      "Frank Sinatra",
+      "Gene Kelly"
+     ],
+     "correct_answer": "Gene Kelly"
+    },
+    {
+     "id": "classic_cinema_29",
+     "difficulty": "Medium",
+     "question": "Who played Norman Bates in Psycho (1960)?",
+     "options": [
+      "Anthony Quinn",
+      "James Stewart",
+      "Tony Curtis",
+      "Anthony Perkins"
+     ],
+     "correct_answer": "Anthony Perkins"
+    },
+    {
+     "id": "classic_cinema_30",
+     "difficulty": "Medium",
+     "question": "Who played Scarlett O'Hara in Gone with the Wind (1939)?",
+     "options": [
+      "Bette Davis",
+      "Ingrid Bergman",
+      "Vivien Leigh",
+      "Olivia de Havilland"
+     ],
+     "correct_answer": "Vivien Leigh"
+    },
+    {
+     "id": "classic_cinema_31",
+     "difficulty": "Medium",
+     "question": "Who played Michael Corleone in The Godfather (1972)?",
+     "options": [
+      "Robert De Niro",
+      "Al Pacino",
+      "Dustin Hoffman",
+      "Robert Duvall"
+     ],
+     "correct_answer": "Al Pacino"
+    },
+    {
+     "id": "classic_cinema_32",
+     "difficulty": "Medium",
+     "question": "In Casablanca, which song does Rick famously ask Sam to play?",
+     "options": [
+      "As Time Goes By",
+      "Over the Rainbow",
+      "Moonlight Serenade",
+      "Stardust"
+     ],
+     "correct_answer": "As Time Goes By"
+    },
+    {
+     "id": "classic_cinema_33",
+     "difficulty": "Medium",
+     "question": "Which director made The Good, the Bad and the Ugly (1966)?",
+     "options": [
+      "Sergio Leone",
+      "Don Siegel",
+      "John Ford",
+      "Sam Peckinpah"
+     ],
+     "correct_answer": "Sergio Leone"
+    },
+    {
+     "id": "classic_cinema_34",
+     "difficulty": "Medium",
+     "question": "Which actor played 'the Man with No Name' in Sergio Leone's Dollars trilogy?",
+     "options": [
+      "Charles Bronson",
+      "John Wayne",
+      "Lee Van Cleef",
+      "Clint Eastwood"
+     ],
+     "correct_answer": "Clint Eastwood"
+    },
+    {
+     "id": "classic_cinema_35",
+     "difficulty": "Medium",
+     "question": "Who directed the Japanese classic Seven Samurai (1954)?",
+     "options": [
+      "Yasujiro Ozu",
+      "Hideo Gosha",
+      "Akira Kurosawa",
+      "Kenji Mizoguchi"
+     ],
+     "correct_answer": "Akira Kurosawa"
+    },
+    {
+     "id": "classic_cinema_36",
+     "difficulty": "Medium",
+     "question": "Which 1987 film features the line \"Nobody puts Baby in a corner\"?",
+     "options": [
+      "Footloose",
+      "Dirty Dancing",
+      "Flashdance",
+      "Grease"
+     ],
+     "correct_answer": "Dirty Dancing"
+    },
+    {
+     "id": "classic_cinema_37",
+     "difficulty": "Medium",
+     "question": "Which 1967 film features the character Mrs. Robinson?",
+     "options": [
+      "Midnight Cowboy",
+      "The Graduate",
+      "Bonnie and Clyde",
+      "Lolita"
+     ],
+     "correct_answer": "The Graduate"
+    },
+    {
+     "id": "classic_cinema_38",
+     "difficulty": "Medium",
+     "question": "Which film features the shout \"Yo, Adrian!\"?",
+     "options": [
+      "Rocky",
+      "Scarface",
+      "Raging Bull",
+      "Rain Man"
+     ],
+     "correct_answer": "Rocky"
+    },
+    {
+     "id": "classic_cinema_39",
+     "difficulty": "Medium",
+     "question": "Which film features the line \"You can't handle the truth!\"?",
+     "options": [
+      "The Firm",
+      "Jerry Maguire",
+      "Philadelphia",
+      "A Few Good Men"
+     ],
+     "correct_answer": "A Few Good Men"
+    },
+    {
+     "id": "classic_cinema_40",
+     "difficulty": "Medium",
+     "question": "What was the first film in the James Bond series (1962)?",
+     "options": [
+      "Thunderball",
+      "From Russia with Love",
+      "Dr. No",
+      "Goldfinger"
+     ],
+     "correct_answer": "Dr. No"
+    },
+    {
+     "id": "classic_cinema_41",
+     "difficulty": "Medium",
+     "question": "Which film features the line \"Hasta la vista, baby\"?",
+     "options": [
+      "The Terminator",
+      "Total Recall",
+      "Terminator 2: Judgment Day",
+      "Predator"
+     ],
+     "correct_answer": "Terminator 2: Judgment Day"
+    },
+    {
+     "id": "classic_cinema_42",
+     "difficulty": "Medium",
+     "question": "In which film does a character say \"No, I am your father\"?",
+     "options": [
+      "Star Wars: Revenge of the Sith",
+      "Star Wars: The Empire Strikes Back",
+      "Star Wars: A New Hope",
+      "Star Wars: Return of the Jedi"
+     ],
+     "correct_answer": "Star Wars: The Empire Strikes Back"
+    },
+    {
+     "id": "classic_cinema_43",
+     "difficulty": "Medium",
+     "question": "Which film features the line \"Roads? Where we're going, we don't need roads\"?",
+     "options": [
+      "Back to the Future",
+      "Escape from New York",
+      "Blade Runner",
+      "Mad Max"
+     ],
+     "correct_answer": "Back to the Future"
+    },
+    {
+     "id": "classic_cinema_44",
+     "difficulty": "Medium",
+     "question": "Which 1989 film features Robin Williams as a teacher urging students to \"Carpe diem\"?",
+     "options": [
+      "Good Morning, Vietnam",
+      "Mrs. Doubtfire",
+      "Good Will Hunting",
+      "Dead Poets Society"
+     ],
+     "correct_answer": "Dead Poets Society"
+    },
+    {
+     "id": "classic_cinema_45",
+     "difficulty": "Medium",
+     "question": "In which 1931 horror film does the line \"It's alive!\" famously appear?",
+     "options": [
+      "The Mummy",
+      "The Invisible Man",
+      "Dracula",
+      "Frankenstein"
+     ],
+     "correct_answer": "Frankenstein"
+    },
+    {
+     "id": "classic_cinema_46",
+     "difficulty": "Hard",
+     "question": "Which 1927 Al Jolson film is credited as the first feature-length film with synchronized dialogue?",
+     "options": [
+      "Metropolis",
+      "Wings",
+      "The Jazz Singer",
+      "Sunrise"
+     ],
+     "correct_answer": "The Jazz Singer"
+    },
+    {
+     "id": "classic_cinema_47",
+     "difficulty": "Hard",
+     "question": "Who directed the German silent science-fiction classic Metropolis (1927)?",
+     "options": [
+      "G. W. Pabst",
+      "Fritz Lang",
+      "Robert Wiene",
+      "F. W. Murnau"
+     ],
+     "correct_answer": "Fritz Lang"
+    },
+    {
+     "id": "classic_cinema_48",
+     "difficulty": "Hard",
+     "question": "Who directed the silent horror film Nosferatu (1922)?",
+     "options": [
+      "F. W. Murnau",
+      "Fritz Lang",
+      "Carl Theodor Dreyer",
+      "Robert Wiene"
+     ],
+     "correct_answer": "F. W. Murnau"
+    },
+    {
+     "id": "classic_cinema_49",
+     "difficulty": "Hard",
+     "question": "Which actor played the monster in the 1931 film Frankenstein?",
+     "options": [
+      "Boris Karloff",
+      "Bela Lugosi",
+      "Vincent Price",
+      "Lon Chaney"
+     ],
+     "correct_answer": "Boris Karloff"
+    },
+    {
+     "id": "classic_cinema_50",
+     "difficulty": "Hard",
+     "question": "Who directed La Dolce Vita (1960)?",
+     "options": [
+      "Michelangelo Antonioni",
+      "Vittorio De Sica",
+      "Luchino Visconti",
+      "Federico Fellini"
+     ],
+     "correct_answer": "Federico Fellini"
+    },
+    {
+     "id": "classic_cinema_51",
+     "difficulty": "Hard",
+     "question": "Who directed The 400 Blows (1959)?",
+     "options": [
+      "Jean-Luc Godard",
+      "Claude Chabrol",
+      "François Truffaut",
+      "Jean Renoir"
+     ],
+     "correct_answer": "François Truffaut"
+    },
+    {
+     "id": "classic_cinema_52",
+     "difficulty": "Hard",
+     "question": "Who directed The Seventh Seal (1957), featuring a knight playing chess with Death?",
+     "options": [
+      "Federico Fellini",
+      "Ingmar Bergman",
+      "Akira Kurosawa",
+      "Carl Theodor Dreyer"
+     ],
+     "correct_answer": "Ingmar Bergman"
+    },
+    {
+     "id": "classic_cinema_53",
+     "difficulty": "Hard",
+     "question": "Who directed Lawrence of Arabia (1962)?",
+     "options": [
+      "Carol Reed",
+      "David Lean",
+      "John Huston",
+      "William Wyler"
+     ],
+     "correct_answer": "David Lean"
+    },
+    {
+     "id": "classic_cinema_54",
+     "difficulty": "Hard",
+     "question": "Which 1976 film features the line \"I'm as mad as hell, and I'm not going to take this anymore!\"?",
+     "options": [
+      "Network",
+      "Taxi Driver",
+      "All the President's Men",
+      "Dog Day Afternoon"
+     ],
+     "correct_answer": "Network"
+    },
+    {
+     "id": "classic_cinema_55",
+     "difficulty": "Hard",
+     "question": "Which film features the line \"All right, Mr. DeMille, I'm ready for my close-up\"?",
+     "options": [
+      "The Bad and the Beautiful",
+      "Singin' in the Rain",
+      "All About Eve",
+      "Sunset Boulevard"
+     ],
+     "correct_answer": "Sunset Boulevard"
+    },
+    {
+     "id": "classic_cinema_56",
+     "difficulty": "Hard",
+     "question": "In which 1951 film does Marlon Brando famously shout \"Stella!\"?",
+     "options": [
+      "The Wild One",
+      "Viva Zapata!",
+      "A Streetcar Named Desire",
+      "On the Waterfront"
+     ],
+     "correct_answer": "A Streetcar Named Desire"
+    },
+    {
+     "id": "classic_cinema_57",
+     "difficulty": "Hard",
+     "question": "Which 1967 film features the line \"What we've got here is failure to communicate\"?",
+     "options": [
+      "In the Heat of the Night",
+      "Bonnie and Clyde",
+      "Cool Hand Luke",
+      "The Dirty Dozen"
+     ],
+     "correct_answer": "Cool Hand Luke"
+    },
+    {
+     "id": "classic_cinema_58",
+     "difficulty": "Hard",
+     "question": "Which 1954 film features Marlon Brando's line \"I coulda been a contender\"?",
+     "options": [
+      "The Wild One",
+      "On the Waterfront",
+      "A Streetcar Named Desire",
+      "East of Eden"
+     ],
+     "correct_answer": "On the Waterfront"
+    },
+    {
+     "id": "classic_cinema_59",
+     "difficulty": "Hard",
+     "question": "Which film features the line \"I love the smell of napalm in the morning\"?",
+     "options": [
+      "Apocalypse Now",
+      "Platoon",
+      "Full Metal Jacket",
+      "The Deer Hunter"
+     ],
+     "correct_answer": "Apocalypse Now"
+    },
+    {
+     "id": "classic_cinema_60",
+     "difficulty": "Hard",
+     "question": "Which actor played the young Vito Corleone in The Godfather Part II (1974)?",
+     "options": [
+      "Al Pacino",
+      "Marlon Brando",
+      "Robert Duvall",
+      "Robert De Niro"
+     ],
+     "correct_answer": "Robert De Niro"
+    }
+   ]
+  },
+  {
+   "id": "global_series",
+   "type": "quiz",
+   "name": "Global TV Series Challenge",
+   "description": "The world's most popular series, from Breaking Bad to Squid Game",
+   "howto": "📺 Global TV Series Challenge: questions about the world's most popular TV series, their stars and creators. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "global_series_1",
+     "difficulty": "Easy",
+     "question": "What is Walter White's job at the start of Breaking Bad?",
+     "options": [
+      "High school chemistry teacher",
+      "Pharmacist",
+      "Car mechanic",
+      "Police detective"
+     ],
+     "correct_answer": "High school chemistry teacher"
+    },
+    {
+     "id": "global_series_2",
+     "difficulty": "Easy",
+     "question": "\"Winter Is Coming\" is the motto of which house in Game of Thrones?",
+     "options": [
+      "House Targaryen",
+      "House Lannister",
+      "House Baratheon",
+      "House Stark"
+     ],
+     "correct_answer": "House Stark"
+    },
+    {
+     "id": "global_series_3",
+     "difficulty": "Easy",
+     "question": "In which fictional Indiana town is Stranger Things set?",
+     "options": [
+      "Twin Peaks",
+      "Derry",
+      "Hawkins",
+      "Castle Rock"
+     ],
+     "correct_answer": "Hawkins"
+    },
+    {
+     "id": "global_series_4",
+     "difficulty": "Easy",
+     "question": "Which children's game is played in the first deadly round of Squid Game?",
+     "options": [
+      "Hopscotch",
+      "Red Light, Green Light",
+      "Musical Chairs",
+      "Hide and Seek"
+     ],
+     "correct_answer": "Red Light, Green Light"
+    },
+    {
+     "id": "global_series_5",
+     "difficulty": "Easy",
+     "question": "Which artist's face is on the masks worn by the robbers in Money Heist?",
+     "options": [
+      "Frida Kahlo",
+      "Salvador Dalí",
+      "Vincent van Gogh",
+      "Pablo Picasso"
+     ],
+     "correct_answer": "Salvador Dalí"
+    },
+    {
+     "id": "global_series_6",
+     "difficulty": "Easy",
+     "question": "How many main friends are there in the sitcom Friends?",
+     "options": [
+      "Six",
+      "Seven",
+      "Five",
+      "Four"
+     ],
+     "correct_answer": "Six"
+    },
+    {
+     "id": "global_series_7",
+     "difficulty": "Easy",
+     "question": "What is the name of the paper company in the American version of The Office?",
+     "options": [
+      "Vandelay Industries",
+      "Sterling Cooper",
+      "Initech",
+      "Dunder Mifflin"
+     ],
+     "correct_answer": "Dunder Mifflin"
+    },
+    {
+     "id": "global_series_8",
+     "difficulty": "Easy",
+     "question": "In which town does the Simpson family live?",
+     "options": [
+      "Quahog",
+      "Shelbyville",
+      "Springfield",
+      "South Park"
+     ],
+     "correct_answer": "Springfield"
+    },
+    {
+     "id": "global_series_9",
+     "difficulty": "Easy",
+     "question": "Which mythical creatures does Daenerys Targaryen hatch in Game of Thrones?",
+     "options": [
+      "Unicorns",
+      "Direwolves",
+      "Dragons",
+      "Griffins"
+     ],
+     "correct_answer": "Dragons"
+    },
+    {
+     "id": "global_series_10",
+     "difficulty": "Easy",
+     "question": "Who plays Sherlock Holmes in the BBC series Sherlock?",
+     "options": [
+      "Jonny Lee Miller",
+      "Benedict Cumberbatch",
+      "Robert Downey Jr.",
+      "Henry Cavill"
+     ],
+     "correct_answer": "Benedict Cumberbatch"
+    },
+    {
+     "id": "global_series_11",
+     "difficulty": "Easy",
+     "question": "Which actress plays the title character in the Netflix series Wednesday?",
+     "options": [
+      "Jenna Ortega",
+      "Zendaya",
+      "Millie Bobby Brown",
+      "Sadie Sink"
+     ],
+     "correct_answer": "Jenna Ortega"
+    },
+    {
+     "id": "global_series_12",
+     "difficulty": "Easy",
+     "question": "What is the real name of 'Baby Yoda' in The Mandalorian?",
+     "options": [
+      "Kuiil",
+      "Din",
+      "Yaddle",
+      "Grogu"
+     ],
+     "correct_answer": "Grogu"
+    },
+    {
+     "id": "global_series_13",
+     "difficulty": "Easy",
+     "question": "How many contestants take part in the games in the first season of Squid Game?",
+     "options": [
+      "256",
+      "500",
+      "100",
+      "456"
+     ],
+     "correct_answer": "456"
+    },
+    {
+     "id": "global_series_14",
+     "difficulty": "Easy",
+     "question": "In which English city is Peaky Blinders set?",
+     "options": [
+      "Manchester",
+      "London",
+      "Birmingham",
+      "Liverpool"
+     ],
+     "correct_answer": "Birmingham"
+    },
+    {
+     "id": "global_series_15",
+     "difficulty": "Easy",
+     "question": "Which British monarch is the central focus of The Crown?",
+     "options": [
+      "Queen Victoria",
+      "Queen Elizabeth II",
+      "Queen Elizabeth I",
+      "King Henry VIII"
+     ],
+     "correct_answer": "Queen Elizabeth II"
+    },
+    {
+     "id": "global_series_16",
+     "difficulty": "Easy",
+     "question": "What is the name of the Doctor's time machine in Doctor Who?",
+     "options": [
+      "The TARDIS",
+      "The DeLorean",
+      "The Enterprise",
+      "The Nautilus"
+     ],
+     "correct_answer": "The TARDIS"
+    },
+    {
+     "id": "global_series_17",
+     "difficulty": "Easy",
+     "question": "What is the dark parallel dimension called in Stranger Things?",
+     "options": [
+      "The Upside Down",
+      "The Void",
+      "The Backlands",
+      "The Shadow Realm"
+     ],
+     "correct_answer": "The Upside Down"
+    },
+    {
+     "id": "global_series_18",
+     "difficulty": "Easy",
+     "question": "What is the name of Homer Simpson's wife?",
+     "options": [
+      "Lisa",
+      "Patty",
+      "Maggie",
+      "Marge"
+     ],
+     "correct_answer": "Marge"
+    },
+    {
+     "id": "global_series_19",
+     "difficulty": "Easy",
+     "question": "Who plays Walter White in Breaking Bad?",
+     "options": [
+      "Aaron Paul",
+      "Bob Odenkirk",
+      "Bryan Cranston",
+      "Jon Hamm"
+     ],
+     "correct_answer": "Bryan Cranston"
+    },
+    {
+     "id": "global_series_20",
+     "difficulty": "Easy",
+     "question": "Which actress plays Rachel Green in Friends?",
+     "options": [
+      "Lisa Kudrow",
+      "Jennifer Aniston",
+      "Courteney Cox",
+      "Reese Witherspoon"
+     ],
+     "correct_answer": "Jennifer Aniston"
+    },
+    {
+     "id": "global_series_21",
+     "difficulty": "Medium",
+     "question": "Who created Breaking Bad?",
+     "options": [
+      "David Simon",
+      "Vince Gilligan",
+      "Matthew Weiner",
+      "David Chase"
+     ],
+     "correct_answer": "Vince Gilligan"
+    },
+    {
+     "id": "global_series_22",
+     "difficulty": "Medium",
+     "question": "Which Breaking Bad spin-off follows the lawyer Jimmy McGill?",
+     "options": [
+      "Better Call Saul",
+      "Fargo",
+      "Ozark",
+      "El Camino"
+     ],
+     "correct_answer": "Better Call Saul"
+    },
+    {
+     "id": "global_series_23",
+     "difficulty": "Medium",
+     "question": "What alias does Walter White use in the drug trade?",
+     "options": [
+      "Fermi",
+      "Oppenheimer",
+      "Hawking",
+      "Heisenberg"
+     ],
+     "correct_answer": "Heisenberg"
+    },
+    {
+     "id": "global_series_24",
+     "difficulty": "Medium",
+     "question": "Game of Thrones is based on which series of novels?",
+     "options": [
+      "The Witcher Saga",
+      "The Wheel of Time",
+      "A Song of Ice and Fire",
+      "The Kingkiller Chronicle"
+     ],
+     "correct_answer": "A Song of Ice and Fire"
+    },
+    {
+     "id": "global_series_25",
+     "difficulty": "Medium",
+     "question": "Who plays Tyrion Lannister in Game of Thrones?",
+     "options": [
+      "Nikolaj Coster-Waldau",
+      "Kit Harington",
+      "Peter Dinklage",
+      "Iain Glen"
+     ],
+     "correct_answer": "Peter Dinklage"
+    },
+    {
+     "id": "global_series_26",
+     "difficulty": "Medium",
+     "question": "Who plays Daenerys Targaryen in Game of Thrones?",
+     "options": [
+      "Sophie Turner",
+      "Emilia Clarke",
+      "Lena Headey",
+      "Maisie Williams"
+     ],
+     "correct_answer": "Emilia Clarke"
+    },
+    {
+     "id": "global_series_27",
+     "difficulty": "Medium",
+     "question": "Who plays Jon Snow in Game of Thrones?",
+     "options": [
+      "Kit Harington",
+      "Richard Madden",
+      "Liam Cunningham",
+      "Alfie Allen"
+     ],
+     "correct_answer": "Kit Harington"
+    },
+    {
+     "id": "global_series_28",
+     "difficulty": "Medium",
+     "question": "Who plays Eleven in Stranger Things?",
+     "options": [
+      "Sadie Sink",
+      "Maya Hawke",
+      "Natalia Dyer",
+      "Millie Bobby Brown"
+     ],
+     "correct_answer": "Millie Bobby Brown"
+    },
+    {
+     "id": "global_series_29",
+     "difficulty": "Medium",
+     "question": "Which duo created Stranger Things?",
+     "options": [
+      "The Safdie Brothers",
+      "The Wachowskis",
+      "The Russo Brothers",
+      "The Duffer Brothers"
+     ],
+     "correct_answer": "The Duffer Brothers"
+    },
+    {
+     "id": "global_series_30",
+     "difficulty": "Medium",
+     "question": "What is the original Spanish title of Money Heist?",
+     "options": [
+      "El Ministerio del Tiempo",
+      "Vis a Vis",
+      "La Casa de Papel",
+      "Élite"
+     ],
+     "correct_answer": "La Casa de Papel"
+    },
+    {
+     "id": "global_series_31",
+     "difficulty": "Medium",
+     "question": "What nickname is given to the mastermind of the heists in Money Heist?",
+     "options": [
+      "The Director",
+      "The Professor",
+      "The Doctor",
+      "The Architect"
+     ],
+     "correct_answer": "The Professor"
+    },
+    {
+     "id": "global_series_32",
+     "difficulty": "Medium",
+     "question": "Which building do the robbers take over in the first part of Money Heist?",
+     "options": [
+      "The Royal Mint of Spain",
+      "The Prado Museum",
+      "The Royal Palace of Madrid",
+      "The Bank of Spain"
+     ],
+     "correct_answer": "The Royal Mint of Spain"
+    },
+    {
+     "id": "global_series_33",
+     "difficulty": "Medium",
+     "question": "Who plays Michael Scott in the American version of The Office?",
+     "options": [
+      "Steve Carell",
+      "Rainn Wilson",
+      "John Krasinski",
+      "Ricky Gervais"
+     ],
+     "correct_answer": "Steve Carell"
+    },
+    {
+     "id": "global_series_34",
+     "difficulty": "Medium",
+     "question": "In which Pennsylvania city is the Dunder Mifflin branch in The Office (US) located?",
+     "options": [
+      "Pittsburgh",
+      "Harrisburg",
+      "Allentown",
+      "Scranton"
+     ],
+     "correct_answer": "Scranton"
+    },
+    {
+     "id": "global_series_35",
+     "difficulty": "Medium",
+     "question": "What is Ross Geller's profession in Friends?",
+     "options": [
+      "Actor",
+      "Fashion buyer",
+      "Paleontologist",
+      "Chef"
+     ],
+     "correct_answer": "Paleontologist"
+    },
+    {
+     "id": "global_series_36",
+     "difficulty": "Medium",
+     "question": "What is the title of Phoebe's most famous song in Friends?",
+     "options": [
+      "Hot Dog Lover",
+      "Smelly Cat",
+      "Sad Violin",
+      "Sticky Shoes"
+     ],
+     "correct_answer": "Smelly Cat"
+    },
+    {
+     "id": "global_series_37",
+     "difficulty": "Medium",
+     "question": "Who created The Simpsons?",
+     "options": [
+      "Mike Judge",
+      "Matt Groening",
+      "Seth MacFarlane",
+      "Trey Parker"
+     ],
+     "correct_answer": "Matt Groening"
+    },
+    {
+     "id": "global_series_38",
+     "difficulty": "Medium",
+     "question": "Who created the anthology series Black Mirror?",
+     "options": [
+      "Charlie Brooker",
+      "Steven Moffat",
+      "Armando Iannucci",
+      "Ricky Gervais"
+     ],
+     "correct_answer": "Charlie Brooker"
+    },
+    {
+     "id": "global_series_39",
+     "difficulty": "Medium",
+     "question": "Who plays Dr. Watson in the BBC series Sherlock?",
+     "options": [
+      "Jude Law",
+      "Andrew Scott",
+      "Mark Gatiss",
+      "Martin Freeman"
+     ],
+     "correct_answer": "Martin Freeman"
+    },
+    {
+     "id": "global_series_40",
+     "difficulty": "Medium",
+     "question": "Who plays Geralt of Rivia in the first three seasons of Netflix's The Witcher?",
+     "options": [
+      "Liam Hemsworth",
+      "Kit Harington",
+      "Henry Cavill",
+      "Joe Manganiello"
+     ],
+     "correct_answer": "Henry Cavill"
+    },
+    {
+     "id": "global_series_41",
+     "difficulty": "Medium",
+     "question": "Who plays Joel Miller in HBO's The Last of Us?",
+     "options": [
+      "Bryan Cranston",
+      "Jon Bernthal",
+      "Pedro Pascal",
+      "Oscar Isaac"
+     ],
+     "correct_answer": "Pedro Pascal"
+    },
+    {
+     "id": "global_series_42",
+     "difficulty": "Medium",
+     "question": "Who plays Thomas Shelby in Peaky Blinders?",
+     "options": [
+      "Tom Hiddleston",
+      "Cillian Murphy",
+      "Paul Anderson",
+      "Tom Hardy"
+     ],
+     "correct_answer": "Cillian Murphy"
+    },
+    {
+     "id": "global_series_43",
+     "difficulty": "Medium",
+     "question": "Who plays Ragnar Lothbrok in the series Vikings?",
+     "options": [
+      "Travis Fimmel",
+      "Alexander Skarsgård",
+      "Gustaf Skarsgård",
+      "Clive Standen"
+     ],
+     "correct_answer": "Travis Fimmel"
+    },
+    {
+     "id": "global_series_44",
+     "difficulty": "Medium",
+     "question": "Who plays Michael Scofield in Prison Break?",
+     "options": [
+      "Dominic Purcell",
+      "Paul Wesley",
+      "Robert Knepper",
+      "Wentworth Miller"
+     ],
+     "correct_answer": "Wentworth Miller"
+    },
+    {
+     "id": "global_series_45",
+     "difficulty": "Medium",
+     "question": "Who stars as Assane Diop in the French Netflix series Lupin?",
+     "options": [
+      "Vincent Cassel",
+      "Jean Dujardin",
+      "Tahar Rahim",
+      "Omar Sy"
+     ],
+     "correct_answer": "Omar Sy"
+    },
+    {
+     "id": "global_series_46",
+     "difficulty": "Hard",
+     "question": "Who created and directed Squid Game?",
+     "options": [
+      "Bong Joon-ho",
+      "Park Chan-wook",
+      "Hwang Dong-hyuk",
+      "Yeon Sang-ho"
+     ],
+     "correct_answer": "Hwang Dong-hyuk"
+    },
+    {
+     "id": "global_series_47",
+     "difficulty": "Hard",
+     "question": "Who plays Seong Gi-hun (Player 456) in Squid Game?",
+     "options": [
+      "Gong Yoo",
+      "Lee Jung-jae",
+      "Lee Byung-hun",
+      "Park Hae-soo"
+     ],
+     "correct_answer": "Lee Jung-jae"
+    },
+    {
+     "id": "global_series_48",
+     "difficulty": "Hard",
+     "question": "What is the name of the doomed flight whose survivors are stranded on the island in Lost?",
+     "options": [
+      "Oceanic Flight 815",
+      "Pan Am Flight 103",
+      "Trans-Global Flight 404",
+      "Oceanic Flight 714"
+     ],
+     "correct_answer": "Oceanic Flight 815"
+    },
+    {
+     "id": "global_series_49",
+     "difficulty": "Hard",
+     "question": "Who plays Pablo Escobar in the first two seasons of Narcos?",
+     "options": [
+      "Wagner Moura",
+      "Pedro Pascal",
+      "Diego Luna",
+      "Javier Bardem"
+     ],
+     "correct_answer": "Wagner Moura"
+    },
+    {
+     "id": "global_series_50",
+     "difficulty": "Hard",
+     "question": "What is the name of the German town where the Netflix series Dark takes place?",
+     "options": [
+      "Hawkenburg",
+      "Falkenstein",
+      "Eschenau",
+      "Winden"
+     ],
+     "correct_answer": "Winden"
+    },
+    {
+     "id": "global_series_51",
+     "difficulty": "Hard",
+     "question": "Who created The Crown?",
+     "options": [
+      "Julian Fellowes",
+      "Stephen Frears",
+      "Peter Morgan",
+      "Steven Knight"
+     ],
+     "correct_answer": "Peter Morgan"
+    },
+    {
+     "id": "global_series_52",
+     "difficulty": "Hard",
+     "question": "Which duo served as the showrunners of Game of Thrones?",
+     "options": [
+      "Lisa Joy and Jonathan Nolan",
+      "David Benioff and D. B. Weiss",
+      "Vince Gilligan and Peter Gould",
+      "Matt and Ross Duffer"
+     ],
+     "correct_answer": "David Benioff and D. B. Weiss"
+    },
+    {
+     "id": "global_series_53",
+     "difficulty": "Hard",
+     "question": "Who created The Sopranos?",
+     "options": [
+      "Matthew Weiner",
+      "David Chase",
+      "Vince Gilligan",
+      "David Simon"
+     ],
+     "correct_answer": "David Chase"
+    },
+    {
+     "id": "global_series_54",
+     "difficulty": "Hard",
+     "question": "In which US city is The Wire primarily set?",
+     "options": [
+      "Baltimore",
+      "Chicago",
+      "Philadelphia",
+      "Detroit"
+     ],
+     "correct_answer": "Baltimore"
+    },
+    {
+     "id": "global_series_55",
+     "difficulty": "Hard",
+     "question": "Which actor plays Don Draper in Mad Men?",
+     "options": [
+      "Hugh Laurie",
+      "Michael C. Hall",
+      "Bryan Cranston",
+      "Jon Hamm"
+     ],
+     "correct_answer": "Jon Hamm"
+    },
+    {
+     "id": "global_series_56",
+     "difficulty": "Hard",
+     "question": "Which actor plays Logan Roy in Succession?",
+     "options": [
+      "Alan Ruck",
+      "Jeremy Strong",
+      "Brian Cox",
+      "Kieran Culkin"
+     ],
+     "correct_answer": "Brian Cox"
+    },
+    {
+     "id": "global_series_57",
+     "difficulty": "Hard",
+     "question": "Who co-created Seinfeld with Jerry Seinfeld?",
+     "options": [
+      "Ricky Gervais",
+      "Judd Apatow",
+      "Larry David",
+      "Larry King"
+     ],
+     "correct_answer": "Larry David"
+    },
+    {
+     "id": "global_series_58",
+     "difficulty": "Hard",
+     "question": "Who created the HBO miniseries Chernobyl (2019)?",
+     "options": [
+      "Steven Knight",
+      "Craig Mazin",
+      "Peter Morgan",
+      "Vince Gilligan"
+     ],
+     "correct_answer": "Craig Mazin"
+    },
+    {
+     "id": "global_series_59",
+     "difficulty": "Hard",
+     "question": "Who created and starred in the series Fleabag?",
+     "options": [
+      "Phoebe Waller-Bridge",
+      "Michaela Coel",
+      "Lena Dunham",
+      "Tina Fey"
+     ],
+     "correct_answer": "Phoebe Waller-Bridge"
+    },
+    {
+     "id": "global_series_60",
+     "difficulty": "Hard",
+     "question": "Which film director co-created the series Twin Peaks with Mark Frost?",
+     "options": [
+      "Tim Burton",
+      "Quentin Tarantino",
+      "David Fincher",
+      "David Lynch"
+     ],
+     "correct_answer": "David Lynch"
+    }
+   ]
+  },
+  {
+   "id": "global_animation",
+   "type": "quiz",
+   "name": "Global Animation Challenge",
+   "description": "Disney, Pixar, Studio Ghibli and anime",
+   "howto": "🎨 Global Animation Challenge: questions about Disney and Pixar films, Studio Ghibli and anime. Pick the right answer from 4 options; each correct answer earns a point. With more than one player (up to 6), questions rotate turn by turn on the same device, and the highest score wins.",
+   "questions": [
+    {
+     "id": "global_animation_1",
+     "difficulty": "Easy",
+     "question": "What is the name of Simba's father in The Lion King?",
+     "options": [
+      "Mufasa",
+      "Scar",
+      "Rafiki",
+      "Timon"
+     ],
+     "correct_answer": "Mufasa"
+    },
+    {
+     "id": "global_animation_2",
+     "difficulty": "Easy",
+     "question": "What is the name of the snowman in Frozen?",
+     "options": [
+      "Kristoff",
+      "Sven",
+      "Hans",
+      "Olaf"
+     ],
+     "correct_answer": "Olaf"
+    },
+    {
+     "id": "global_animation_3",
+     "difficulty": "Easy",
+     "question": "What is the name of the cowboy doll in Toy Story?",
+     "options": [
+      "Hamm",
+      "Rex",
+      "Woody",
+      "Buzz"
+     ],
+     "correct_answer": "Woody"
+    },
+    {
+     "id": "global_animation_4",
+     "difficulty": "Easy",
+     "question": "What kind of fish is Nemo in Finding Nemo?",
+     "options": [
+      "Pufferfish",
+      "Clownfish",
+      "Blue tang",
+      "Angelfish"
+     ],
+     "correct_answer": "Clownfish"
+    },
+    {
+     "id": "global_animation_5",
+     "difficulty": "Easy",
+     "question": "What color is Shrek?",
+     "options": [
+      "Orange",
+      "Green",
+      "Blue",
+      "Gray"
+     ],
+     "correct_answer": "Green"
+    },
+    {
+     "id": "global_animation_6",
+     "difficulty": "Easy",
+     "question": "Which Japanese animation studio produced My Neighbor Totoro?",
+     "options": [
+      "Studio Ghibli",
+      "Madhouse",
+      "Pixar",
+      "Toei Animation"
+     ],
+     "correct_answer": "Studio Ghibli"
+    },
+    {
+     "id": "global_animation_7",
+     "difficulty": "Easy",
+     "question": "Who is the main hero of the anime Dragon Ball?",
+     "options": [
+      "Naruto",
+      "Luffy",
+      "Ichigo",
+      "Goku"
+     ],
+     "correct_answer": "Goku"
+    },
+    {
+     "id": "global_animation_8",
+     "difficulty": "Easy",
+     "question": "Which Pokémon is Ash Ketchum's main partner in the anime?",
+     "options": [
+      "Bulbasaur",
+      "Eevee",
+      "Pikachu",
+      "Charmander"
+     ],
+     "correct_answer": "Pikachu"
+    },
+    {
+     "id": "global_animation_9",
+     "difficulty": "Easy",
+     "question": "In Pixar's Up, what lifts Carl's house into the air?",
+     "options": [
+      "Helicopter blades",
+      "A hurricane",
+      "Balloons",
+      "Rockets"
+     ],
+     "correct_answer": "Balloons"
+    },
+    {
+     "id": "global_animation_10",
+     "difficulty": "Easy",
+     "question": "What is the name of the one-eyed green monster in Monsters, Inc.?",
+     "options": [
+      "Roz",
+      "Mike Wazowski",
+      "Sulley",
+      "Randall"
+     ],
+     "correct_answer": "Mike Wazowski"
+    },
+    {
+     "id": "global_animation_11",
+     "difficulty": "Easy",
+     "question": "What is the name of the red race car hero of Cars?",
+     "options": [
+      "Lightning McQueen",
+      "Sally",
+      "Mater",
+      "Doc Hudson"
+     ],
+     "correct_answer": "Lightning McQueen"
+    },
+    {
+     "id": "global_animation_12",
+     "difficulty": "Easy",
+     "question": "What is the name of the demigod voiced by Dwayne Johnson in Moana?",
+     "options": [
+      "Gaston",
+      "Tamatoa",
+      "Hades",
+      "Maui"
+     ],
+     "correct_answer": "Maui"
+    },
+    {
+     "id": "global_animation_13",
+     "difficulty": "Easy",
+     "question": "Which country's Day of the Dead tradition inspires Pixar's Coco?",
+     "options": [
+      "Spain",
+      "Peru",
+      "Brazil",
+      "Mexico"
+     ],
+     "correct_answer": "Mexico"
+    },
+    {
+     "id": "global_animation_14",
+     "difficulty": "Easy",
+     "question": "Which emotion is the yellow lead character in Pixar's Inside Out?",
+     "options": [
+      "Sadness",
+      "Anger",
+      "Joy",
+      "Fear"
+     ],
+     "correct_answer": "Joy"
+    },
+    {
+     "id": "global_animation_15",
+     "difficulty": "Easy",
+     "question": "How many dwarfs help Snow White in Disney's classic film?",
+     "options": [
+      "Five",
+      "Seven",
+      "Nine",
+      "Six"
+     ],
+     "correct_answer": "Seven"
+    },
+    {
+     "id": "global_animation_16",
+     "difficulty": "Easy",
+     "question": "Which Disney princess has very long magical blonde hair?",
+     "options": [
+      "Rapunzel",
+      "Aurora",
+      "Ariel",
+      "Belle"
+     ],
+     "correct_answer": "Rapunzel"
+    },
+    {
+     "id": "global_animation_17",
+     "difficulty": "Easy",
+     "question": "What is the name of the main character in the anime One Piece?",
+     "options": [
+      "Monkey D. Luffy",
+      "Portgas D. Ace",
+      "Roronoa Zoro",
+      "Usopp"
+     ],
+     "correct_answer": "Monkey D. Luffy"
+    },
+    {
+     "id": "global_animation_18",
+     "difficulty": "Easy",
+     "question": "In Disney's The Jungle Book, what is the name of the boy raised by wolves?",
+     "options": [
+      "Simba",
+      "Tarzan",
+      "Peter Pan",
+      "Mowgli"
+     ],
+     "correct_answer": "Mowgli"
+    },
+    {
+     "id": "global_animation_19",
+     "difficulty": "Easy",
+     "question": "Which toy says \"To infinity and beyond!\" in Toy Story?",
+     "options": [
+      "Slinky Dog",
+      "Woody",
+      "Buzz Lightyear",
+      "Mr. Potato Head"
+     ],
+     "correct_answer": "Buzz Lightyear"
+    },
+    {
+     "id": "global_animation_20",
+     "difficulty": "Easy",
+     "question": "Which forgetful blue tang fish helps Marlin in Finding Nemo?",
+     "options": [
+      "Gill",
+      "Dory",
+      "Bruce",
+      "Crush"
+     ],
+     "correct_answer": "Dory"
+    },
+    {
+     "id": "global_animation_21",
+     "difficulty": "Medium",
+     "question": "Who directed Spirited Away (2001)?",
+     "options": [
+      "Makoto Shinkai",
+      "Hayao Miyazaki",
+      "Isao Takahata",
+      "Satoshi Kon"
+     ],
+     "correct_answer": "Hayao Miyazaki"
+    },
+    {
+     "id": "global_animation_22",
+     "difficulty": "Medium",
+     "question": "What is the name of the young girl who works in the bathhouse in Spirited Away?",
+     "options": [
+      "Chihiro",
+      "Satsuki",
+      "Sophie",
+      "Kiki"
+     ],
+     "correct_answer": "Chihiro"
+    },
+    {
+     "id": "global_animation_23",
+     "difficulty": "Medium",
+     "question": "What kind of animal is Jiji in Kiki's Delivery Service?",
+     "options": [
+      "A white dog",
+      "An owl",
+      "A crow",
+      "A black cat"
+     ],
+     "correct_answer": "A black cat"
+    },
+    {
+     "id": "global_animation_24",
+     "difficulty": "Medium",
+     "question": "Which Studio Ghibli film follows the prince Ashitaka and the wolf-raised girl San?",
+     "options": [
+      "Ponyo",
+      "Castle in the Sky",
+      "Princess Mononoke",
+      "Nausicaä of the Valley of the Wind"
+     ],
+     "correct_answer": "Princess Mononoke"
+    },
+    {
+     "id": "global_animation_25",
+     "difficulty": "Medium",
+     "question": "What was Pixar's first feature-length film?",
+     "options": [
+      "Finding Nemo",
+      "Monsters, Inc.",
+      "Toy Story",
+      "A Bug's Life"
+     ],
+     "correct_answer": "Toy Story"
+    },
+    {
+     "id": "global_animation_26",
+     "difficulty": "Medium",
+     "question": "What was Disney's first full-length animated feature film?",
+     "options": [
+      "Pinocchio",
+      "Snow White and the Seven Dwarfs",
+      "Fantasia",
+      "Bambi"
+     ],
+     "correct_answer": "Snow White and the Seven Dwarfs"
+    },
+    {
+     "id": "global_animation_27",
+     "difficulty": "Medium",
+     "question": "Which actor voices Woody in the Toy Story films?",
+     "options": [
+      "Tom Hanks",
+      "Billy Crystal",
+      "Robin Williams",
+      "Tim Allen"
+     ],
+     "correct_answer": "Tom Hanks"
+    },
+    {
+     "id": "global_animation_28",
+     "difficulty": "Medium",
+     "question": "Which actor voices Buzz Lightyear in the Toy Story films?",
+     "options": [
+      "Jim Carrey",
+      "Tom Hanks",
+      "Chris Evans",
+      "Tim Allen"
+     ],
+     "correct_answer": "Tim Allen"
+    },
+    {
+     "id": "global_animation_29",
+     "difficulty": "Medium",
+     "question": "Which actress voices Elsa in the English-language version of Frozen?",
+     "options": [
+      "Amy Adams",
+      "Demi Lovato",
+      "Kristen Bell",
+      "Idina Menzel"
+     ],
+     "correct_answer": "Idina Menzel"
+    },
+    {
+     "id": "global_animation_30",
+     "difficulty": "Medium",
+     "question": "Which actor voiced the Genie in Disney's Aladdin (1992)?",
+     "options": [
+      "Eddie Murphy",
+      "Mike Myers",
+      "Robin Williams",
+      "Jim Carrey"
+     ],
+     "correct_answer": "Robin Williams"
+    },
+    {
+     "id": "global_animation_31",
+     "difficulty": "Medium",
+     "question": "Which comedian voices Dory in Finding Nemo?",
+     "options": [
+      "Whoopi Goldberg",
+      "Ellen DeGeneres",
+      "Tina Fey",
+      "Amy Poehler"
+     ],
+     "correct_answer": "Ellen DeGeneres"
+    },
+    {
+     "id": "global_animation_32",
+     "difficulty": "Medium",
+     "question": "What kind of animal is Remy in Ratatouille?",
+     "options": [
+      "A rat",
+      "A mouse",
+      "A raccoon",
+      "A hamster"
+     ],
+     "correct_answer": "A rat"
+    },
+    {
+     "id": "global_animation_33",
+     "difficulty": "Medium",
+     "question": "In which city is Pixar's Ratatouille set?",
+     "options": [
+      "Paris",
+      "Rome",
+      "Brussels",
+      "Lyon"
+     ],
+     "correct_answer": "Paris"
+    },
+    {
+     "id": "global_animation_34",
+     "difficulty": "Medium",
+     "question": "What is the name of the robot WALL-E falls in love with?",
+     "options": [
+      "M-O",
+      "BURN-E",
+      "AUTO",
+      "EVE"
+     ],
+     "correct_answer": "EVE"
+    },
+    {
+     "id": "global_animation_35",
+     "difficulty": "Medium",
+     "question": "What is the name of the talking dog in Pixar's Up?",
+     "options": [
+      "Bolt",
+      "Max",
+      "Dug",
+      "Buddy"
+     ],
+     "correct_answer": "Dug"
+    },
+    {
+     "id": "global_animation_36",
+     "difficulty": "Medium",
+     "question": "What is the surname of the superhero family in The Incredibles?",
+     "options": [
+      "Hopps",
+      "Parr",
+      "Fredricksen",
+      "Stark"
+     ],
+     "correct_answer": "Parr"
+    },
+    {
+     "id": "global_animation_37",
+     "difficulty": "Medium",
+     "question": "In the anime Naruto, which creature is sealed inside Naruto Uzumaki?",
+     "options": [
+      "The Eight-Headed Serpent",
+      "The Nine-Tailed Fox",
+      "The One-Tailed Tanuki",
+      "The Three-Tailed Turtle"
+     ],
+     "correct_answer": "The Nine-Tailed Fox"
+    },
+    {
+     "id": "global_animation_38",
+     "difficulty": "Medium",
+     "question": "What is the name of the main protagonist of Attack on Titan?",
+     "options": [
+      "Eren Yeager",
+      "Levi Ackerman",
+      "Armin Arlert",
+      "Reiner Braun"
+     ],
+     "correct_answer": "Eren Yeager"
+    },
+    {
+     "id": "global_animation_39",
+     "difficulty": "Medium",
+     "question": "What is the name of the protagonist of Death Note who finds the notebook?",
+     "options": [
+      "L",
+      "Near",
+      "Ryuk",
+      "Light Yagami"
+     ],
+     "correct_answer": "Light Yagami"
+    },
+    {
+     "id": "global_animation_40",
+     "difficulty": "Medium",
+     "question": "Which anime follows a young swordsman named Tanjiro Kamado?",
+     "options": [
+      "One Punch Man",
+      "Bleach",
+      "Demon Slayer",
+      "My Hero Academia"
+     ],
+     "correct_answer": "Demon Slayer"
+    },
+    {
+     "id": "global_animation_41",
+     "difficulty": "Medium",
+     "question": "What is the name of Goku's race in Dragon Ball?",
+     "options": [
+      "Android",
+      "Majin",
+      "Saiyan",
+      "Namekian"
+     ],
+     "correct_answer": "Saiyan"
+    },
+    {
+     "id": "global_animation_42",
+     "difficulty": "Medium",
+     "question": "Which Studio Ghibli film tells the story of two siblings struggling to survive in wartime Japan?",
+     "options": [
+      "Whisper of the Heart",
+      "Grave of the Fireflies",
+      "The Wind Rises",
+      "Ponyo"
+     ],
+     "correct_answer": "Grave of the Fireflies"
+    },
+    {
+     "id": "global_animation_43",
+     "difficulty": "Medium",
+     "question": "What is the name of Mulan's small dragon companion in Disney's Mulan?",
+     "options": [
+      "Mushu",
+      "Maleficent",
+      "Pascal",
+      "Toothless"
+     ],
+     "correct_answer": "Mushu"
+    },
+    {
+     "id": "global_animation_44",
+     "difficulty": "Medium",
+     "question": "What is the name of Rapunzel's pet chameleon in Tangled?",
+     "options": [
+      "Maximus",
+      "Sebastian",
+      "Flynn",
+      "Pascal"
+     ],
+     "correct_answer": "Pascal"
+    },
+    {
+     "id": "global_animation_45",
+     "difficulty": "Medium",
+     "question": "In Disney's Encanto, who is the only member of the Madrigal family without a magical gift?",
+     "options": [
+      "Dolores",
+      "Luisa",
+      "Isabela",
+      "Mirabel"
+     ],
+     "correct_answer": "Mirabel"
+    },
+    {
+     "id": "global_animation_46",
+     "difficulty": "Hard",
+     "question": "Who directed Toy Story (1995)?",
+     "options": [
+      "Andrew Stanton",
+      "Brad Bird",
+      "John Lasseter",
+      "Pete Docter"
+     ],
+     "correct_answer": "John Lasseter"
+    },
+    {
+     "id": "global_animation_47",
+     "difficulty": "Hard",
+     "question": "Who directed Finding Nemo (2003)?",
+     "options": [
+      "Pete Docter",
+      "Andrew Stanton",
+      "Brad Bird",
+      "John Lasseter"
+     ],
+     "correct_answer": "Andrew Stanton"
+    },
+    {
+     "id": "global_animation_48",
+     "difficulty": "Hard",
+     "question": "Who directed Pixar's Up (2009)?",
+     "options": [
+      "Pete Docter",
+      "John Lasseter",
+      "Brad Bird",
+      "Andrew Stanton"
+     ],
+     "correct_answer": "Pete Docter"
+    },
+    {
+     "id": "global_animation_49",
+     "difficulty": "Hard",
+     "question": "Who directed The Incredibles (2004)?",
+     "options": [
+      "Brad Bird",
+      "Andrew Stanton",
+      "John Lasseter",
+      "Pete Docter"
+     ],
+     "correct_answer": "Brad Bird"
+    },
+    {
+     "id": "global_animation_50",
+     "difficulty": "Hard",
+     "question": "Who directed the anime film Your Name (2016)?",
+     "options": [
+      "Mamoru Hosoda",
+      "Hayao Miyazaki",
+      "Satoshi Kon",
+      "Makoto Shinkai"
+     ],
+     "correct_answer": "Makoto Shinkai"
+    },
+    {
+     "id": "global_animation_51",
+     "difficulty": "Hard",
+     "question": "Who created the manga One Piece?",
+     "options": [
+      "Masashi Kishimoto",
+      "Tite Kubo",
+      "Eiichiro Oda",
+      "Akira Toriyama"
+     ],
+     "correct_answer": "Eiichiro Oda"
+    },
+    {
+     "id": "global_animation_52",
+     "difficulty": "Hard",
+     "question": "Who created the manga Dragon Ball?",
+     "options": [
+      "Masashi Kishimoto",
+      "Akira Toriyama",
+      "Eiichiro Oda",
+      "Hajime Isayama"
+     ],
+     "correct_answer": "Akira Toriyama"
+    },
+    {
+     "id": "global_animation_53",
+     "difficulty": "Hard",
+     "question": "Who created the manga Naruto?",
+     "options": [
+      "Akira Toriyama",
+      "Masashi Kishimoto",
+      "Tite Kubo",
+      "Eiichiro Oda"
+     ],
+     "correct_answer": "Masashi Kishimoto"
+    },
+    {
+     "id": "global_animation_54",
+     "difficulty": "Hard",
+     "question": "Which Studio Ghibli film won the Academy Award for Best Animated Feature at the ceremony held in 2003?",
+     "options": [
+      "Spirited Away",
+      "Ponyo",
+      "Howl's Moving Castle",
+      "Princess Mononoke"
+     ],
+     "correct_answer": "Spirited Away"
+    },
+    {
+     "id": "global_animation_55",
+     "difficulty": "Hard",
+     "question": "Which Disney film was the first animated feature nominated for the Academy Award for Best Picture?",
+     "options": [
+      "Aladdin",
+      "The Lion King",
+      "The Little Mermaid",
+      "Beauty and the Beast"
+     ],
+     "correct_answer": "Beauty and the Beast"
+    },
+    {
+     "id": "global_animation_56",
+     "difficulty": "Hard",
+     "question": "Which actor voiced Mufasa in the 1994 version of The Lion King?",
+     "options": [
+      "Samuel L. Jackson",
+      "Morgan Freeman",
+      "James Earl Jones",
+      "Jeremy Irons"
+     ],
+     "correct_answer": "James Earl Jones"
+    },
+    {
+     "id": "global_animation_57",
+     "difficulty": "Hard",
+     "question": "Which actor voiced Scar in the 1994 version of The Lion King?",
+     "options": [
+      "Ian McKellen",
+      "James Earl Jones",
+      "Jeremy Irons",
+      "Anthony Hopkins"
+     ],
+     "correct_answer": "Jeremy Irons"
+    },
+    {
+     "id": "global_animation_58",
+     "difficulty": "Hard",
+     "question": "Who composed the music for Spirited Away?",
+     "options": [
+      "Hiroyuki Sawano",
+      "Joe Hisaishi",
+      "Ryuichi Sakamoto",
+      "Yoko Kanno"
+     ],
+     "correct_answer": "Joe Hisaishi"
+    },
+    {
+     "id": "global_animation_59",
+     "difficulty": "Hard",
+     "question": "What is the name of the lamp featured in Pixar's logo animation?",
+     "options": [
+      "Luxo Jr.",
+      "Tiffany",
+      "Lumiere",
+      "Desk Buddy"
+     ],
+     "correct_answer": "Luxo Jr."
+    },
+    {
+     "id": "global_animation_60",
+     "difficulty": "Hard",
+     "question": "Which Miyazaki film is based on a novel by the British author Diana Wynne Jones?",
+     "options": [
+      "Ponyo",
+      "Kiki's Delivery Service",
+      "Castle in the Sky",
+      "Howl's Moving Castle"
+     ],
+     "correct_answer": "Howl's Moving Castle"
+    }
+   ]
+  },
+  {
+   "id": "global_charades_movies",
+   "type": "charades",
+   "name": "Charades: World-Famous Movies",
+   "description": "Act out famous films from around the world without words",
+   "howto": "🎭 Charades: one player takes the device and secretly sees the name of the film, then acts it out with gestures and no words for 60 seconds while the others guess. If they guess it, tap (Guessed) and choose who guessed: that player and the actor each get a point. You can skip a film if it's too hard. Each player acts twice.",
+   "titles": [
+    "Parasite",
+    "Oppenheimer",
+    "Barbie",
+    "Dune",
+    "Deadpool",
+    "The Dark Knight",
+    "Top Gun: Maverick",
+    "Avengers: Endgame",
+    "Guardians of the Galaxy",
+    "Jumanji",
+    "The Hunger Games",
+    "Twilight",
+    "Dunkirk",
+    "Tenet",
+    "The Prestige",
+    "Shutter Island",
+    "Fight Club",
+    "Pulp Fiction",
+    "Schindler's List",
+    "Saving Private Ryan",
+    "The Shawshank Redemption",
+    "The Silence of the Lambs",
+    "Se7en",
+    "Casablanca",
+    "Citizen Kane",
+    "The Wizard of Oz",
+    "Psycho",
+    "Vertigo",
+    "Rear Window",
+    "Singin' in the Rain",
+    "The Sound of Music",
+    "Mary Poppins",
+    "Grease",
+    "Dirty Dancing",
+    "Ghost",
+    "Pretty Woman",
+    "Notting Hill",
+    "Love Actually",
+    "Bridget Jones's Diary",
+    "The Notebook",
+    "La La Land",
+    "Mamma Mia!",
+    "Bohemian Rhapsody",
+    "The Greatest Showman",
+    "Moulin Rouge!",
+    "Chicago",
+    "Black Swan",
+    "Whiplash",
+    "Gravity",
+    "The Martian",
+    "Arrival",
+    "Blade Runner",
+    "Men in Black",
+    "Edge of Tomorrow",
+    "Ocean's Eleven",
+    "The Italian Job",
+    "Taken",
+    "Casino Royale",
+    "Skyfall",
+    "Goldfinger",
+    "The Bourne Identity",
+    "Kill Bill",
+    "Django Unchained",
+    "Inglourious Basterds",
+    "Scarface",
+    "Goodfellas",
+    "The Sixth Sense",
+    "The Shining",
+    "The Exorcist",
+    "Scream",
+    "A Quiet Place",
+    "Get Out",
+    "Crouching Tiger, Hidden Dragon",
+    "Life Is Beautiful",
+    "Amélie",
+    "3 Idiots",
+    "Dangal",
+    "Slumdog Millionaire",
+    "Train to Busan",
+    "Pan's Labyrinth"
+   ]
+  },
+  {
+   "id": "global_charades_series",
+   "type": "charades",
+   "name": "Charades: World-Famous Series",
+   "description": "Act out famous TV series from around the world without words",
+   "howto": "🎭 Charades: one player takes the device and secretly sees the name of the series, then acts it out with gestures and no words for 60 seconds while the others guess. If they guess it, tap (Guessed) and choose who guessed: that player and the actor each get a point. You can skip a series if it's too hard. Each player acts twice.",
+   "titles": [
+    "Breaking Bad",
+    "Game of Thrones",
+    "Stranger Things",
+    "Squid Game",
+    "Money Heist",
+    "Friends",
+    "The Office",
+    "Seinfeld",
+    "The Simpsons",
+    "Family Guy",
+    "South Park",
+    "The Big Bang Theory",
+    "How I Met Your Mother",
+    "Modern Family",
+    "Brooklyn Nine-Nine",
+    "Parks and Recreation",
+    "Better Call Saul",
+    "The Sopranos",
+    "The Wire",
+    "Mad Men",
+    "Dexter",
+    "House of Cards",
+    "The Crown",
+    "Peaky Blinders",
+    "Sherlock",
+    "Doctor Who",
+    "Downton Abbey",
+    "Black Mirror",
+    "The Witcher",
+    "The Mandalorian",
+    "Wednesday",
+    "The Last of Us",
+    "Succession",
+    "Ted Lasso",
+    "Lost",
+    "Prison Break",
+    "24",
+    "The X-Files",
+    "Twin Peaks",
+    "Grey's Anatomy",
+    "House",
+    "The Walking Dead",
+    "Vikings",
+    "Narcos",
+    "Ozark",
+    "Dark",
+    "Lupin",
+    "Bridgerton",
+    "Euphoria",
+    "The Boys",
+    "Westworld",
+    "Chernobyl",
+    "True Detective",
+    "Fargo",
+    "Supernatural",
+    "The Fresh Prince of Bel-Air",
+    "Gilmore Girls",
+    "Orange Is the New Black",
+    "Buffy the Vampire Slayer",
+    "Sex Education"
+   ]
+  }
+ ]
+}

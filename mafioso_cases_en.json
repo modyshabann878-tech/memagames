@@ -1,0 +1,2750 @@
+{
+  "version": 1,
+  "challenges": [
+    {
+      "id": "theft",
+      "type": "mafioso",
+      "name": "Theft Cases",
+      "description": "Someone present stole something valuable... find them!",
+      "howto": "Mafioso game 🕵️: A crime has happened, and one or more of the players are the culprits (the Mafioso). Each player gets a secret character; the culprit knows they committed the crime, and everyone else is innocent. Each round a new clue appears; discuss it and vote on someone to eliminate from the game. If you eliminate all the culprits, you win; if a culprit survives until the innocents are outnumbered, the culprit wins.",
+      "scenarios": [
+        {
+          "id": "theft_supermarket",
+          "setting": "Supermarket",
+          "title": "Theft of the Day's Cash Box at the Supermarket",
+          "story": "(The day's cash box) vanished from the supermarket tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Supermarket Worker",
+            "Cashier",
+            "Delivery Driver",
+            "Supermarket Manager",
+            "Security Guard",
+            "Stockroom Clerk",
+            "Regular Customer",
+            "Vegetable Supplier"
+          ],
+          "mafia_text": "You're the one who stole (the day's cash box)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The supermarket cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the day's cash box). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "Someone found opened cartons in the back storeroom. Who among you usually goes into the storeroom, and who doesn't?",
+            "The thief must have known exactly where (the day's cash box) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_restaurant",
+          "setting": "Restaurant",
+          "title": "Theft of Tonight's Takings at the Restaurant",
+          "story": "(Tonight's takings) vanished from the restaurant tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Chef",
+            "Waiter",
+            "Delivery Driver",
+            "Accountant",
+            "Dishwasher",
+            "Restaurant Manager",
+            "VIP Customer",
+            "Meat Supplier"
+          ],
+          "mafia_text": "You're the one who stole (tonight's takings)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The restaurant cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (tonight's takings). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "A strange smell came from the kitchen before the incident. Who was inside the kitchen and who was outside?",
+            "The thief must have known exactly where (tonight's takings) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_hospital",
+          "setting": "Hospital",
+          "title": "Theft of the Pharmacy Storeroom Medicines at the Hospital",
+          "story": "(The pharmacy storeroom medicines) vanished from the hospital tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Nurse",
+            "Doctor",
+            "Receptionist",
+            "Pharmacist",
+            "Janitor",
+            "Radiology Technician",
+            "Patient",
+            "Visitor"
+          ],
+          "mafia_text": "You're the one who stole (the pharmacy storeroom medicines)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The hospital cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the pharmacy storeroom medicines). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The hospital's sign-in/sign-out sheet is missing a page. Who was coming in and who was leaving at that time?",
+            "The thief must have known exactly where (the pharmacy storeroom medicines) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_school",
+          "setting": "School",
+          "title": "Theft of the School Trip Funds at the School",
+          "story": "(The school trip funds) vanished from the school tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Teacher",
+            "Principal",
+            "School Guard",
+            "Canteen Worker",
+            "Bus Driver",
+            "Librarian",
+            "Top Student",
+            "Parent"
+          ],
+          "mafia_text": "You're the one who stole (the school trip funds)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The school cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the school trip funds). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The bell rang at an unusual time before the incident. Who heard it and who was out on break?",
+            "The thief must have known exactly where (the school trip funds) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_hotel",
+          "setting": "Hotel",
+          "title": "Theft of a Guest's Jewelry at the Hotel",
+          "story": "(A guest's jewelry) vanished from the hotel tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Receptionist",
+            "Room Attendant",
+            "Doorman",
+            "Chef",
+            "Hotel Manager",
+            "Maintenance Technician",
+            "VIP Guest",
+            "Hotel Driver"
+          ],
+          "mafia_text": "You're the one who stole (a guest's jewelry)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The hotel cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (a guest's jewelry). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "A late entry was logged on a room key card. Who has a card that opens many rooms?",
+            "The thief must have known exactly where (a guest's jewelry) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_mall",
+          "setting": "Mall",
+          "title": "Theft of the Gold Shop's Takings at the Mall",
+          "story": "(The gold shop's takings) vanished from the mall tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Mall Security",
+            "Clothing Seller",
+            "Cafe Worker",
+            "Customer Service Rep",
+            "AC Technician",
+            "Janitor",
+            "Mall Manager",
+            "Regular Shopper"
+          ],
+          "mafia_text": "You're the one who stole (the gold shop's takings)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The mall cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the gold shop's takings). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The fire alarm rang for a few seconds and then stopped on its own. Who was near the alarm panel?",
+            "The thief must have known exactly where (the gold shop's takings) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_airport",
+          "setting": "Airport",
+          "title": "Theft of a Traveler's Suitcase at the Airport",
+          "story": "(A traveler's suitcase) vanished from the airport tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Passport Officer",
+            "Baggage Porter",
+            "Security Officer",
+            "Ground Attendant",
+            "Taxi Driver",
+            "Air Traffic Controller",
+            "Duty-Free Seller",
+            "Traveler"
+          ],
+          "mafia_text": "You're the one who stole (a traveler's suitcase)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The airport cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (a traveler's suitcase). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "A flight was suddenly delayed just minutes before the incident. Who had anything to do with the delay?",
+            "The thief must have known exactly where (a traveler's suitcase) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_gym",
+          "setting": "Gym",
+          "title": "Theft of the Month's Membership Fees at the Gym",
+          "story": "(This month's membership fees) vanished from the gym tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Coach",
+            "Receptionist",
+            "Janitor",
+            "Club Manager",
+            "Club Member",
+            "Nutritionist",
+            "Guard",
+            "Photographer"
+          ],
+          "mafia_text": "You're the one who stole (this month's membership fees)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The gym cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (this month's membership fees). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The locker room was locked unusually. Who has the key?",
+            "The thief must have known exactly where (this month's membership fees) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_bank",
+          "setting": "Bank",
+          "title": "Theft of the Branch Vault at the Bank",
+          "story": "(The branch vault) vanished from the bank tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Teller",
+            "Branch Manager",
+            "Security Guard",
+            "Customer Service Rep",
+            "Maintenance Technician",
+            "VIP Client",
+            "Buffet Attendant",
+            "Auditor"
+          ],
+          "mafia_text": "You're the one who stole (the branch vault)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The bank cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the branch vault). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The main computer was opened after business hours. Who knows the password?",
+            "The thief must have known exactly where (the branch vault) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_theater",
+          "setting": "Theater",
+          "title": "Theft of the Ticket Revenue at the Theater",
+          "story": "(The ticket revenue) vanished from the theater tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Director",
+            "Lead Actor",
+            "Lighting Technician",
+            "Costume Designer",
+            "Ticket Clerk",
+            "Stagehand",
+            "Art Critic",
+            "Musician"
+          ],
+          "mafia_text": "You're the one who stole (the ticket revenue)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The theater cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the ticket revenue). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "Someone heard whispering backstage during the final rehearsal. Who was behind the curtain?",
+            "The thief must have known exactly where (the ticket revenue) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_company",
+          "setting": "Company",
+          "title": "Theft of the Project Budget at the Company",
+          "story": "(The project budget) vanished from the company tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Manager",
+            "Secretary",
+            "Accountant",
+            "Programmer",
+            "Buffet Attendant",
+            "Maintenance Technician",
+            "Sales Rep",
+            "Key Client"
+          ],
+          "mafia_text": "You're the one who stole (the project budget)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The company cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the project budget). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "Someone entered the office after hours carrying a cup of coffee. Who usually stays late?",
+            "The thief must have known exactly where (the project budget) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_village",
+          "setting": "Village",
+          "title": "Theft of the Charity's Donations in the Village",
+          "story": "(The charity's donations) vanished from the village tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Mayor",
+            "Farmer",
+            "Grocer",
+            "Barber",
+            "Imam",
+            "Health Clinic Nurse",
+            "Tuk-Tuk Driver",
+            "Schoolteacher"
+          ],
+          "mafia_text": "You're the one who stole (the charity's donations)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The village cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the charity's donations). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The village dog barked strangely in the night. Who passed through that street?",
+            "The thief must have known exactly where (the charity's donations) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_cruise",
+          "setting": "Cruise ship",
+          "title": "Theft of the Ship's Safe on the Cruise Ship",
+          "story": "(The ship's safe) vanished from the cruise ship tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Captain",
+            "Cook",
+            "Cabin Steward",
+            "Navigator",
+            "Engineer",
+            "Photographer",
+            "Tourist",
+            "Steward"
+          ],
+          "mafia_text": "You're the one who stole (the ship's safe)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The cruise ship cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the ship's safe). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "A strange engine noise was heard from the engine room. Who usually goes down there?",
+            "The thief must have known exactly where (the ship's safe) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_train",
+          "setting": "Train station",
+          "title": "Theft of the Ticket Sales at the Train Station",
+          "story": "(The ticket sales) vanished from the train station tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Ticket Inspector",
+            "Ticket Seller",
+            "Switchman",
+            "Newspaper Seller",
+            "Police Officer",
+            "Train Driver",
+            "Janitor",
+            "Passenger"
+          ],
+          "mafia_text": "You're the one who stole (the ticket sales)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The train station cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the ticket sales). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The station clock stopped for a few minutes before the incident. Who was on the platform and who was in the ticket office?",
+            "The thief must have known exactly where (the ticket sales) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_farm",
+          "setting": "Farm",
+          "title": "Theft of the Harvest Sale Proceeds at the Farm",
+          "story": "(The harvest sale proceeds) vanished from the farm tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Grower",
+            "Laborer",
+            "Veterinarian",
+            "Driver",
+            "Merchant",
+            "Agricultural Engineer",
+            "Farm Guard",
+            "Neighbor"
+          ],
+          "mafia_text": "You're the one who stole (the harvest sale proceeds)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The farm cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the harvest sale proceeds). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The farm's back gate was found open in the morning. Who has its key?",
+            "The thief must have known exactly where (the harvest sale proceeds) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_cinema",
+          "setting": "Cinema",
+          "title": "Theft of the Box Office Takings at the Cinema",
+          "story": "(The box office takings) vanished from the cinema tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Ticket Clerk",
+            "Snack Bar Worker",
+            "Projectionist",
+            "Guard",
+            "Cinema Manager",
+            "Janitor",
+            "Moviegoer",
+            "Film Distributor"
+          ],
+          "mafia_text": "You're the one who stole (the box office takings)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The cinema cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the box office takings). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The screening hall was shut for two minutes and the lights went out. Who was in the control room?",
+            "The thief must have known exactly where (the box office takings) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_cars",
+          "setting": "Car showroom",
+          "title": "Theft of a Car's Down Payment at the Car Showroom",
+          "story": "(A car's down payment) vanished from the car showroom tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Salesman",
+            "Mechanic",
+            "Accountant",
+            "Showroom Manager",
+            "Car Washer",
+            "Buyer",
+            "Test Driver",
+            "Guard"
+          ],
+          "mafia_text": "You're the one who stole (a car's down payment)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The car showroom cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (a car's down payment). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "A car moved from its spot for no apparent reason. Who was test-driving cars today?",
+            "The thief must have known exactly where (a car's down payment) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_library",
+          "setting": "Library",
+          "title": "Theft of the Membership Fees at the Library",
+          "story": "(The membership fees) vanished from the library tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Librarian",
+            "Researcher",
+            "Bookbinder",
+            "Student",
+            "Guard",
+            "Manager",
+            "Volunteer",
+            "Publisher"
+          ],
+          "mafia_text": "You're the one who stole (the membership fees)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The library cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the membership fees). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "A book was taken off the shelf, leaving an empty space. Who borrowed books today?",
+            "The thief must have known exactly where (the membership fees) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_park",
+          "setting": "Amusement park",
+          "title": "Theft of the Day's Takings at the Amusement Park",
+          "story": "(Today's takings) vanished from the amusement park tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Ride Operator",
+            "Ticket Attendant",
+            "Show Designer",
+            "Security Guard",
+            "Cotton Candy Seller",
+            "Manager",
+            "Maintenance Technician",
+            "Guest"
+          ],
+          "mafia_text": "You're the one who stole (today's takings)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The amusement park cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (today's takings). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The music in the park stopped for a few seconds. Who was next to the sound room?",
+            "The thief must have known exactly where (today's takings) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        },
+        {
+          "id": "theft_university",
+          "setting": "University",
+          "title": "Theft of the Tuition Fees at the University",
+          "story": "(The tuition fees) vanished from the university tonight, with no break-in or forced locks... which means the thief is one of the people here with us right now.",
+          "roles": [
+            "Professor",
+            "Teaching Assistant",
+            "Student Affairs Clerk",
+            "Gate Guard",
+            "Cafeteria Worker",
+            "Student",
+            "Lab Technician",
+            "Dean"
+          ],
+          "mafia_text": "You're the one who stole (the tuition fees)! Keep it hidden and play innocent, and don't let anyone catch you.",
+          "clues": [
+            "The university cameras were disconnected for 10 minutes before the theft was discovered. Everyone say exactly where you were during the outage.",
+            "Footprints were found near (the tuition fees). Everyone say what you were wearing and where you were standing.",
+            "Someone saw a person hurrying toward the exit with something wrapped up in their hand. Who among you was near the exit?",
+            "The meeting hall door was opened outside official hours. Who has the hall's key?",
+            "The thief must have known exactly where (the tuition fees) was. Whose job lets them know that spot?",
+            "A small note was found with 9:40 written on it. Everyone tell us what you were doing at that time.",
+            "Someone heard footsteps during the incident. Whoever was alone should admit it, and whoever was with someone should say who it was.",
+            "Final clue: the thief changed their story once. Think back: whose story changed during the earlier rounds?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sabotage",
+      "type": "mafioso",
+      "name": "Sabotage Cases",
+      "description": "Someone deliberately wrecked something important... who did it?",
+      "howto": "Mafioso game 🕵️: A crime has happened, and one or more of the players are the culprits (the Mafioso). Each player gets a secret character; the culprit knows they committed the crime, and everyone else is innocent. Each round a new clue appears; discuss it and vote on someone to eliminate from the game. If you eliminate all the culprits, you win; if a culprit survives until the innocents are outnumbered, the culprit wins.",
+      "scenarios": [
+        {
+          "id": "sabotage_supermarket",
+          "setting": "Supermarket",
+          "title": "Sabotage of the Meat Freezer at the Supermarket",
+          "story": "(The meat freezer) was sabotaged at the supermarket and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Supermarket Worker",
+            "Cashier",
+            "Delivery Driver",
+            "Supermarket Manager",
+            "Security Guard",
+            "Stockroom Clerk",
+            "Regular Customer",
+            "Vegetable Supplier"
+          ],
+          "mafia_text": "You're the one who sabotaged (the meat freezer)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the meat freezer). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "Someone found opened cartons in the back storeroom. Who among you usually goes into the storeroom, and who doesn't?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the meat freezer) being out of order?",
+            "A glove was found discarded near (the meat freezer). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_restaurant",
+          "setting": "Restaurant",
+          "title": "Sabotage of the Pizza Oven at the Restaurant",
+          "story": "(The pizza oven) was sabotaged at the restaurant and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Chef",
+            "Waiter",
+            "Delivery Driver",
+            "Accountant",
+            "Dishwasher",
+            "Restaurant Manager",
+            "VIP Customer",
+            "Meat Supplier"
+          ],
+          "mafia_text": "You're the one who sabotaged (the pizza oven)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the pizza oven). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "A strange smell came from the kitchen before the incident. Who was inside the kitchen and who was outside?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the pizza oven) being out of order?",
+            "A glove was found discarded near (the pizza oven). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_hospital",
+          "setting": "Hospital",
+          "title": "Sabotage of the X-Ray Machine at the Hospital",
+          "story": "(The X-ray machine) was sabotaged at the hospital and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Nurse",
+            "Doctor",
+            "Receptionist",
+            "Pharmacist",
+            "Janitor",
+            "Radiology Technician",
+            "Patient",
+            "Visitor"
+          ],
+          "mafia_text": "You're the one who sabotaged (the X-ray machine)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the X-ray machine). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The hospital's sign-in/sign-out sheet is missing a page. Who was coming in and who was leaving at that time?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the X-ray machine) being out of order?",
+            "A glove was found discarded near (the X-ray machine). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_school",
+          "setting": "School",
+          "title": "Sabotage of the Projector at the School",
+          "story": "(The projector) was sabotaged at the school and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Teacher",
+            "Principal",
+            "School Guard",
+            "Canteen Worker",
+            "Bus Driver",
+            "Librarian",
+            "Top Student",
+            "Parent"
+          ],
+          "mafia_text": "You're the one who sabotaged (the projector)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the projector). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The bell rang at an unusual time before the incident. Who heard it and who was out on break?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the projector) being out of order?",
+            "A glove was found discarded near (the projector). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_hotel",
+          "setting": "Hotel",
+          "title": "Sabotage of the Elevator at the Hotel",
+          "story": "(The hotel elevator) was sabotaged at the hotel and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Receptionist",
+            "Room Attendant",
+            "Doorman",
+            "Chef",
+            "Hotel Manager",
+            "Maintenance Technician",
+            "VIP Guest",
+            "Hotel Driver"
+          ],
+          "mafia_text": "You're the one who sabotaged (the hotel elevator)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the hotel elevator). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "A late entry was logged on a room key card. Who has a card that opens many rooms?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the hotel elevator) being out of order?",
+            "A glove was found discarded near (the hotel elevator). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_mall",
+          "setting": "Mall",
+          "title": "Sabotage of the Escalator at the Mall",
+          "story": "(The escalator) was sabotaged at the mall and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Mall Security",
+            "Clothing Seller",
+            "Cafe Worker",
+            "Customer Service Rep",
+            "AC Technician",
+            "Janitor",
+            "Mall Manager",
+            "Regular Shopper"
+          ],
+          "mafia_text": "You're the one who sabotaged (the escalator)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the escalator). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The fire alarm rang for a few seconds and then stopped on its own. Who was near the alarm panel?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the escalator) being out of order?",
+            "A glove was found discarded near (the escalator). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_airport",
+          "setting": "Airport",
+          "title": "Sabotage of the Baggage Belt at the Airport",
+          "story": "(The baggage conveyor belt) was sabotaged at the airport and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Passport Officer",
+            "Baggage Porter",
+            "Security Officer",
+            "Ground Attendant",
+            "Taxi Driver",
+            "Air Traffic Controller",
+            "Duty-Free Seller",
+            "Traveler"
+          ],
+          "mafia_text": "You're the one who sabotaged (the baggage conveyor belt)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the baggage conveyor belt). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "A flight was suddenly delayed just minutes before the incident. Who had anything to do with the delay?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the baggage conveyor belt) being out of order?",
+            "A glove was found discarded near (the baggage conveyor belt). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_gym",
+          "setting": "Gym",
+          "title": "Sabotage of the Treadmill at the Gym",
+          "story": "(The treadmill) was sabotaged at the gym and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Coach",
+            "Receptionist",
+            "Janitor",
+            "Club Manager",
+            "Club Member",
+            "Nutritionist",
+            "Guard",
+            "Photographer"
+          ],
+          "mafia_text": "You're the one who sabotaged (the treadmill)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the treadmill). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The locker room was locked unusually. Who has the key?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the treadmill) being out of order?",
+            "A glove was found discarded near (the treadmill). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_bank",
+          "setting": "Bank",
+          "title": "Sabotage of the ATM at the Bank",
+          "story": "(The ATM) was sabotaged at the bank and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Teller",
+            "Branch Manager",
+            "Security Guard",
+            "Customer Service Rep",
+            "Maintenance Technician",
+            "VIP Client",
+            "Buffet Attendant",
+            "Auditor"
+          ],
+          "mafia_text": "You're the one who sabotaged (the ATM)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the ATM). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The main computer was opened after business hours. Who knows the password?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the ATM) being out of order?",
+            "A glove was found discarded near (the ATM). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_theater",
+          "setting": "Theater",
+          "title": "Sabotage of the Stage Curtain at the Theater",
+          "story": "(The stage curtain) was sabotaged at the theater and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Director",
+            "Lead Actor",
+            "Lighting Technician",
+            "Costume Designer",
+            "Ticket Clerk",
+            "Stagehand",
+            "Art Critic",
+            "Musician"
+          ],
+          "mafia_text": "You're the one who sabotaged (the stage curtain)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the stage curtain). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "Someone heard whispering backstage during the final rehearsal. Who was behind the curtain?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the stage curtain) being out of order?",
+            "A glove was found discarded near (the stage curtain). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_company",
+          "setting": "Company",
+          "title": "Sabotage of the Company Server at the Company",
+          "story": "(The company server) was sabotaged at the company and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Manager",
+            "Secretary",
+            "Accountant",
+            "Programmer",
+            "Buffet Attendant",
+            "Maintenance Technician",
+            "Sales Rep",
+            "Key Client"
+          ],
+          "mafia_text": "You're the one who sabotaged (the company server)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the company server). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "Someone entered the office after hours carrying a cup of coffee. Who usually stays late?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the company server) being out of order?",
+            "A glove was found discarded near (the company server). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_village",
+          "setting": "Village",
+          "title": "Sabotage of the Water Pump in the Village",
+          "story": "(The water pump) was sabotaged in the village and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Mayor",
+            "Farmer",
+            "Grocer",
+            "Barber",
+            "Imam",
+            "Health Clinic Nurse",
+            "Tuk-Tuk Driver",
+            "Schoolteacher"
+          ],
+          "mafia_text": "You're the one who sabotaged (the water pump)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the water pump). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The village dog barked strangely in the night. Who passed through that street?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the water pump) being out of order?",
+            "A glove was found discarded near (the water pump). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_cruise",
+          "setting": "Cruise ship",
+          "title": "Sabotage of the Navigation System on the Cruise Ship",
+          "story": "(The navigation system) was sabotaged on the cruise ship and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Captain",
+            "Cook",
+            "Cabin Steward",
+            "Navigator",
+            "Engineer",
+            "Photographer",
+            "Tourist",
+            "Steward"
+          ],
+          "mafia_text": "You're the one who sabotaged (the navigation system)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the navigation system). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "A strange engine noise was heard from the engine room. Who usually goes down there?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the navigation system) being out of order?",
+            "A glove was found discarded near (the navigation system). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_train",
+          "setting": "Train station",
+          "title": "Sabotage of the Traffic Signal at the Train Station",
+          "story": "(The traffic signal) was sabotaged at the train station and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Ticket Inspector",
+            "Ticket Seller",
+            "Switchman",
+            "Newspaper Seller",
+            "Police Officer",
+            "Train Driver",
+            "Janitor",
+            "Passenger"
+          ],
+          "mafia_text": "You're the one who sabotaged (the traffic signal)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the traffic signal). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The station clock stopped for a few minutes before the incident. Who was on the platform and who was in the ticket office?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the traffic signal) being out of order?",
+            "A glove was found discarded near (the traffic signal). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_farm",
+          "setting": "Farm",
+          "title": "Sabotage of the Irrigation Machine on the Farm",
+          "story": "(The irrigation machine) was sabotaged on the farm and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Grower",
+            "Laborer",
+            "Veterinarian",
+            "Driver",
+            "Merchant",
+            "Agricultural Engineer",
+            "Farm Guard",
+            "Neighbor"
+          ],
+          "mafia_text": "You're the one who sabotaged (the irrigation machine)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the irrigation machine). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The farm's back gate was found open in the morning. Who has its key?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the irrigation machine) being out of order?",
+            "A glove was found discarded near (the irrigation machine). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_cinema",
+          "setting": "Cinema",
+          "title": "Sabotage of the Projector at the Cinema",
+          "story": "(The film projector) was sabotaged at the cinema and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Ticket Clerk",
+            "Snack Bar Worker",
+            "Projectionist",
+            "Guard",
+            "Cinema Manager",
+            "Janitor",
+            "Moviegoer",
+            "Film Distributor"
+          ],
+          "mafia_text": "You're the one who sabotaged (the film projector)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the film projector). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The screening hall was shut for two minutes and the lights went out. Who was in the control room?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the film projector) being out of order?",
+            "A glove was found discarded near (the film projector). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_cars",
+          "setting": "Car showroom",
+          "title": "Sabotage of the Car Lift at the Car Showroom",
+          "story": "(The car lift) was sabotaged at the car showroom and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Salesman",
+            "Mechanic",
+            "Accountant",
+            "Showroom Manager",
+            "Car Washer",
+            "Buyer",
+            "Test Driver",
+            "Guard"
+          ],
+          "mafia_text": "You're the one who sabotaged (the car lift)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the car lift). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "A car moved from its spot for no apparent reason. Who was test-driving cars today?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the car lift) being out of order?",
+            "A glove was found discarded near (the car lift). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_library",
+          "setting": "Library",
+          "title": "Sabotage of the Photocopier at the Library",
+          "story": "(The photocopier) was sabotaged at the library and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Librarian",
+            "Researcher",
+            "Bookbinder",
+            "Student",
+            "Guard",
+            "Manager",
+            "Volunteer",
+            "Publisher"
+          ],
+          "mafia_text": "You're the one who sabotaged (the photocopier)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the photocopier). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "A book was taken off the shelf, leaving an empty space. Who borrowed books today?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the photocopier) being out of order?",
+            "A glove was found discarded near (the photocopier). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_park",
+          "setting": "Amusement park",
+          "title": "Sabotage of the Ferris Wheel at the Amusement Park",
+          "story": "(The Ferris wheel) was sabotaged at the amusement park and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Ride Operator",
+            "Ticket Attendant",
+            "Show Designer",
+            "Security Guard",
+            "Cotton Candy Seller",
+            "Manager",
+            "Maintenance Technician",
+            "Guest"
+          ],
+          "mafia_text": "You're the one who sabotaged (the Ferris wheel)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the Ferris wheel). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The music in the park stopped for a few seconds. Who was next to the sound room?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the Ferris wheel) being out of order?",
+            "A glove was found discarded near (the Ferris wheel). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        },
+        {
+          "id": "sabotage_university",
+          "setting": "University",
+          "title": "Sabotage of the Lab Equipment at the University",
+          "story": "(The lab equipment) was sabotaged at the university and everything stopped working. This was no accident; one of you did it on purpose.",
+          "roles": [
+            "Professor",
+            "Teaching Assistant",
+            "Student Affairs Clerk",
+            "Gate Guard",
+            "Cafeteria Worker",
+            "Student",
+            "Lab Technician",
+            "Dean"
+          ],
+          "mafia_text": "You're the one who sabotaged (the lab equipment)! Cover your tracks and claim you were busy with something else.",
+          "clues": [
+            "Grease and handprints were found on (the lab equipment). Everyone say when you last touched the equipment, and when.",
+            "The sabotage needed tools. Who among you has, or can get to, the toolbox?",
+            "Someone heard a metallic banging sound during the incident. Everyone say where you were when you heard it.",
+            "The meeting hall door was opened outside official hours. Who has the hall's key?",
+            "Some people lost out because of the sabotage and some benefited. Who among you could benefit from (the lab equipment) being out of order?",
+            "A glove was found discarded near (the lab equipment). Everyone say whether you use gloves in your work or not.",
+            "The incident happened at a specific time. Everyone present your solid alibi proving you were somewhere else.",
+            "Final clue: the saboteur was nervous after the incident. Think back: who acted strangely in the earlier rounds?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leak",
+      "type": "mafioso",
+      "name": "Secret Leak Cases",
+      "description": "A dangerous secret got out... one of you leaked it!",
+      "howto": "Mafioso game 🕵️: A crime has happened, and one or more of the players are the culprits (the Mafioso). Each player gets a secret character; the culprit knows they committed the crime, and everyone else is innocent. Each round a new clue appears; discuss it and vote on someone to eliminate from the game. If you eliminate all the culprits, you win; if a culprit survives until the innocents are outnumbered, the culprit wins.",
+      "scenarios": [
+        {
+          "id": "leak_supermarket",
+          "setting": "Supermarket",
+          "title": "A Secret Leak at the Supermarket",
+          "story": "(The price deals before they were announced) leaked from the supermarket before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Supermarket Worker",
+            "Cashier",
+            "Delivery Driver",
+            "Supermarket Manager",
+            "Security Guard",
+            "Stockroom Clerk",
+            "Regular Customer",
+            "Vegetable Supplier"
+          ],
+          "mafia_text": "You're the one who leaked (the price deals before they were announced)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "Someone found opened cartons in the back storeroom. Who among you usually goes into the storeroom, and who doesn't?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_restaurant",
+          "setting": "Restaurant",
+          "title": "A Secret Leak at the Restaurant",
+          "story": "(The secret sauce recipe) leaked from the restaurant before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Chef",
+            "Waiter",
+            "Delivery Driver",
+            "Accountant",
+            "Dishwasher",
+            "Restaurant Manager",
+            "VIP Customer",
+            "Meat Supplier"
+          ],
+          "mafia_text": "You're the one who leaked (the secret sauce recipe)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "A strange smell came from the kitchen before the incident. Who was inside the kitchen and who was outside?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_hospital",
+          "setting": "Hospital",
+          "title": "A Secret Leak at the Hospital",
+          "story": "(The lab test results) leaked from the hospital before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Nurse",
+            "Doctor",
+            "Receptionist",
+            "Pharmacist",
+            "Janitor",
+            "Radiology Technician",
+            "Patient",
+            "Visitor"
+          ],
+          "mafia_text": "You're the one who leaked (the lab test results)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The hospital's sign-in/sign-out sheet is missing a page. Who was coming in and who was leaving at that time?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_school",
+          "setting": "School",
+          "title": "A Secret Leak at the School",
+          "story": "(The exam questions) leaked from the school before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Teacher",
+            "Principal",
+            "School Guard",
+            "Canteen Worker",
+            "Bus Driver",
+            "Librarian",
+            "Top Student",
+            "Parent"
+          ],
+          "mafia_text": "You're the one who leaked (the exam questions)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The bell rang at an unusual time before the incident. Who heard it and who was out on break?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_hotel",
+          "setting": "Hotel",
+          "title": "A Secret Leak at the Hotel",
+          "story": "(The list of celebrity guests) leaked from the hotel before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Receptionist",
+            "Room Attendant",
+            "Doorman",
+            "Chef",
+            "Hotel Manager",
+            "Maintenance Technician",
+            "VIP Guest",
+            "Hotel Driver"
+          ],
+          "mafia_text": "You're the one who leaked (the list of celebrity guests)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "A late entry was logged on a room key card. Who has a card that opens many rooms?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_mall",
+          "setting": "Mall",
+          "title": "A Secret Leak at the Mall",
+          "story": "(The big sale plan) leaked from the mall before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Mall Security",
+            "Clothing Seller",
+            "Cafe Worker",
+            "Customer Service Rep",
+            "AC Technician",
+            "Janitor",
+            "Mall Manager",
+            "Regular Shopper"
+          ],
+          "mafia_text": "You're the one who leaked (the big sale plan)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The fire alarm rang for a few seconds and then stopped on its own. Who was near the alarm panel?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_airport",
+          "setting": "Airport",
+          "title": "A Secret Leak at the Airport",
+          "story": "(The private flight schedule) leaked from the airport before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Passport Officer",
+            "Baggage Porter",
+            "Security Officer",
+            "Ground Attendant",
+            "Taxi Driver",
+            "Air Traffic Controller",
+            "Duty-Free Seller",
+            "Traveler"
+          ],
+          "mafia_text": "You're the one who leaked (the private flight schedule)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "A flight was suddenly delayed just minutes before the incident. Who had anything to do with the delay?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_gym",
+          "setting": "Gym",
+          "title": "A Secret Leak at the Gym",
+          "story": "(The champion's secret training plan) leaked from the gym before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Coach",
+            "Receptionist",
+            "Janitor",
+            "Club Manager",
+            "Club Member",
+            "Nutritionist",
+            "Guard",
+            "Photographer"
+          ],
+          "mafia_text": "You're the one who leaked (the champion's secret training plan)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The locker room was locked unusually. Who has the key?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_bank",
+          "setting": "Bank",
+          "title": "A Secret Leak at the Bank",
+          "story": "(The clients' account statements) leaked from the bank before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Teller",
+            "Branch Manager",
+            "Security Guard",
+            "Customer Service Rep",
+            "Maintenance Technician",
+            "VIP Client",
+            "Buffet Attendant",
+            "Auditor"
+          ],
+          "mafia_text": "You're the one who leaked (the clients' account statements)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The main computer was opened after business hours. Who knows the password?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_theater",
+          "setting": "Theater",
+          "title": "A Secret Leak at the Theater",
+          "story": "(The ending of the play) leaked from the theater before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Director",
+            "Lead Actor",
+            "Lighting Technician",
+            "Costume Designer",
+            "Ticket Clerk",
+            "Stagehand",
+            "Art Critic",
+            "Musician"
+          ],
+          "mafia_text": "You're the one who leaked (the ending of the play)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "Someone heard whispering backstage during the final rehearsal. Who was behind the curtain?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_company",
+          "setting": "Company",
+          "title": "A Secret Leak at the Company",
+          "story": "(The new product plan) leaked from the company before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Manager",
+            "Secretary",
+            "Accountant",
+            "Programmer",
+            "Buffet Attendant",
+            "Maintenance Technician",
+            "Sales Rep",
+            "Key Client"
+          ],
+          "mafia_text": "You're the one who leaked (the new product plan)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "Someone entered the office after hours carrying a cup of coffee. Who usually stays late?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_village",
+          "setting": "Village",
+          "title": "A Secret Leak at the Village",
+          "story": "(The date of a big wedding in the village) leaked from the village before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Mayor",
+            "Farmer",
+            "Grocer",
+            "Barber",
+            "Imam",
+            "Health Clinic Nurse",
+            "Tuk-Tuk Driver",
+            "Schoolteacher"
+          ],
+          "mafia_text": "You're the one who leaked (the date of a big wedding in the village)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The village dog barked strangely in the night. Who passed through that street?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_cruise",
+          "setting": "Cruise ship",
+          "title": "A Secret Leak at the Cruise Ship",
+          "story": "(The secret trip map) leaked from the cruise ship before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Captain",
+            "Cook",
+            "Cabin Steward",
+            "Navigator",
+            "Engineer",
+            "Photographer",
+            "Tourist",
+            "Steward"
+          ],
+          "mafia_text": "You're the one who leaked (the secret trip map)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "A strange engine noise was heard from the engine room. Who usually goes down there?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_train",
+          "setting": "Train station",
+          "title": "A Secret Leak at the Train Station",
+          "story": "(The new train timetable) leaked from the train station before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Ticket Inspector",
+            "Ticket Seller",
+            "Switchman",
+            "Newspaper Seller",
+            "Police Officer",
+            "Train Driver",
+            "Janitor",
+            "Passenger"
+          ],
+          "mafia_text": "You're the one who leaked (the new train timetable)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The station clock stopped for a few minutes before the incident. Who was on the platform and who was in the ticket office?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_farm",
+          "setting": "Farm",
+          "title": "A Secret Leak at the Farm",
+          "story": "(The secret tomato fertilizing method) leaked from the farm before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Grower",
+            "Laborer",
+            "Veterinarian",
+            "Driver",
+            "Merchant",
+            "Agricultural Engineer",
+            "Farm Guard",
+            "Neighbor"
+          ],
+          "mafia_text": "You're the one who leaked (the secret tomato fertilizing method)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The farm's back gate was found open in the morning. Who has its key?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_cinema",
+          "setting": "Cinema",
+          "title": "A Secret Leak at the Cinema",
+          "story": "(The plot of the new movie) leaked from the cinema before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Ticket Clerk",
+            "Snack Bar Worker",
+            "Projectionist",
+            "Guard",
+            "Cinema Manager",
+            "Janitor",
+            "Moviegoer",
+            "Film Distributor"
+          ],
+          "mafia_text": "You're the one who leaked (the plot of the new movie)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The screening hall was shut for two minutes and the lights went out. Who was in the control room?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_cars",
+          "setting": "Car showroom",
+          "title": "A Secret Leak at the Car Showroom",
+          "story": "(The price of the big deal) leaked from the car showroom before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Salesman",
+            "Mechanic",
+            "Accountant",
+            "Showroom Manager",
+            "Car Washer",
+            "Buyer",
+            "Test Driver",
+            "Guard"
+          ],
+          "mafia_text": "You're the one who leaked (the price of the big deal)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "A car moved from its spot for no apparent reason. Who was test-driving cars today?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_library",
+          "setting": "Library",
+          "title": "A Secret Leak at the Library",
+          "story": "(The location of the rare manuscript) leaked from the library before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Librarian",
+            "Researcher",
+            "Bookbinder",
+            "Student",
+            "Guard",
+            "Manager",
+            "Volunteer",
+            "Publisher"
+          ],
+          "mafia_text": "You're the one who leaked (the location of the rare manuscript)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "A book was taken off the shelf, leaving an empty space. Who borrowed books today?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_park",
+          "setting": "Amusement park",
+          "title": "A Secret Leak at the Amusement Park",
+          "story": "(A new ride before its opening) leaked from the amusement park before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Ride Operator",
+            "Ticket Attendant",
+            "Show Designer",
+            "Security Guard",
+            "Cotton Candy Seller",
+            "Manager",
+            "Maintenance Technician",
+            "Guest"
+          ],
+          "mafia_text": "You're the one who leaked (a new ride before its opening)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The music in the park stopped for a few seconds. Who was next to the sound room?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        },
+        {
+          "id": "leak_university",
+          "setting": "University",
+          "title": "A Secret Leak at the University",
+          "story": "(The final exam questions) leaked from the university before its time, and now everyone outside knows it. Only a few of you knew this secret.",
+          "roles": [
+            "Professor",
+            "Teaching Assistant",
+            "Student Affairs Clerk",
+            "Gate Guard",
+            "Cafeteria Worker",
+            "Student",
+            "Lab Technician",
+            "Dean"
+          ],
+          "mafia_text": "You're the one who leaked (the final exam questions)! You must convince the others you never even knew about it.",
+          "clues": [
+            "The secret was leaked through a written message. Everyone say who sends the most messages from here.",
+            "Someone used their phone away from everyone else during the incident. Who among you was talking to someone away from the others?",
+            "The secret was kept in a specific place. Everyone say whether you have access to that place.",
+            "The meeting hall door was opened outside official hours. Who has the hall's key?",
+            "Someone noticed that a person knows more than they should. Who sensed that someone knows more than necessary?",
+            "An outside party contacted the place before the leak. Who among you deals with outsiders as part of your job?",
+            "The secret got out early in the morning. Everyone say who was the last person you saw before leaving yesterday.",
+            "Final clue: the leaker is quick to accuse others. Think back: who accused others the most?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forgery",
+      "type": "mafioso",
+      "name": "Forgery and Lies Cases",
+      "description": "Someone altered the facts or lied for their own benefit... expose the liar!",
+      "howto": "Mafioso game 🕵️: A crime has happened, and one or more of the players are the culprits (the Mafioso). Each player gets a secret character; the culprit knows they committed the crime, and everyone else is innocent. Each round a new clue appears; discuss it and vote on someone to eliminate from the game. If you eliminate all the culprits, you win; if a culprit survives until the innocents are outnumbered, the culprit wins.",
+      "scenarios": [
+        {
+          "id": "forgery_supermarket",
+          "setting": "Supermarket",
+          "title": "Forgery of the Purchase Invoices at the Supermarket",
+          "story": "We discovered that (the purchase invoices) at the supermarket had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Supermarket Worker",
+            "Cashier",
+            "Delivery Driver",
+            "Supermarket Manager",
+            "Security Guard",
+            "Stockroom Clerk",
+            "Regular Customer",
+            "Vegetable Supplier"
+          ],
+          "mafia_text": "You're the one who forged (the purchase invoices)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "Someone found opened cartons in the back storeroom. Who among you usually goes into the storeroom, and who doesn't?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the purchase invoices)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_restaurant",
+          "setting": "Restaurant",
+          "title": "Forgery of the Order Invoices at the Restaurant",
+          "story": "We discovered that (the order invoices) at the restaurant had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Chef",
+            "Waiter",
+            "Delivery Driver",
+            "Accountant",
+            "Dishwasher",
+            "Restaurant Manager",
+            "VIP Customer",
+            "Meat Supplier"
+          ],
+          "mafia_text": "You're the one who forged (the order invoices)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "A strange smell came from the kitchen before the incident. Who was inside the kitchen and who was outside?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the order invoices)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_hospital",
+          "setting": "Hospital",
+          "title": "Forgery of the Patient Files at the Hospital",
+          "story": "We discovered that (the patient files) at the hospital had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Nurse",
+            "Doctor",
+            "Receptionist",
+            "Pharmacist",
+            "Janitor",
+            "Radiology Technician",
+            "Patient",
+            "Visitor"
+          ],
+          "mafia_text": "You're the one who forged (the patient files)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The hospital's sign-in/sign-out sheet is missing a page. Who was coming in and who was leaving at that time?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the patient files)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_school",
+          "setting": "School",
+          "title": "Forgery of the Grade Reports at the School",
+          "story": "We discovered that (the grade reports) at the school had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Teacher",
+            "Principal",
+            "School Guard",
+            "Canteen Worker",
+            "Bus Driver",
+            "Librarian",
+            "Top Student",
+            "Parent"
+          ],
+          "mafia_text": "You're the one who forged (the grade reports)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The bell rang at an unusual time before the incident. Who heard it and who was out on break?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the grade reports)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_hotel",
+          "setting": "Hotel",
+          "title": "Forgery of the Reservation Log at the Hotel",
+          "story": "We discovered that (the reservation log) at the hotel had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Receptionist",
+            "Room Attendant",
+            "Doorman",
+            "Chef",
+            "Hotel Manager",
+            "Maintenance Technician",
+            "VIP Guest",
+            "Hotel Driver"
+          ],
+          "mafia_text": "You're the one who forged (the reservation log)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "A late entry was logged on a room key card. Who has a card that opens many rooms?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the reservation log)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_mall",
+          "setting": "Mall",
+          "title": "Forgery of the Lease Contracts at the Mall",
+          "story": "We discovered that (the lease contracts) at the mall had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Mall Security",
+            "Clothing Seller",
+            "Cafe Worker",
+            "Customer Service Rep",
+            "AC Technician",
+            "Janitor",
+            "Mall Manager",
+            "Regular Shopper"
+          ],
+          "mafia_text": "You're the one who forged (the lease contracts)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The fire alarm rang for a few seconds and then stopped on its own. Who was near the alarm panel?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the lease contracts)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_airport",
+          "setting": "Airport",
+          "title": "Forgery of the Passenger Lists at the Airport",
+          "story": "We discovered that (the passenger lists) at the airport had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Passport Officer",
+            "Baggage Porter",
+            "Security Officer",
+            "Ground Attendant",
+            "Taxi Driver",
+            "Air Traffic Controller",
+            "Duty-Free Seller",
+            "Traveler"
+          ],
+          "mafia_text": "You're the one who forged (the passenger lists)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "A flight was suddenly delayed just minutes before the incident. Who had anything to do with the delay?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the passenger lists)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_gym",
+          "setting": "Gym",
+          "title": "Forgery of the Membership Log at the Gym",
+          "story": "We discovered that (the membership log) at the gym had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Coach",
+            "Receptionist",
+            "Janitor",
+            "Club Manager",
+            "Club Member",
+            "Nutritionist",
+            "Guard",
+            "Photographer"
+          ],
+          "mafia_text": "You're the one who forged (the membership log)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The locker room was locked unusually. Who has the key?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the membership log)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_bank",
+          "setting": "Bank",
+          "title": "Forgery of the Account Books at the Bank",
+          "story": "We discovered that (the account books) at the bank had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Teller",
+            "Branch Manager",
+            "Security Guard",
+            "Customer Service Rep",
+            "Maintenance Technician",
+            "VIP Client",
+            "Buffet Attendant",
+            "Auditor"
+          ],
+          "mafia_text": "You're the one who forged (the account books)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The main computer was opened after business hours. Who knows the password?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the account books)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_theater",
+          "setting": "Theater",
+          "title": "Forgery of the Ticket List at the Theater",
+          "story": "We discovered that (the ticket list) at the theater had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Director",
+            "Lead Actor",
+            "Lighting Technician",
+            "Costume Designer",
+            "Ticket Clerk",
+            "Stagehand",
+            "Art Critic",
+            "Musician"
+          ],
+          "mafia_text": "You're the one who forged (the ticket list)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "Someone heard whispering backstage during the final rehearsal. Who was behind the curtain?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the ticket list)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_company",
+          "setting": "Company",
+          "title": "Forgery of the Payroll Sheets at the Company",
+          "story": "We discovered that (the payroll sheets) at the company had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Manager",
+            "Secretary",
+            "Accountant",
+            "Programmer",
+            "Buffet Attendant",
+            "Maintenance Technician",
+            "Sales Rep",
+            "Key Client"
+          ],
+          "mafia_text": "You're the one who forged (the payroll sheets)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "Someone entered the office after hours carrying a cup of coffee. Who usually stays late?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the payroll sheets)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_village",
+          "setting": "Village",
+          "title": "Forgery of the Association's Ledger in the Village",
+          "story": "We discovered that (the association's ledger) in the village had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Mayor",
+            "Farmer",
+            "Grocer",
+            "Barber",
+            "Imam",
+            "Health Clinic Nurse",
+            "Tuk-Tuk Driver",
+            "Schoolteacher"
+          ],
+          "mafia_text": "You're the one who forged (the association's ledger)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The village dog barked strangely in the night. Who passed through that street?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the association's ledger)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_cruise",
+          "setting": "Cruise ship",
+          "title": "Forgery of the Passenger Log on the Cruise Ship",
+          "story": "We discovered that (the passenger log) on the cruise ship had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Captain",
+            "Cook",
+            "Cabin Steward",
+            "Navigator",
+            "Engineer",
+            "Photographer",
+            "Tourist",
+            "Steward"
+          ],
+          "mafia_text": "You're the one who forged (the passenger log)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "A strange engine noise was heard from the engine room. Who usually goes down there?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the passenger log)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_train",
+          "setting": "Train station",
+          "title": "Forgery of the Ticket Book at the Train Station",
+          "story": "We discovered that (the ticket book) at the train station had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Ticket Inspector",
+            "Ticket Seller",
+            "Switchman",
+            "Newspaper Seller",
+            "Police Officer",
+            "Train Driver",
+            "Janitor",
+            "Passenger"
+          ],
+          "mafia_text": "You're the one who forged (the ticket book)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The station clock stopped for a few minutes before the incident. Who was on the platform and who was in the ticket office?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the ticket book)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_farm",
+          "setting": "Farm",
+          "title": "Forgery of the Harvest Ledger on the Farm",
+          "story": "We discovered that (the harvest ledger) on the farm had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Grower",
+            "Laborer",
+            "Veterinarian",
+            "Driver",
+            "Merchant",
+            "Agricultural Engineer",
+            "Farm Guard",
+            "Neighbor"
+          ],
+          "mafia_text": "You're the one who forged (the harvest ledger)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The farm's back gate was found open in the morning. Who has its key?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the harvest ledger)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_cinema",
+          "setting": "Cinema",
+          "title": "Forgery of the Booking List at the Cinema",
+          "story": "We discovered that (the booking list) at the cinema had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Ticket Clerk",
+            "Snack Bar Worker",
+            "Projectionist",
+            "Guard",
+            "Cinema Manager",
+            "Janitor",
+            "Moviegoer",
+            "Film Distributor"
+          ],
+          "mafia_text": "You're the one who forged (the booking list)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The screening hall was shut for two minutes and the lights went out. Who was in the control room?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the booking list)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_cars",
+          "setting": "Car showroom",
+          "title": "Forgery of the Sales Contracts at the Car Showroom",
+          "story": "We discovered that (the sales contracts) at the car showroom had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Salesman",
+            "Mechanic",
+            "Accountant",
+            "Showroom Manager",
+            "Car Washer",
+            "Buyer",
+            "Test Driver",
+            "Guard"
+          ],
+          "mafia_text": "You're the one who forged (the sales contracts)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "A car moved from its spot for no apparent reason. Who was test-driving cars today?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the sales contracts)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_library",
+          "setting": "Library",
+          "title": "Forgery of the Lending Log at the Library",
+          "story": "We discovered that (the lending log) at the library had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Librarian",
+            "Researcher",
+            "Bookbinder",
+            "Student",
+            "Guard",
+            "Manager",
+            "Volunteer",
+            "Publisher"
+          ],
+          "mafia_text": "You're the one who forged (the lending log)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "A book was taken off the shelf, leaving an empty space. Who borrowed books today?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the lending log)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_park",
+          "setting": "Amusement park",
+          "title": "Forgery of the Visitor List at the Amusement Park",
+          "story": "We discovered that (the visitor list) at the amusement park had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Ride Operator",
+            "Ticket Attendant",
+            "Show Designer",
+            "Security Guard",
+            "Cotton Candy Seller",
+            "Manager",
+            "Maintenance Technician",
+            "Guest"
+          ],
+          "mafia_text": "You're the one who forged (the visitor list)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The music in the park stopped for a few seconds. Who was next to the sound room?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the visitor list)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        },
+        {
+          "id": "forgery_university",
+          "setting": "University",
+          "title": "Forgery of the Results Sheets at the University",
+          "story": "We discovered that (the results sheets) at the university had its numbers and details changed in an unnatural way. This is forgery, and the forger is one of you.",
+          "roles": [
+            "Professor",
+            "Teaching Assistant",
+            "Student Affairs Clerk",
+            "Gate Guard",
+            "Cafeteria Worker",
+            "Student",
+            "Lab Technician",
+            "Dean"
+          ],
+          "mafia_text": "You're the one who forged (the results sheets)! Prepare a convincing lie and don't contradict yourself.",
+          "clues": [
+            "The handwriting on the forged paper resembles someone's in particular. Everyone say who among you writes in the same style.",
+            "The forgery was done with a dark blue ink pen. Who uses a pen like that?",
+            "One number was changed on more than one page. Everyone say whether you have a reason to care about that number.",
+            "The meeting hall door was opened outside official hours. Who has the hall's key?",
+            "The forger benefited from the change. Who among you gained money or status from altering (the results sheets)?",
+            "Someone stated a fact confidently, and it turned out to be wrong. Who among you lied or changed a detail after being asked?",
+            "The documents were altered after working hours. Everyone say who was there after hours.",
+            "Final clue: the liar can't remember what they said before. Think back: who contradicted themselves?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missing",
+      "type": "mafioso",
+      "name": "Mysterious Disappearance Cases",
+      "description": "Something important vanished under mysterious circumstances... who hid it?",
+      "howto": "Mafioso game 🕵️: A crime has happened, and one or more of the players are the culprits (the Mafioso). Each player gets a secret character; the culprit knows they committed the crime, and everyone else is innocent. Each round a new clue appears; discuss it and vote on someone to eliminate from the game. If you eliminate all the culprits, you win; if a culprit survives until the innocents are outnumbered, the culprit wins.",
+      "scenarios": [
+        {
+          "id": "missing_supermarket",
+          "setting": "Supermarket",
+          "title": "The Missing Dairy Shipment at the Supermarket",
+          "story": "(The dairy shipment) disappeared from the supermarket under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Supermarket Worker",
+            "Cashier",
+            "Delivery Driver",
+            "Supermarket Manager",
+            "Security Guard",
+            "Stockroom Clerk",
+            "Regular Customer",
+            "Vegetable Supplier"
+          ],
+          "mafia_text": "You're the one who hid (the dairy shipment)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the dairy shipment) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "Someone found opened cartons in the back storeroom. Who among you usually goes into the storeroom, and who doesn't?",
+            "There's a spot in the supermarket that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the dairy shipment) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the dairy shipment) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the dairy shipment). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_restaurant",
+          "setting": "Restaurant",
+          "title": "The Missing Special Spice Box at the Restaurant",
+          "story": "(The special spice box) disappeared from the restaurant under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Chef",
+            "Waiter",
+            "Delivery Driver",
+            "Accountant",
+            "Dishwasher",
+            "Restaurant Manager",
+            "VIP Customer",
+            "Meat Supplier"
+          ],
+          "mafia_text": "You're the one who hid (the special spice box)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the special spice box) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "A strange smell came from the kitchen before the incident. Who was inside the kitchen and who was outside?",
+            "There's a spot in the restaurant that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the special spice box) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the special spice box) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the special spice box). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_hospital",
+          "setting": "Hospital",
+          "title": "The Missing Emergency First-Aid Bag at the Hospital",
+          "story": "(The emergency first-aid bag) disappeared from the hospital under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Nurse",
+            "Doctor",
+            "Receptionist",
+            "Pharmacist",
+            "Janitor",
+            "Radiology Technician",
+            "Patient",
+            "Visitor"
+          ],
+          "mafia_text": "You're the one who hid (the emergency first-aid bag)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the emergency first-aid bag) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The hospital's sign-in/sign-out sheet is missing a page. Who was coming in and who was leaving at that time?",
+            "There's a spot in the hospital that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the emergency first-aid bag) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the emergency first-aid bag) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the emergency first-aid bag). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_school",
+          "setting": "School",
+          "title": "The Missing Attendance Register at the School",
+          "story": "(The attendance register) disappeared from the school under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Teacher",
+            "Principal",
+            "School Guard",
+            "Canteen Worker",
+            "Bus Driver",
+            "Librarian",
+            "Top Student",
+            "Parent"
+          ],
+          "mafia_text": "You're the one who hid (the attendance register)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the attendance register) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The bell rang at an unusual time before the incident. Who heard it and who was out on break?",
+            "There's a spot in the school that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the attendance register) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the attendance register) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the attendance register). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_hotel",
+          "setting": "Hotel",
+          "title": "The Missing Presidential Suite Key at the Hotel",
+          "story": "(The presidential suite key) disappeared from the hotel under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Receptionist",
+            "Room Attendant",
+            "Doorman",
+            "Chef",
+            "Hotel Manager",
+            "Maintenance Technician",
+            "VIP Guest",
+            "Hotel Driver"
+          ],
+          "mafia_text": "You're the one who hid (the presidential suite key)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the presidential suite key) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "A late entry was logged on a room key card. Who has a card that opens many rooms?",
+            "There's a spot in the hotel that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the presidential suite key) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the presidential suite key) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the presidential suite key). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_mall",
+          "setting": "Mall",
+          "title": "The Missing Important Package from the Mall Storeroom",
+          "story": "(An important package from the mall storeroom) disappeared from the mall under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Mall Security",
+            "Clothing Seller",
+            "Cafe Worker",
+            "Customer Service Rep",
+            "AC Technician",
+            "Janitor",
+            "Mall Manager",
+            "Regular Shopper"
+          ],
+          "mafia_text": "You're the one who hid (an important package from the mall storeroom)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(an important package from the mall storeroom) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The fire alarm rang for a few seconds and then stopped on its own. Who was near the alarm panel?",
+            "There's a spot in the mall that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (an important package from the mall storeroom) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (an important package from the mall storeroom) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (an important package from the mall storeroom). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_airport",
+          "setting": "Airport",
+          "title": "The Missing Diplomatic Bag at the Airport",
+          "story": "(The diplomatic bag) disappeared from the airport under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Passport Officer",
+            "Baggage Porter",
+            "Security Officer",
+            "Ground Attendant",
+            "Taxi Driver",
+            "Air Traffic Controller",
+            "Duty-Free Seller",
+            "Traveler"
+          ],
+          "mafia_text": "You're the one who hid (the diplomatic bag)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the diplomatic bag) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "A flight was suddenly delayed just minutes before the incident. Who had anything to do with the delay?",
+            "There's a spot in the airport that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the diplomatic bag) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the diplomatic bag) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the diplomatic bag). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_gym",
+          "setting": "Gym",
+          "title": "The Missing Championship Cup at the Gym",
+          "story": "(The championship cup) disappeared from the gym under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Coach",
+            "Receptionist",
+            "Janitor",
+            "Club Manager",
+            "Club Member",
+            "Nutritionist",
+            "Guard",
+            "Photographer"
+          ],
+          "mafia_text": "You're the one who hid (the championship cup)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the championship cup) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The locker room was locked unusually. Who has the key?",
+            "There's a spot in the gym that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the championship cup) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the championship cup) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the championship cup). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_bank",
+          "setting": "Bank",
+          "title": "The Missing Loan File at the Bank",
+          "story": "(An important loan file) disappeared from the bank under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Teller",
+            "Branch Manager",
+            "Security Guard",
+            "Customer Service Rep",
+            "Maintenance Technician",
+            "VIP Client",
+            "Buffet Attendant",
+            "Auditor"
+          ],
+          "mafia_text": "You're the one who hid (an important loan file)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(an important loan file) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The main computer was opened after business hours. Who knows the password?",
+            "There's a spot in the bank that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (an important loan file) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (an important loan file) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (an important loan file). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_theater",
+          "setting": "Theater",
+          "title": "The Missing Royal Costume at the Theater",
+          "story": "(The hero's royal costume) disappeared from the theater under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Director",
+            "Lead Actor",
+            "Lighting Technician",
+            "Costume Designer",
+            "Ticket Clerk",
+            "Stagehand",
+            "Art Critic",
+            "Musician"
+          ],
+          "mafia_text": "You're the one who hid (the hero's royal costume)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the hero's royal costume) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "Someone heard whispering backstage during the final rehearsal. Who was behind the curtain?",
+            "There's a spot in the theater that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the hero's royal costume) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the hero's royal costume) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the hero's royal costume). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_company",
+          "setting": "Company",
+          "title": "The Missing Contract File at the Company",
+          "story": "(The important contract file) disappeared from the company under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Manager",
+            "Secretary",
+            "Accountant",
+            "Programmer",
+            "Buffet Attendant",
+            "Maintenance Technician",
+            "Sales Rep",
+            "Key Client"
+          ],
+          "mafia_text": "You're the one who hid (the important contract file)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the important contract file) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "Someone entered the office after hours carrying a cup of coffee. Who usually stays late?",
+            "There's a spot in the company that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the important contract file) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the important contract file) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the important contract file). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_village",
+          "setting": "Village",
+          "title": "The Mayor's Missing Water Buffalo in the Village",
+          "story": "(The mayor's water buffalo) disappeared from the village under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Mayor",
+            "Farmer",
+            "Grocer",
+            "Barber",
+            "Imam",
+            "Health Clinic Nurse",
+            "Tuk-Tuk Driver",
+            "Schoolteacher"
+          ],
+          "mafia_text": "You're the one who hid (the mayor's water buffalo)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the mayor's water buffalo) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The village dog barked strangely in the night. Who passed through that street?",
+            "There's a spot in the village that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the mayor's water buffalo) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the mayor's water buffalo) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the mayor's water buffalo). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_cruise",
+          "setting": "Cruise ship",
+          "title": "The Missing Lifeboat on the Cruise Ship",
+          "story": "(The small lifeboat) disappeared from the cruise ship under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Captain",
+            "Cook",
+            "Cabin Steward",
+            "Navigator",
+            "Engineer",
+            "Photographer",
+            "Tourist",
+            "Steward"
+          ],
+          "mafia_text": "You're the one who hid (the small lifeboat)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the small lifeboat) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "A strange engine noise was heard from the engine room. Who usually goes down there?",
+            "There's a spot in the cruise ship that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the small lifeboat) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the small lifeboat) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the small lifeboat). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_train",
+          "setting": "Train station",
+          "title": "The Missing Passenger's Bag at the Train Station",
+          "story": "(A passenger's bag) disappeared from the train station under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Ticket Inspector",
+            "Ticket Seller",
+            "Switchman",
+            "Newspaper Seller",
+            "Police Officer",
+            "Train Driver",
+            "Janitor",
+            "Passenger"
+          ],
+          "mafia_text": "You're the one who hid (a passenger's bag)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(a passenger's bag) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The station clock stopped for a few minutes before the incident. Who was on the platform and who was in the ticket office?",
+            "There's a spot in the train station that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (a passenger's bag) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (a passenger's bag) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (a passenger's bag). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_farm",
+          "setting": "Farm",
+          "title": "The Missing Rare Cow on the Farm",
+          "story": "(A rare cow) disappeared from the farm under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Grower",
+            "Laborer",
+            "Veterinarian",
+            "Driver",
+            "Merchant",
+            "Agricultural Engineer",
+            "Farm Guard",
+            "Neighbor"
+          ],
+          "mafia_text": "You're the one who hid (a rare cow)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(a rare cow) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The farm's back gate was found open in the morning. Who has its key?",
+            "There's a spot in the farm that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (a rare cow) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (a rare cow) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (a rare cow). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_cinema",
+          "setting": "Cinema",
+          "title": "The Missing Original Film Copy at the Cinema",
+          "story": "(The original copy of the film) disappeared from the cinema under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Ticket Clerk",
+            "Snack Bar Worker",
+            "Projectionist",
+            "Guard",
+            "Cinema Manager",
+            "Janitor",
+            "Moviegoer",
+            "Film Distributor"
+          ],
+          "mafia_text": "You're the one who hid (the original copy of the film)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the original copy of the film) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The screening hall was shut for two minutes and the lights went out. Who was in the control room?",
+            "There's a spot in the cinema that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the original copy of the film) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the original copy of the film) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the original copy of the film). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_cars",
+          "setting": "Car showroom",
+          "title": "The Missing Luxury Car Key at the Car Showroom",
+          "story": "(The luxury car's key) disappeared from the car showroom under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Salesman",
+            "Mechanic",
+            "Accountant",
+            "Showroom Manager",
+            "Car Washer",
+            "Buyer",
+            "Test Driver",
+            "Guard"
+          ],
+          "mafia_text": "You're the one who hid (the luxury car's key)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the luxury car's key) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "A car moved from its spot for no apparent reason. Who was test-driving cars today?",
+            "There's a spot in the car showroom that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the luxury car's key) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the luxury car's key) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the luxury car's key). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_library",
+          "setting": "Library",
+          "title": "The Missing Rare Manuscript at the Library",
+          "story": "(The rare manuscript) disappeared from the library under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Librarian",
+            "Researcher",
+            "Bookbinder",
+            "Student",
+            "Guard",
+            "Manager",
+            "Volunteer",
+            "Publisher"
+          ],
+          "mafia_text": "You're the one who hid (the rare manuscript)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the rare manuscript) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "A book was taken off the shelf, leaving an empty space. Who borrowed books today?",
+            "There's a spot in the library that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the rare manuscript) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the rare manuscript) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the rare manuscript). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_park",
+          "setting": "Amusement park",
+          "title": "The Missing Grand Prize at the Amusement Park",
+          "story": "(The grand prize of the big game) disappeared from the amusement park under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Ride Operator",
+            "Ticket Attendant",
+            "Show Designer",
+            "Security Guard",
+            "Cotton Candy Seller",
+            "Manager",
+            "Maintenance Technician",
+            "Guest"
+          ],
+          "mafia_text": "You're the one who hid (the grand prize of the big game)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the grand prize of the big game) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The music in the park stopped for a few seconds. Who was next to the sound room?",
+            "There's a spot in the amusement park that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the grand prize of the big game) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the grand prize of the big game) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the grand prize of the big game). Think back: who never asked or seemed to care?"
+          ]
+        },
+        {
+          "id": "missing_university",
+          "setting": "University",
+          "title": "The Missing Graduation Thesis at the University",
+          "story": "(The graduation thesis) disappeared from the university under mysterious circumstances. Nobody saw anything, but one thing is certain: one of you hid it on purpose.",
+          "roles": [
+            "Professor",
+            "Teaching Assistant",
+            "Student Affairs Clerk",
+            "Gate Guard",
+            "Cafeteria Worker",
+            "Student",
+            "Lab Technician",
+            "Dean"
+          ],
+          "mafia_text": "You're the one who hid (the graduation thesis)! Stash it somewhere safe and pretend you know nothing.",
+          "clues": [
+            "(the graduation thesis) was last seen in the afternoon. Everyone say when you last saw it and where it was.",
+            "It didn't move by itself. Who among you could have moved it without anyone noticing?",
+            "A path with drag marks was found. Everyone say whether you walked that way today.",
+            "The meeting hall door was opened outside official hours. Who has the hall's key?",
+            "There's a spot in the university that nobody has searched yet. Everyone name a place where someone could hide the item.",
+            "Someone saw a person acting scared while moving away from where (the graduation thesis) was. Who noticed anything like that?",
+            "The disappearance was planned. Who among you has a reason to hide (the graduation thesis) or to benefit from its disappearance?",
+            "Final clue: the one who hid it never asks about (the graduation thesis). Think back: who never asked or seemed to care?"
+          ]
+        }
+      ]
+    }
+  ]
+}
